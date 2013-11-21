@@ -6,16 +6,17 @@ class Pokemon
   end
 
   def level_up
-    @level += 1 if exp > @level**3
+    level += 1 if exp > @level**3
     puts "Oh yeah! Leveled up"
   end
 
   def gain_exp new_exp
-    @exp += new_exp
+    exp += new_exp
   end
   
   def learn(move)
-    @moves << move if LEARNSET.include?(move) && level >= LEARNSET[move]
+    moves << move if LEARNSET.include?(move) && level >= LEARNSET[move]
+    puts "Learned #{move}!"
   end
 end
 
