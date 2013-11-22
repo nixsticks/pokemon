@@ -7,14 +7,20 @@ class Scraper
 
   def initialize(url)
     @html = Nokogiri::HTML(open(url))
+    @urls = []
   end
 
-  def get_pokemon_names
-    names = html.xpath('//a[contains(@title, "(Pokémon)")]').text.split(/(?<=[a-z.♂♀é])(?=[A-Z])/)
-    names.uniq!
+  # def get_pokemon_names
+  #   names = html.xpath('//a[contains(@title, "(Pokémon)")]').text.split(/(?<=[a-z.♂♀é2])(?=[A-Z])/)
+  #   names.uniq!
+  # end
+
+  def get_pokemon_urls
+    pokemons = html.xpath('//a[contains(@title, "(Pokémon)")]').map { |link| link['href'] }
+    urls = pokemons.map {|url| url = "http://bulbapedia.bulbagarden.net" + url}
   end
 
+  def get_pokemon_name
+    html.search('.firstHeading').text.gsub(" (Pokémon)", "")
+  end
 end
-
-scraper = Scraper.new("http://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_by_National_Pok%C3%A9dex_number")
-ap scraper.get_pokemon_names
