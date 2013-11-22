@@ -1,4 +1,4 @@
-require '../pokemon'
+require '../lib/pokemon'
 
 describe Pokemon do
   let(:pokemon) {Pokemon.new("Jigglypuff")}

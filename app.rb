@@ -1,6 +1,6 @@
 require 'awesome_print'
-require './scraper'
-require './pokemon'
+require './lib/scraper'
+require './lib/pokemon'
 require 'ruby-debug'
 
 scraper = Scraper.new("http://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_by_National_Pok%C3%A9dex_number")
@@ -17,5 +17,3 @@ pokemon.each do |url|
   # file << "class #{name}\n\nend"
   # file.close  
 end
-
-ap pokedex
