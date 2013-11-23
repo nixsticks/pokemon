@@ -11,8 +11,9 @@ pokedex = []
 pokemon.each do |url|
   scrape = Scraper.new(url)
   name = scrape.get_pokemon_name
+  learnset = scrape.get_pokemon_learnset
   debugger
-  pokedex << Pokemon.new(name)
+  pokedex << Pokemon.new(name, learnset)
   # file = File.open( "#{name}.rb", "w" )
   # file << "class #{name}\n\nend"
   # file.close  

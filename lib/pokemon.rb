@@ -1,8 +1,9 @@
 class Pokemon
-  attr_reader :name
+  attr_reader :name, :learnset
 
-  def initialize(name)
+  def initialize(name, learnset)
     @name = name
+    @learnset = learnset
   end
 
   def say_name

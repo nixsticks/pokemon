@@ -23,4 +23,15 @@ class Scraper
   def get_pokemon_name
     html.search('.firstHeading').text.gsub(" (Pokémon)", "")
   end
+
+  def get_pokemon_learnset
+    html.search('//table[16]//a[contains(@title, "(move)")]/span').map {|move| move.text}
+  end
+
+  def get_pokemon_base_stats
+    html.search('//a[contains(@title, "Stats")]/span').text
+  end
 end
+
+scraper = Scraper.new("http://bulbapedia.bulbagarden.net/wiki/Bulbasaur_(Pok%C3%A9mon)")
+ap scraper.get_pokemon_learnset
