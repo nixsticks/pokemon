@@ -38,10 +38,21 @@ class App
 
   def print_information(pokemon)
     puts
-    puts "Name: #{pokemon.name}"
-    puts "Type: #{pokemon.type}"
-    puts "Learnset:"
-    ap pokemon.learnset
+    pokemon.instance_variables.each do |variable|
+      var_name = variable.to_s.gsub("@","")
+      result = pokemon.send("#{var_name}")
+      debugger
+      if result.is_a?(Array)
+        puts var_name.capitalize
+        ap result
+      else
+        puts var_name.capitalize + ": " + result
+      end
+    end
+    # puts "Name: #{pokemon.name}"
+    # puts "Type: #{pokemon.type}"
+    # puts "Learnset:"
+    # ap pokemon.learnset
   end
 
   def another_pokemon_message

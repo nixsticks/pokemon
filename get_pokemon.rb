@@ -1,3 +1,7 @@
+require './lib/scraper'
+require './lib/pokemon'
+require 'yaml'
+
 module GetPokemon
   def get_pokemon
     scraper = Scraper.new("http://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_by_National_Pok%C3%A9dex_number")
@@ -14,10 +18,12 @@ module GetPokemon
       pokedex << Pokemon.new(name, type, learnset, base_stats)
     end
 
-    File.open("pokedex.yaml", "w") do |file|
+    File.open("pokedex2.yaml", "w") do |file|
       file.puts YAML::dump(pokedex)
     end
   end
 end
+
+include GetPokemon
 
 get_pokemon
