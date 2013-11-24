@@ -19,10 +19,6 @@ class Scraper
     html.search('.firstHeading').text.gsub(" (Pokémon)", "")
   end
 
-  # def get_pokemon_learnset
-  #   html.search('//table[16]//a[contains(@title, "(move)")]/span').map {|move| move.text}
-  # end
-
   def get_learnset
     html.search('//h3[contains(span, "Learnset")]/following::table//a[contains(@title, "(move)")]/span[following::span[contains(@id, "By_TM.2FHM")]]').map {|move| move.text}
   end
