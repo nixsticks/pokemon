@@ -1,47 +1,76 @@
 require 'awesome_print'
 require './lib/scraper'
 require './lib/pokemon'
+require 'yaml'
 require 'ruby-debug'
 
-module GetPokemon
-  def get_pokemon
-    scraper = Scraper.new("http://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_by_National_Pok%C3%A9dex_number")
-    pokemon = scraper.get_pokemon_urls
-
-    pokedex = []
-
-    pokemon.each do |url|
-      scrape = Scraper.new(url)
-      name = scrape.get_name
-      type = scrape.get_type
-      learnset = scrape.get_learnset
-      base_stats = scrape.get_base_stats
-      pokedex << Pokemon.new(name, type, learnset, base_stats)
-    end
-    
-    pokedex
-  end
-end
-
-
-# file = File.open( "#{name}.rb", "w" )
-# file << "class #{name}\n\nend"
-# file.close  
-
 class App
-  include GetPokemon
   attr_reader :pokedex
 
   def initialize
-    @pokedex = get_pokemon
+    File.open("./pokedex.yaml", "r") do |file|
+      @pokedex = YAML::load(file)
+    end
   end
 
-  def lookup(name_given, attribute)
+  def welcome
+    "Welcome to the Pokédex!"
+  end
+
+  def lookup_message
+    "\nType in the name of a Pokémon to get its information."
+  end
+
+  def get_input
+    gets.chomp.downcase
+  end
+
+  def lookup
+    entry = get_input
+
     pokedex.each do |pokemon|
-      pokemon.attribute if pokemon.name == name_given
+      return pokemon if pokemon.name.downcase == entry
+    end
+
+    puts "\nSorry, that Pokémon does not exist in our database. Please try again."
+    lookup
+  end
+
+  def print_information(pokemon)
+    puts
+    puts "Name: #{pokemon.name}"
+    puts "Type: #{pokemon.type}"
+    puts "Learnset:"
+    ap pokemon.learnset
+  end
+
+  def another_pokemon_message
+    "\nWould you like to look up another entry?"
+  end
+
+  def another_pokemon
+    case get_input
+    when /^y(es)?$/
+      return
+    when /^no?$/
+      puts "\nGoodbye!"
+      exit
+    else
+      puts "Please type yes or no."
+      another_pokemon
+    end
+  end
+
+  def run
+    puts welcome
+    loop do
+      puts lookup_message
+      print_information(lookup)
+      puts another_pokemon_message
+      another_pokemon
     end
   end
 end
 
 app = App.new
-puts app.lookup("Bulbasaur", "learnset")
+app.run
