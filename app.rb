@@ -3,18 +3,52 @@ require './lib/scraper'
 require './lib/pokemon'
 require 'ruby-debug'
 
-scraper = Scraper.new("http://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_by_National_Pok%C3%A9dex_number")
-pokemon = scraper.get_pokemon_urls
+module GetPokemon
+  def get_pokemon
+    scraper = Scraper.new("http://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_by_National_Pok%C3%A9dex_number")
+    pokemon = scraper.get_pokemon_urls
 
-pokedex = []
+    pokedex = []
 
-pokemon.each do |url|
-  scrape = Scraper.new(url)
-  name = scrape.get_pokemon_name
-  learnset = scrape.get_pokemon_learnset
-  debugger
-  pokedex << Pokemon.new(name, learnset)
-  # file = File.open( "#{name}.rb", "w" )
-  # file << "class #{name}\n\nend"
-  # file.close  
+    pokemon.each do |url|
+      scrape = Scraper.new(url)
+      name = scrape.get_name
+      type = scrape.get_type
+      learnset = scrape.get_learnset
+      base_stats = scrape.get_base_stats
+      pokedex << Pokemon.new(name, type, learnset, base_stats)
+    end
+    # scrape = Scraper.new(pokemon[0])
+    # name = scrape.get_name
+    # type = scrape.get_type
+    # learnset = scrape.get_learnset
+    # base_stats = scrape.get_base_stats
+
+    # pokedex << Pokemon.new(name, type, learnset, base_stats)
+
+    pokedex
+  end
 end
+
+
+# file = File.open( "#{name}.rb", "w" )
+# file << "class #{name}\n\nend"
+# file.close  
+
+class App
+  include GetPokemon
+  attr_reader :pokedex
+
+  def initialize
+    @pokedex = get_pokemon
+  end
+
+  def lookup(name_given, attribute)
+    pokedex.each do |pokemon|
+      pokemon.attribute if pokemon.name == name_given
+    end
+  end
+end
+
+app = App.new
+ap app.pokedex
