@@ -45,5 +45,3 @@ class Scraper
     html.search('//a[contains(@title, "(type)")]/span')[0].text
   end
 end
-
-scraper = Scraper.new("http://bulbapedia.bulbagarden.net/wiki/Bulbasaur_(Pok%C3%A9mon)")

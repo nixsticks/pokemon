@@ -18,14 +18,7 @@ module GetPokemon
       base_stats = scrape.get_base_stats
       pokedex << Pokemon.new(name, type, learnset, base_stats)
     end
-    # scrape = Scraper.new(pokemon[0])
-    # name = scrape.get_name
-    # type = scrape.get_type
-    # learnset = scrape.get_learnset
-    # base_stats = scrape.get_base_stats
-
-    # pokedex << Pokemon.new(name, type, learnset, base_stats)
-
+    
     pokedex
   end
 end
@@ -51,4 +44,4 @@ class App
 end
 
 app = App.new
-ap app.pokedex
+puts app.lookup("Bulbasaur", "learnset")
