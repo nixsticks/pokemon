@@ -1,5 +1,6 @@
 ---
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Victini
   type: Psychic
   learnset:
@@ -26,7 +27,8 @@
   sp_atk: 100
   sp_def: 100
   speed: 100
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Bulbasaur
   type: Grass
   learnset:
@@ -50,7 +52,8 @@
   sp_atk: 65
   sp_def: 65
   speed: 45
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Ivysaur
   type: Grass
   learnset:
@@ -76,7 +79,8 @@
   sp_atk: 80
   sp_def: 80
   speed: 60
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Venusaur
   type: Grass
   learnset:
@@ -105,7 +109,8 @@
   sp_atk: 123
   sp_def: 122
   speed: 120
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Charmander
   type: Fire
   learnset:
@@ -127,7 +132,8 @@
   sp_atk: 60
   sp_def: 50
   speed: 65
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Charmeleon
   type: Fire
   learnset:
@@ -150,7 +156,8 @@
   sp_atk: 80
   sp_def: 65
   speed: 80
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Charizard
   type: Fire
   learnset:
@@ -180,7 +187,8 @@
   sp_atk: 104
   sp_def: 78
   speed: 159
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Squirtle
   type: Water
   learnset:
@@ -204,7 +212,8 @@
   sp_atk: 50
   sp_def: 64
   speed: 43
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Wartortle
   type: Water
   learnset:
@@ -230,7 +239,8 @@
   sp_atk: 65
   sp_def: 80
   speed: 58
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Blastoise
   type: Water
   learnset:
@@ -258,7 +268,8 @@
   sp_atk: 120
   sp_def: 135
   speed: 115
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Caterpie
   type: Bug
   learnset:
@@ -271,7 +282,8 @@
   sp_atk: 20
   sp_def: 20
   speed: 45
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Metapod
   type: Bug
   learnset:
@@ -283,7 +295,8 @@
   sp_atk: 25
   sp_def: 25
   speed: 30
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Butterfree
   type: Bug
   learnset:
@@ -309,7 +322,8 @@
   sp_atk: 50
   sp_def: 90
   speed: 80
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Weedle
   type: Bug
   learnset:
@@ -322,7 +336,8 @@
   sp_atk: 20
   sp_def: 20
   speed: 50
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Kakuna
   type: Bug
   learnset:
@@ -334,7 +349,8 @@
   sp_atk: 25
   sp_def: 25
   speed: 35
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Beedrill
   type: Bug
   learnset:
@@ -357,7 +373,8 @@
   sp_atk: 40
   sp_def: 45
   speed: 80
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Pidgey
   type: Normal
   learnset:
@@ -381,7 +398,8 @@
   sp_atk: 35
   sp_def: 35
   speed: 56
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Pidgeotto
   type: Normal
   learnset:
@@ -407,7 +425,8 @@
   sp_atk: 50
   sp_def: 50
   speed: 71
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Pidgeot
   type: Normal
   learnset:
@@ -434,7 +453,8 @@
   sp_atk: 75
   sp_def: 70
   speed: 70
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Rattata
   type: Normal
   learnset:
@@ -457,7 +477,8 @@
   sp_atk: 25
   sp_def: 35
   speed: 72
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Raticate
   type: Normal
   learnset:
@@ -484,7 +505,8 @@
   sp_atk: 50
   sp_def: 70
   speed: 97
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Spearow
   type: Normal
   learnset:
@@ -505,10 +527,12 @@
   sp_atk: 31
   sp_def: 31
   speed: 70
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Fearow
   type: Normal
   learnset:
+  - Drill Run
   - Pluck
   - Peck
   - Growl
@@ -530,7 +554,8 @@
   sp_atk: 61
   sp_def: 61
   speed: 100
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Ekans
   type: Poison
   learnset:
@@ -557,7 +582,8 @@
   sp_atk: 40
   sp_def: 54
   speed: 55
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Arbok
   type: Poison
   learnset:
@@ -589,7 +615,8 @@
   sp_atk: 65
   sp_def: 79
   speed: 80
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Pikachu
   type: Electric
   learnset:
@@ -615,7 +642,8 @@
   sp_atk: 40
   sp_def: 50
   speed: 50
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Raichu
   type: Electric
   learnset:
@@ -629,7 +657,8 @@
   sp_atk: 55
   sp_def: 90
   speed: 80
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Sandshrew
   type: Ground
   learnset:
@@ -656,7 +685,8 @@
   sp_atk: 20
   sp_def: 30
   speed: 40
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Sandslash
   type: Ground
   learnset:
@@ -687,7 +717,8 @@
   sp_atk: 45
   sp_def: 55
   speed: 65
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Nidoran♀
   type: Poison
   learnset:
@@ -710,7 +741,8 @@
   sp_atk: 40
   sp_def: 40
   speed: 41
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Nidorina
   type: Poison
   learnset:
@@ -733,7 +765,8 @@
   sp_atk: 55
   sp_def: 55
   speed: 56
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Nidoqueen
   type: Poison
   learnset:
@@ -751,7 +784,8 @@
   sp_atk: 87
   sp_def: 75
   speed: 85
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Nidoran♂
   type: Poison
   learnset:
@@ -774,7 +808,8 @@
   sp_atk: 40
   sp_def: 40
   speed: 50
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Nidorino
   type: Poison
   learnset:
@@ -797,7 +832,8 @@
   sp_atk: 55
   sp_def: 55
   speed: 65
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Nidoking
   type: Poison
   learnset:
@@ -812,7 +848,8 @@
   sp_atk: 77
   sp_def: 85
   speed: 75
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Clefairy
   type: Fairy
   learnset:
@@ -846,7 +883,8 @@
   sp_atk: 60
   sp_def: 65
   speed: 35
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Clefable
   type: Fairy
   learnset:
@@ -861,7 +899,8 @@
   sp_atk: 73
   sp_def: 95
   speed: 90
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Vulpix
   type: Fire
   learnset:
@@ -890,7 +929,8 @@
   sp_atk: 50
   sp_def: 65
   speed: 65
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Ninetales
   type: Fire
   learnset:
@@ -906,7 +946,8 @@
   sp_atk: 81
   sp_def: 100
   speed: 100
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Jigglypuff
   type: Normal
   learnset:
@@ -932,7 +973,8 @@
   sp_atk: 45
   sp_def: 25
   speed: 20
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Wigglytuff
   type: Normal
   learnset:
@@ -948,7 +990,8 @@
   sp_atk: 45
   sp_def: 85
   speed: 50
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Zubat
   type: Poison
   learnset:
@@ -971,7 +1014,8 @@
   sp_atk: 30
   sp_def: 40
   speed: 55
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Golbat
   type: Poison
   learnset:
@@ -997,7 +1041,8 @@
   sp_atk: 65
   sp_def: 75
   speed: 90
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Oddish
   type: Grass
   learnset:
@@ -1013,13 +1058,15 @@
   - Moonlight
   - Giga Drain
   - Petal Dance
+  - Grassy Terrain
   hp: 45
   attack: 50
   defense: 55
   sp_atk: 75
   sp_def: 65
   speed: 30
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Gloom
   type: Grass
   learnset:
@@ -1036,14 +1083,17 @@
   - Natural Gift
   - Moonlight
   - Giga Drain
+  - Petal Blizzard
   - Petal Dance
+  - Grassy Terrain
   hp: 60
   attack: 65
   defense: 70
   sp_atk: 85
   sp_def: 75
   speed: 40
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Vileplume
   type: Grass
   learnset:
@@ -1051,6 +1101,7 @@
   - Aromatherapy
   - Stun Spore
   - PoisonPowder
+  - Petal Blizzard
   - Petal Dance
   - SolarBeam
   hp: 480
@@ -1059,7 +1110,8 @@
   sp_atk: 85
   sp_def: 110
   speed: 90
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Paras
   type: Bug
   learnset:
@@ -1081,7 +1133,8 @@
   sp_atk: 45
   sp_def: 55
   speed: 25
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Parasect
   type: Bug
   learnset:
@@ -1107,7 +1160,8 @@
   sp_atk: 60
   sp_def: 80
   speed: 30
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Venonat
   type: Bug
   learnset:
@@ -1131,7 +1185,8 @@
   sp_atk: 40
   sp_def: 55
   speed: 45
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Venomoth
   type: Bug
   learnset:
@@ -1160,7 +1215,8 @@
   sp_atk: 90
   sp_def: 75
   speed: 90
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Diglett
   type: Ground
   learnset:
@@ -1184,7 +1240,8 @@
   sp_atk: 35
   sp_def: 45
   speed: 95
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Dugtrio
   type: Ground
   learnset:
@@ -1212,7 +1269,8 @@
   sp_atk: 50
   sp_def: 70
   speed: 120
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Meowth
   type: Normal
   learnset:
@@ -1237,7 +1295,8 @@
   sp_atk: 40
   sp_def: 40
   speed: 90
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Persian
   type: Normal
   learnset:
@@ -1266,7 +1325,8 @@
   sp_atk: 65
   sp_def: 65
   speed: 115
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Psyduck
   type: Water
   learnset:
@@ -1292,7 +1352,8 @@
   sp_atk: 65
   sp_def: 50
   speed: 55
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Golduck
   type: Water
   learnset:
@@ -1321,7 +1382,8 @@
   sp_atk: 95
   sp_def: 80
   speed: 85
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Mankey
   type: Fighting
   learnset:
@@ -1347,7 +1409,8 @@
   sp_atk: 35
   sp_def: 45
   speed: 70
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Primeape
   type: Fighting
   learnset:
@@ -1374,7 +1437,8 @@
   sp_atk: 60
   sp_def: 70
   speed: 95
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Growlithe
   type: Fire
   learnset:
@@ -1402,7 +1466,8 @@
   sp_atk: 70
   sp_def: 50
   speed: 60
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Arcanine
   type: Fire
   learnset:
@@ -1418,7 +1483,8 @@
   sp_atk: 100
   sp_def: 80
   speed: 95
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Poliwag
   type: Water
   learnset:
@@ -1441,7 +1507,8 @@
   sp_atk: 40
   sp_def: 40
   speed: 90
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Poliwhirl
   type: Water
   learnset:
@@ -1466,7 +1533,8 @@
   sp_atk: 50
   sp_def: 50
   speed: 90
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Poliwrath
   type: Water
   learnset:
@@ -1483,7 +1551,8 @@
   sp_atk: 95
   sp_def: 70
   speed: 90
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Abra
   type: Psychic
   learnset:
@@ -1494,7 +1563,8 @@
   sp_atk: 105
   sp_def: 55
   speed: 90
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Kadabra
   type: Psychic
   learnset:
@@ -1520,7 +1590,8 @@
   sp_atk: 120
   sp_def: 70
   speed: 105
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Alakazam
   type: Psychic
   learnset:
@@ -1546,7 +1617,8 @@
   sp_atk: 50
   sp_def: 65
   speed: 175
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Machop
   type: Fighting
   learnset:
@@ -1570,7 +1642,8 @@
   sp_atk: 35
   sp_def: 35
   speed: 35
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Machoke
   type: Fighting
   learnset:
@@ -1596,7 +1669,8 @@
   sp_atk: 50
   sp_def: 60
   speed: 45
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Machamp
   type: Fighting
   learnset:
@@ -1623,7 +1697,8 @@
   sp_atk: 65
   sp_def: 85
   speed: 55
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Bellsprout
   type: Grass
   learnset:
@@ -1646,7 +1721,8 @@
   sp_atk: 70
   sp_def: 30
   speed: 40
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Weepinbell
   type: Grass
   learnset:
@@ -1671,7 +1747,8 @@
   sp_atk: 85
   sp_def: 45
   speed: 55
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Victreebel
   type: Grass
   learnset:
@@ -1691,7 +1768,8 @@
   sp_atk: 65
   sp_def: 100
   speed: 70
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Tentacool
   type: Water
   learnset:
@@ -1717,7 +1795,8 @@
   sp_atk: 50
   sp_def: 100
   speed: 70
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Tentacruel
   type: Water
   learnset:
@@ -1745,7 +1824,8 @@
   sp_atk: 80
   sp_def: 120
   speed: 100
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Geodude
   type: Rock
   learnset:
@@ -1771,7 +1851,8 @@
   sp_atk: 30
   sp_def: 30
   speed: 20
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Graveler
   type: Rock
   learnset:
@@ -1799,7 +1880,8 @@
   sp_atk: 45
   sp_def: 45
   speed: 35
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Golem
   type: Rock
   learnset:
@@ -1828,7 +1910,8 @@
   sp_atk: 130
   sp_def: 55
   speed: 65
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Ponyta
   type: Fire
   learnset:
@@ -1852,7 +1935,8 @@
   sp_atk: 65
   sp_def: 65
   speed: 90
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Rapidash
   type: Fire
   learnset:
@@ -1881,7 +1965,8 @@
   sp_atk: 80
   sp_def: 80
   speed: 105
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Slowpoke
   type: Water
   learnset:
@@ -1907,10 +1992,12 @@
   sp_atk: 40
   sp_def: 40
   speed: 15
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Slowbro
   type: Water
   learnset:
+  - Heal Pulse
   - Curse
   - Yawn
   - Tackle
@@ -1935,7 +2022,8 @@
   sp_atk: 100
   sp_def: 80
   speed: 30
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Magnemite
   type: Electric
   learnset:
@@ -1962,18 +2050,20 @@
   sp_atk: 95
   sp_def: 55
   speed: 45
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Magneton
   type: Electric
   learnset:
+  - Zap Cannon
   - Tri Attack
   - Tackle
-  - Thunder Shock
-  - Supersonic
-  - SonicBoom
   - Supersonic
   - Thunder Shock
   - SonicBoom
+  - Supersonic
+  - Thunder Shock
+  - Electric Terrain
   - Thunder Wave
   - Magnet Bomb
   - Spark
@@ -1993,7 +2083,8 @@
   sp_atk: 120
   sp_def: 70
   speed: 70
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Farfetch'd
   type: Normal
   learnset:
@@ -2021,7 +2112,8 @@
   sp_atk: 58
   sp_def: 62
   speed: 60
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Doduo
   type: Normal
   learnset:
@@ -2044,7 +2136,8 @@
   sp_atk: 35
   sp_def: 35
   speed: 75
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Dodrio
   type: Normal
   learnset:
@@ -2070,7 +2163,8 @@
   sp_atk: 60
   sp_def: 60
   speed: 100
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Seel
   type: Water
   learnset:
@@ -2097,7 +2191,8 @@
   sp_atk: 45
   sp_def: 70
   speed: 45
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Dewgong
   type: Water
   learnset:
@@ -2128,7 +2223,8 @@
   sp_atk: 70
   sp_def: 95
   speed: 70
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Grimer
   type: Poison
   learnset:
@@ -2153,7 +2249,8 @@
   sp_atk: 40
   sp_def: 50
   speed: 25
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Muk
   type: Poison
   learnset:
@@ -2180,7 +2277,8 @@
   sp_atk: 65
   sp_def: 100
   speed: 50
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Shellder
   type: Water
   learnset:
@@ -2206,10 +2304,13 @@
   sp_atk: 45
   sp_def: 25
   speed: 40
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Cloyster
   type: Water
   learnset:
+  - Hydro Pump
+  - Shell Smash
   - Toxic Spikes
   - Withdraw
   - Supersonic
@@ -2224,7 +2325,8 @@
   sp_atk: 85
   sp_def: 45
   speed: 70
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Gastly
   type: Ghost
   learnset:
@@ -2249,7 +2351,8 @@
   sp_atk: 100
   sp_def: 35
   speed: 80
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Haunter
   type: Ghost
   learnset:
@@ -2276,7 +2379,8 @@
   sp_atk: 115
   sp_def: 55
   speed: 95
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Gengar
   type: Ghost
   learnset:
@@ -2303,7 +2407,8 @@
   sp_atk: 80
   sp_def: 170
   speed: 95
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Onix
   type: Rock
   learnset:
@@ -2334,7 +2439,8 @@
   sp_atk: 30
   sp_def: 45
   speed: 70
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Drowzee
   type: Psychic
   learnset:
@@ -2361,7 +2467,8 @@
   sp_atk: 43
   sp_def: 90
   speed: 42
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Hypno
   type: Psychic
   learnset:
@@ -2394,7 +2501,8 @@
   sp_atk: 73
   sp_def: 115
   speed: 67
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Krabby
   type: Water
   learnset:
@@ -2419,7 +2527,8 @@
   sp_atk: 25
   sp_def: 25
   speed: 50
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Kingler
   type: Water
   learnset:
@@ -2447,13 +2556,15 @@
   sp_atk: 50
   sp_def: 50
   speed: 75
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Voltorb
   type: Electric
   learnset:
   - Charge
   - Tackle
   - SonicBoom
+  - Eerie Impulse
   - Spark
   - Rollout
   - Screech
@@ -2472,16 +2583,18 @@
   sp_atk: 55
   sp_def: 55
   speed: 100
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Electrode
   type: Electric
   learnset:
+  - Magnetic Flux
   - Charge
   - Tackle
   - SonicBoom
   - Spark
   - Tackle
-  - SonicBoom
+  - Eerie Impulse
   - Spark
   - Rollout
   - Screech
@@ -2500,7 +2613,8 @@
   sp_atk: 80
   sp_def: 80
   speed: 140
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Exeggcute
   type: Grass
   learnset:
@@ -2519,14 +2633,14 @@
   - SolarBeam
   - Extrasensory
   - Bestow
-  - Psychic
   hp: 60
   attack: 40
   defense: 80
   sp_atk: 60
   sp_def: 45
   speed: 40
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Exeggutor
   type: Grass
   learnset:
@@ -2545,7 +2659,8 @@
   sp_atk: 125
   sp_def: 65
   speed: 55
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Cubone
   type: Ground
   learnset:
@@ -2570,7 +2685,8 @@
   sp_atk: 40
   sp_def: 50
   speed: 35
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Marowak
   type: Ground
   learnset:
@@ -2598,7 +2714,8 @@
   sp_atk: 50
   sp_def: 80
   speed: 45
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Hitmonlee
   type: Fighting
   learnset:
@@ -2625,7 +2742,8 @@
   sp_atk: 35
   sp_def: 110
   speed: 87
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Hitmonchan
   type: Fighting
   learnset:
@@ -2653,7 +2771,8 @@
   sp_atk: 35
   sp_def: 110
   speed: 76
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Lickitung
   type: Normal
   learnset:
@@ -2678,7 +2797,8 @@
   sp_atk: 60
   sp_def: 75
   speed: 30
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Koffing
   type: Poison
   learnset:
@@ -2702,7 +2822,8 @@
   sp_atk: 60
   sp_def: 45
   speed: 35
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Weezing
   type: Poison
   learnset:
@@ -2728,7 +2849,8 @@
   sp_atk: 85
   sp_def: 70
   speed: 60
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Rhyhorn
   type: Ground
   learnset:
@@ -2752,7 +2874,8 @@
   sp_atk: 30
   sp_def: 30
   speed: 25
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Rhydon
   type: Ground
   learnset:
@@ -2779,7 +2902,8 @@
   sp_atk: 45
   sp_def: 45
   speed: 40
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Chansey
   type: Normal
   learnset:
@@ -2806,7 +2930,8 @@
   sp_atk: 35
   sp_def: 105
   speed: 50
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Tangela
   type: Grass
   learnset:
@@ -2827,6 +2952,7 @@
   - Slam
   - Tickle
   - Wring Out
+  - Grassy Terrain
   - Power Whip
   hp: 65
   attack: 55
@@ -2834,7 +2960,8 @@
   sp_atk: 100
   sp_def: 40
   speed: 60
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Kangaskhan
   type: Normal
   learnset:
@@ -2859,7 +2986,8 @@
   sp_atk: 100
   sp_def: 60
   speed: 100
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Horsea
   type: Water
   learnset:
@@ -2881,7 +3009,8 @@
   sp_atk: 70
   sp_def: 25
   speed: 60
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Seadra
   type: Water
   learnset:
@@ -2906,7 +3035,8 @@
   sp_atk: 95
   sp_def: 45
   speed: 85
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Goldeen
   type: Water
   learnset:
@@ -2930,7 +3060,8 @@
   sp_atk: 35
   sp_def: 50
   speed: 63
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Seaking
   type: Water
   learnset:
@@ -2956,7 +3087,8 @@
   sp_atk: 65
   sp_def: 80
   speed: 68
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Staryu
   type: Water
   learnset:
@@ -2982,7 +3114,8 @@
   sp_atk: 70
   sp_def: 55
   speed: 85
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Starmie
   type: Water
   learnset:
@@ -2997,7 +3130,8 @@
   sp_atk: 100
   sp_def: 85
   speed: 115
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Mr. Mime
   type: Psychic
   learnset:
@@ -3031,7 +3165,8 @@
   sp_atk: 100
   sp_def: 120
   speed: 90
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Scyther
   type: Bug
   learnset:
@@ -3059,10 +3194,13 @@
   sp_atk: 55
   sp_def: 80
   speed: 105
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Jynx
   type: Ice
   learnset:
+  - Draining Kiss
+  - Perish Song
   - Pound
   - Lick
   - Lovely Kiss
@@ -3087,7 +3225,8 @@
   sp_atk: 115
   sp_def: 95
   speed: 95
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Electabuzz
   type: Electric
   learnset:
@@ -3112,7 +3251,8 @@
   sp_atk: 95
   sp_def: 85
   speed: 105
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Magmar
   type: Fire
   learnset:
@@ -3137,7 +3277,8 @@
   sp_atk: 100
   sp_def: 85
   speed: 93
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Pinsir
   type: Bug
   learnset:
@@ -3162,7 +3303,8 @@
   sp_atk: 120
   sp_def: 65
   speed: 90
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Tauros
   type: Normal
   learnset:
@@ -3186,7 +3328,8 @@
   sp_atk: 40
   sp_def: 70
   speed: 110
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Magikarp
   type: Water
   learnset:
@@ -3199,7 +3342,8 @@
   sp_atk: 15
   sp_def: 20
   speed: 80
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Gyarados
   type: Water
   learnset:
@@ -3220,7 +3364,8 @@
   sp_atk: 109
   sp_def: 70
   speed: 130
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Lapras
   type: Water
   learnset:
@@ -3245,7 +3390,8 @@
   sp_atk: 85
   sp_def: 95
   speed: 60
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Ditto
   type: Normal
   learnset:
@@ -3256,7 +3402,8 @@
   sp_atk: 48
   sp_def: 48
   speed: 48
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Eevee
   type: Normal
   learnset:
@@ -3283,7 +3430,8 @@
   sp_atk: 45
   sp_def: 65
   speed: 55
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Vaporeon
   type: Water
   learnset:
@@ -3307,7 +3455,8 @@
   sp_atk: 110
   sp_def: 95
   speed: 65
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Jolteon
   type: Electric
   learnset:
@@ -3331,7 +3480,8 @@
   sp_atk: 110
   sp_def: 95
   speed: 130
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Flareon
   type: Fire
   learnset:
@@ -3355,7 +3505,8 @@
   sp_atk: 95
   sp_def: 110
   speed: 65
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Porygon
   type: Normal
   learnset:
@@ -3380,7 +3531,8 @@
   sp_atk: 85
   sp_def: 75
   speed: 40
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Omanyte
   type: Rock
   learnset:
@@ -3404,7 +3556,8 @@
   sp_atk: 90
   sp_def: 55
   speed: 35
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Omastar
   type: Rock
   learnset:
@@ -3430,7 +3583,8 @@
   sp_atk: 115
   sp_def: 70
   speed: 55
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Kabuto
   type: Rock
   learnset:
@@ -3452,7 +3606,8 @@
   sp_atk: 55
   sp_def: 45
   speed: 55
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Kabutops
   type: Rock
   learnset:
@@ -3479,7 +3634,8 @@
   sp_atk: 65
   sp_def: 70
   speed: 80
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Aerodactyl
   type: Rock
   learnset:
@@ -3507,7 +3663,8 @@
   sp_atk: 85
   sp_def: 70
   speed: 95
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Snorlax
   type: Normal
   learnset:
@@ -3515,15 +3672,15 @@
   - Defense Curl
   - Amnesia
   - Lick
-  - Belly Drum
-  - Yawn
   - Chip Away
+  - Yawn
+  - Body Slam
   - Rest
   - Snore
   - Sleep Talk
-  - Body Slam
-  - Block
   - Rollout
+  - Block
+  - Belly Drum
   - Crunch
   - Heavy Slam
   - Giga Impact
@@ -3533,7 +3690,8 @@
   sp_atk: 65
   sp_def: 110
   speed: 30
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Articuno
   type: Ice
   learnset:
@@ -3561,7 +3719,8 @@
   sp_atk: 95
   sp_def: 125
   speed: 85
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Zapdos
   type: Electric
   learnset:
@@ -3589,7 +3748,8 @@
   sp_atk: 125
   sp_def: 90
   speed: 100
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Moltres
   type: Fire
   learnset:
@@ -3617,7 +3777,8 @@
   sp_atk: 125
   sp_def: 85
   speed: 90
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Dratini
   type: Dragon
   learnset:
@@ -3641,7 +3802,8 @@
   sp_atk: 50
   sp_def: 50
   speed: 50
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Dragonair
   type: Dragon
   learnset:
@@ -3667,7 +3829,8 @@
   sp_atk: 70
   sp_def: 70
   speed: 70
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Dragonite
   type: Dragon
   learnset:
@@ -3698,7 +3861,8 @@
   sp_atk: 100
   sp_def: 100
   speed: 80
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Mewtwo
   type: Psychic
   learnset:
@@ -3726,7 +3890,8 @@
   sp_atk: 150
   sp_def: 70
   speed: 194
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Mew
   type: Psychic
   learnset:
@@ -3749,7 +3914,8 @@
   sp_atk: 100
   sp_def: 100
   speed: 100
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Chikorita
   type: Grass
   learnset:
@@ -3773,7 +3939,8 @@
   sp_atk: 49
   sp_def: 65
   speed: 45
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Bayleef
   type: Grass
   learnset:
@@ -3799,7 +3966,8 @@
   sp_atk: 63
   sp_def: 80
   speed: 60
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Meganium
   type: Grass
   learnset:
@@ -3826,7 +3994,8 @@
   sp_atk: 83
   sp_def: 100
   speed: 80
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Cyndaquil
   type: Fire
   learnset:
@@ -3851,7 +4020,8 @@
   sp_atk: 60
   sp_def: 50
   speed: 65
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Quilava
   type: Fire
   learnset:
@@ -3877,7 +4047,8 @@
   sp_atk: 80
   sp_def: 65
   speed: 80
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Typhlosion
   type: Fire
   learnset:
@@ -3905,7 +4076,8 @@
   sp_atk: 109
   sp_def: 85
   speed: 100
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Totodile
   type: Water
   learnset:
@@ -3931,7 +4103,8 @@
   sp_atk: 44
   sp_def: 48
   speed: 43
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Croconaw
   type: Water
   learnset:
@@ -3958,7 +4131,8 @@
   sp_atk: 59
   sp_def: 63
   speed: 58
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Feraligatr
   type: Water
   learnset:
@@ -3987,7 +4161,8 @@
   sp_atk: 79
   sp_def: 83
   speed: 78
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Sentret
   type: Normal
   learnset:
@@ -4011,7 +4186,8 @@
   sp_atk: 35
   sp_def: 45
   speed: 20
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Furret
   type: Normal
   learnset:
@@ -4037,7 +4213,8 @@
   sp_atk: 45
   sp_def: 55
   speed: 90
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Hoothoot
   type: Normal
   learnset:
@@ -4064,7 +4241,8 @@
   sp_atk: 36
   sp_def: 56
   speed: 50
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Noctowl
   type: Normal
   learnset:
@@ -4093,7 +4271,8 @@
   sp_atk: 76
   sp_def: 96
   speed: 70
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Ledyba
   type: Bug
   learnset:
@@ -4116,7 +4295,8 @@
   sp_atk: 40
   sp_def: 80
   speed: 55
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Ledian
   type: Bug
   learnset:
@@ -4141,7 +4321,8 @@
   sp_atk: 55
   sp_def: 110
   speed: 85
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Spinarak
   type: Bug
   learnset:
@@ -4166,7 +4347,8 @@
   sp_atk: 40
   sp_def: 40
   speed: 30
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Ariados
   type: Bug
   learnset:
@@ -4194,7 +4376,8 @@
   sp_atk: 60
   sp_def: 60
   speed: 40
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Crobat
   type: Poison
   learnset:
@@ -4221,7 +4404,8 @@
   sp_atk: 70
   sp_def: 80
   speed: 130
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Chinchou
   type: Water
   learnset:
@@ -4246,7 +4430,8 @@
   sp_atk: 56
   sp_def: 56
   speed: 67
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Lanturn
   type: Water
   learnset:
@@ -4275,7 +4460,8 @@
   sp_atk: 76
   sp_def: 76
   speed: 67
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Pichu
   type: Electric
   learnset:
@@ -4291,7 +4477,8 @@
   sp_atk: 35
   sp_def: 35
   speed: 60
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Cleffa
   type: Fairy
   learnset:
@@ -4308,7 +4495,8 @@
   sp_atk: 45
   sp_def: 55
   speed: 15
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Igglybuff
   type: Normal
   learnset:
@@ -4324,7 +4512,8 @@
   sp_atk: 40
   sp_def: 20
   speed: 15
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Togepi
   type: Fairy
   learnset:
@@ -4349,11 +4538,11 @@
   sp_atk: 40
   sp_def: 65
   speed: 20
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Togetic
   type: Fairy
   learnset:
-  - Fairy Wind
   - Magical Leaf
   - Growl
   - Charm
@@ -4362,6 +4551,7 @@
   - Metronome
   - Sweet Kiss
   - Yawn
+  - Fairy Wind
   - Encore
   - Follow Me
   - Bestow
@@ -4378,7 +4568,8 @@
   sp_atk: 80
   sp_def: 105
   speed: 40
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Natu
   type: Psychic
   learnset:
@@ -4390,13 +4581,22 @@
   - Miracle Eye
   - Me First
   - Confuse Ray
+  - Wish
+  - Psycho Shift
+  - Future Sight
+  - Stored Power
+  - Ominous Wind
+  - Power Swap
+  - Guard Swap
+  - Psychic
   hp: 40
   attack: 50
   defense: 45
   sp_atk: 70
   sp_def: 45
   speed: 70
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Xatu
   type: Psychic
   learnset:
@@ -4423,7 +4623,8 @@
   sp_atk: 95
   sp_def: 70
   speed: 95
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Mareep
   type: Electric
   learnset:
@@ -4448,7 +4649,8 @@
   sp_atk: 65
   sp_def: 45
   speed: 35
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Flaaffy
   type: Electric
   learnset:
@@ -4475,7 +4677,8 @@
   sp_atk: 80
   sp_def: 60
   speed: 45
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Ampharos
   type: Electric
   learnset:
@@ -4509,16 +4712,19 @@
   sp_atk: 95
   sp_def: 105
   speed: 165
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Bellossom
   type: Grass
   learnset:
+  - Leaf Storm
   - Leaf Blade
   - Mega Drain
   - Sweet Scent
   - Stun Spore
   - Sunny Day
   - Magical Leaf
+  - Petal Blizzard
   - Leaf Storm
   hp: 480
   attack: 75
@@ -4526,7 +4732,8 @@
   sp_atk: 95
   sp_def: 90
   speed: 100
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Marill
   type: Water
   learnset:
@@ -4552,7 +4759,8 @@
   sp_atk: 20
   sp_def: 50
   speed: 40
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Azumarill
   type: Water
   learnset:
@@ -4580,7 +4788,8 @@
   sp_atk: 80
   sp_def: 60
   speed: 80
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Sudowoodo
   type: Rock
   learnset:
@@ -4609,7 +4818,8 @@
   sp_atk: 30
   sp_def: 65
   speed: 30
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Politoed
   type: Water
   learnset:
@@ -4626,7 +4836,8 @@
   sp_atk: 90
   sp_def: 100
   speed: 70
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Hoppip
   type: Grass
   learnset:
@@ -4655,7 +4866,8 @@
   sp_atk: 35
   sp_def: 55
   speed: 50
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Skiploom
   type: Grass
   learnset:
@@ -4666,6 +4878,7 @@
   - Synthesis
   - Tail Whip
   - Tackle
+  - Fairy Wind
   - PoisonPowder
   - Stun Spore
   - Sleep Powder
@@ -4686,7 +4899,8 @@
   sp_atk: 45
   sp_def: 65
   speed: 80
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Jumpluff
   type: Grass
   learnset:
@@ -4697,6 +4911,7 @@
   - Synthesis
   - Tail Whip
   - Tackle
+  - Fairy Wind
   - PoisonPowder
   - Stun Spore
   - Sleep Powder
@@ -4717,7 +4932,8 @@
   sp_atk: 70
   sp_def: 55
   speed: 95
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Aipom
   type: Normal
   learnset:
@@ -4741,7 +4957,8 @@
   sp_atk: 40
   sp_def: 55
   speed: 85
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Sunkern
   type: Grass
   learnset:
@@ -4767,7 +4984,8 @@
   sp_atk: 30
   sp_def: 30
   speed: 30
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Sunflora
   type: Grass
   learnset:
@@ -4794,7 +5012,8 @@
   sp_atk: 105
   sp_def: 85
   speed: 30
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Yanma
   type: Bug
   learnset:
@@ -4820,7 +5039,8 @@
   sp_atk: 75
   sp_def: 45
   speed: 95
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Wooper
   type: Water
   learnset:
@@ -4843,7 +5063,8 @@
   sp_atk: 25
   sp_def: 25
   speed: 15
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Quagsire
   type: Water
   learnset:
@@ -4867,7 +5088,8 @@
   sp_atk: 65
   sp_def: 65
   speed: 35
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Espeon
   type: Psychic
   learnset:
@@ -4891,7 +5113,8 @@
   sp_atk: 130
   sp_def: 95
   speed: 110
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Umbreon
   type: Dark
   learnset:
@@ -4915,7 +5138,8 @@
   sp_atk: 60
   sp_def: 130
   speed: 65
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Murkrow
   type: Dark
   learnset:
@@ -4940,10 +5164,12 @@
   sp_atk: 85
   sp_def: 42
   speed: 91
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Slowking
   type: Water
   learnset:
+  - Heal Pulse
   - Power Gem
   - Hidden Power
   - Curse
@@ -4968,7 +5194,8 @@
   sp_atk: 100
   sp_def: 110
   speed: 30
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Misdreavus
   type: Ghost
   learnset:
@@ -4992,7 +5219,8 @@
   sp_atk: 85
   sp_def: 85
   speed: 85
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Unown
   type: Psychic
   learnset:
@@ -5003,7 +5231,8 @@
   sp_atk: 0
   sp_def: 0
   speed: 0
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Wobbuffet
   type: Psychic
   learnset:
@@ -5017,7 +5246,8 @@
   sp_atk: 33
   sp_def: 58
   speed: 33
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Girafarig
   type: Normal
   learnset:
@@ -5043,7 +5273,8 @@
   sp_atk: 90
   sp_def: 65
   speed: 85
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Pineco
   type: Bug
   learnset:
@@ -5057,21 +5288,27 @@
   - Natural Gift
   - Spikes
   - Payback
+  - Explosion
+  - Iron Defense
+  - Gyro Ball
+  - Double-Edge
   hp: 50
   attack: 65
   defense: 90
   sp_atk: 35
   sp_def: 35
   speed: 15
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Forretress
   type: Bug
   learnset:
+  - Heavy Slam
+  - Zap Cannon
+  - Magnet Rise
   - Toxic Spikes
   - Tackle
   - Protect
-  - Selfdestruct
-  - Bug Bite
   - Selfdestruct
   - Bug Bite
   - Take Down
@@ -5095,7 +5332,8 @@
   sp_atk: 60
   sp_def: 60
   speed: 40
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Dunsparce
   type: Normal
   learnset:
@@ -5123,7 +5361,8 @@
   sp_atk: 65
   sp_def: 65
   speed: 45
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Gligar
   type: Ground
   learnset:
@@ -5148,7 +5387,8 @@
   sp_atk: 35
   sp_def: 65
   speed: 85
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Steelix
   type: Steel
   learnset:
@@ -5182,7 +5422,8 @@
   sp_atk: 55
   sp_def: 65
   speed: 30
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Snubbull
   type: Fairy
   learnset:
@@ -5207,7 +5448,8 @@
   sp_atk: 40
   sp_def: 40
   speed: 30
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Granbull
   type: Fairy
   learnset:
@@ -5234,7 +5476,8 @@
   sp_atk: 60
   sp_def: 60
   speed: 45
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Qwilfish
   type: Water
   learnset:
@@ -5262,7 +5505,8 @@
   sp_atk: 55
   sp_def: 55
   speed: 85
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Scizor
   type: Bug
   learnset:
@@ -5291,7 +5535,8 @@
   sp_atk: 140
   sp_def: 65
   speed: 100
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Shuckle
   type: Bug
   learnset:
@@ -5319,7 +5564,8 @@
   sp_atk: 10
   sp_def: 230
   speed: 5
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Heracross
   type: Bug
   learnset:
@@ -5347,7 +5593,8 @@
   sp_atk: 115
   sp_def: 40
   speed: 105
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Sneasel
   type: Dark
   learnset:
@@ -5373,18 +5620,21 @@
   sp_atk: 35
   sp_def: 75
   speed: 115
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Teddiursa
   type: Normal
   learnset:
+  - Fling
   - Covet
   - Scratch
-  - Leer
+  - Baby-Doll Eyes
   - Lick
   - Fake Tears
   - Fury Swipes
-  - Faint Attack
+  - Feint Attack
   - Sweet Scent
+  - Play Nice
   - Slash
   - Charm
   - Rest
@@ -5397,18 +5647,21 @@
   sp_atk: 50
   sp_def: 50
   speed: 40
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Ursaring
   type: Normal
   learnset:
+  - Hammer Arm
   - Covet
   - Scratch
   - Leer
   - Lick
   - Fake Tears
   - Fury Swipes
-  - Faint Attack
+  - Feint Attack
   - Sweet Scent
+  - Play Nice
   - Slash
   - Scary Face
   - Rest
@@ -5421,7 +5674,8 @@
   sp_atk: 75
   sp_def: 75
   speed: 55
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Slugma
   type: Fire
   learnset:
@@ -5445,7 +5699,8 @@
   sp_atk: 70
   sp_def: 40
   speed: 20
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Magcargo
   type: Fire
   learnset:
@@ -5472,7 +5727,8 @@
   sp_atk: 80
   sp_def: 80
   speed: 30
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Swinub
   type: Ice
   learnset:
@@ -5497,7 +5753,8 @@
   sp_atk: 30
   sp_def: 30
   speed: 50
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Piloswine
   type: Ice
   learnset:
@@ -5526,7 +5783,8 @@
   sp_atk: 60
   sp_def: 60
   speed: 50
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Corsola
   type: Water
   learnset:
@@ -5553,7 +5811,8 @@
   sp_atk: 65
   sp_def: 85
   speed: 35
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Remoraid
   type: Water
   learnset:
@@ -5576,7 +5835,8 @@
   sp_atk: 65
   sp_def: 35
   speed: 65
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Octillery
   type: Water
   learnset:
@@ -5605,7 +5865,8 @@
   sp_atk: 105
   sp_def: 75
   speed: 45
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Delibird
   type: Ice
   learnset:
@@ -5616,7 +5877,8 @@
   sp_atk: 65
   sp_def: 45
   speed: 75
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Mantine
   type: Water
   learnset:
@@ -5646,7 +5908,8 @@
   sp_atk: 80
   sp_def: 140
   speed: 70
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Skarmory
   type: Steel
   learnset:
@@ -5671,7 +5934,8 @@
   sp_atk: 40
   sp_def: 70
   speed: 70
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Houndour
   type: Dark
   learnset:
@@ -5697,7 +5961,8 @@
   sp_atk: 80
   sp_def: 50
   speed: 65
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Houndoom
   type: Dark
   learnset:
@@ -5728,7 +5993,8 @@
   sp_atk: 90
   sp_def: 140
   speed: 90
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Kingdra
   type: Water
   learnset:
@@ -5754,7 +6020,8 @@
   sp_atk: 95
   sp_def: 95
   speed: 85
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Phanpy
   type: Ground
   learnset:
@@ -5777,7 +6044,8 @@
   sp_atk: 40
   sp_def: 40
   speed: 40
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Donphan
   type: Ground
   learnset:
@@ -5803,7 +6071,8 @@
   sp_atk: 60
   sp_def: 60
   speed: 50
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Porygon2
   type: Normal
   learnset:
@@ -5829,7 +6098,8 @@
   sp_atk: 105
   sp_def: 95
   speed: 60
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Stantler
   type: Normal
   learnset:
@@ -5854,7 +6124,8 @@
   sp_atk: 85
   sp_def: 65
   speed: 85
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Smeargle
   type: Normal
   learnset:
@@ -5874,7 +6145,8 @@
   sp_atk: 20
   sp_def: 45
   speed: 75
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Tyrogue
   type: Fighting
   learnset:
@@ -5888,7 +6160,8 @@
   sp_atk: 35
   sp_def: 35
   speed: 35
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Hitmontop
   type: Fighting
   learnset:
@@ -5914,7 +6187,8 @@
   sp_atk: 35
   sp_def: 110
   speed: 70
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Smoochum
   type: Ice
   learnset:
@@ -5939,7 +6213,8 @@
   sp_atk: 85
   sp_def: 65
   speed: 65
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Elekid
   type: Electric
   learnset:
@@ -5963,7 +6238,8 @@
   sp_atk: 65
   sp_def: 55
   speed: 95
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Magby
   type: Fire
   learnset:
@@ -5987,7 +6263,8 @@
   sp_atk: 70
   sp_def: 55
   speed: 83
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Miltank
   type: Normal
   learnset:
@@ -6010,7 +6287,8 @@
   sp_atk: 40
   sp_def: 70
   speed: 100
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Blissey
   type: Normal
   learnset:
@@ -6037,7 +6315,8 @@
   sp_atk: 75
   sp_def: 135
   speed: 55
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Raikou
   type: Electric
   learnset:
@@ -6061,7 +6340,8 @@
   sp_atk: 115
   sp_def: 100
   speed: 115
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Entei
   type: Fire
   learnset:
@@ -6085,7 +6365,8 @@
   sp_atk: 90
   sp_def: 75
   speed: 100
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Suicune
   type: Water
   learnset:
@@ -6109,7 +6390,8 @@
   sp_atk: 90
   sp_def: 115
   speed: 85
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Larvitar
   type: Rock
   learnset:
@@ -6133,7 +6415,8 @@
   sp_atk: 45
   sp_def: 50
   speed: 41
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Pupitar
   type: Rock
   learnset:
@@ -6159,7 +6442,8 @@
   sp_atk: 65
   sp_def: 70
   speed: 51
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Tyranitar
   type: Rock
   learnset:
@@ -6189,7 +6473,8 @@
   sp_atk: 150
   sp_def: 95
   speed: 120
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Lugia
   type: Psychic
   learnset:
@@ -6215,7 +6500,8 @@
   sp_atk: 90
   sp_def: 154
   speed: 110
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Ho-Oh
   type: Fire
   learnset:
@@ -6241,7 +6527,8 @@
   sp_atk: 110
   sp_def: 154
   speed: 90
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Celebi
   type: Psychic
   learnset:
@@ -6265,7 +6552,8 @@
   sp_atk: 100
   sp_def: 100
   speed: 100
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Treecko
   type: Grass
   learnset:
@@ -6287,7 +6575,8 @@
   sp_atk: 65
   sp_def: 55
   speed: 70
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Grovyle
   type: Grass
   learnset:
@@ -6312,7 +6601,8 @@
   sp_atk: 85
   sp_def: 65
   speed: 95
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Sceptile
   type: Grass
   learnset:
@@ -6338,7 +6628,8 @@
   sp_atk: 105
   sp_def: 85
   speed: 120
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Torchic
   type: Fire
   learnset:
@@ -6359,7 +6650,8 @@
   sp_atk: 70
   sp_def: 50
   speed: 45
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Combusken
   type: Fire
   learnset:
@@ -6384,7 +6676,8 @@
   sp_atk: 85
   sp_def: 60
   speed: 55
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Blaziken
   type: Fire
   learnset:
@@ -6412,7 +6705,8 @@
   sp_atk: 80
   sp_def: 130
   speed: 80
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Mudkip
   type: Water
   learnset:
@@ -6434,7 +6728,8 @@
   sp_atk: 50
   sp_def: 50
   speed: 40
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Marshtomp
   type: Water
   learnset:
@@ -6459,7 +6754,8 @@
   sp_atk: 60
   sp_def: 70
   speed: 50
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Swampert
   type: Water
   learnset:
@@ -6485,7 +6781,8 @@
   sp_atk: 85
   sp_def: 90
   speed: 60
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Poochyena
   type: Dark
   learnset:
@@ -6509,7 +6806,8 @@
   sp_atk: 30
   sp_def: 30
   speed: 35
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Mightyena
   type: Dark
   learnset:
@@ -6536,7 +6834,8 @@
   sp_atk: 60
   sp_def: 60
   speed: 70
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Zigzagoon
   type: Normal
   learnset:
@@ -6561,7 +6860,8 @@
   sp_atk: 30
   sp_def: 41
   speed: 60
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Linoone
   type: Normal
   learnset:
@@ -6588,7 +6888,8 @@
   sp_atk: 50
   sp_def: 61
   speed: 100
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Wurmple
   type: Bug
   learnset:
@@ -6602,7 +6903,8 @@
   sp_atk: 20
   sp_def: 30
   speed: 20
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Silcoon
   type: Bug
   learnset:
@@ -6614,7 +6916,8 @@
   sp_atk: 25
   sp_def: 25
   speed: 15
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Beautifly
   type: Bug
   learnset:
@@ -6636,7 +6939,8 @@
   sp_atk: 50
   sp_def: 100
   speed: 50
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Cascoon
   type: Bug
   learnset:
@@ -6648,7 +6952,8 @@
   sp_atk: 25
   sp_def: 25
   speed: 15
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Dustox
   type: Bug
   learnset:
@@ -6670,7 +6975,8 @@
   sp_atk: 50
   sp_def: 90
   speed: 65
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Lotad
   type: Water
   learnset:
@@ -6691,7 +6997,8 @@
   sp_atk: 40
   sp_def: 50
   speed: 30
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Lombre
   type: Water
   learnset:
@@ -6712,7 +7019,8 @@
   sp_atk: 60
   sp_def: 70
   speed: 50
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Ludicolo
   type: Water
   learnset:
@@ -6726,7 +7034,8 @@
   sp_atk: 90
   sp_def: 100
   speed: 70
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Seedot
   type: Grass
   learnset:
@@ -6743,7 +7052,8 @@
   sp_atk: 30
   sp_def: 30
   speed: 30
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Nuzleaf
   type: Grass
   learnset:
@@ -6764,7 +7074,8 @@
   sp_atk: 60
   sp_def: 40
   speed: 60
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Shiftry
   type: Grass
   learnset:
@@ -6780,7 +7091,8 @@
   sp_atk: 90
   sp_def: 60
   speed: 80
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Taillow
   type: Normal
   learnset:
@@ -6800,7 +7112,8 @@
   sp_atk: 30
   sp_def: 30
   speed: 85
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Swellow
   type: Normal
   learnset:
@@ -6823,7 +7136,8 @@
   sp_atk: 50
   sp_def: 50
   speed: 125
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Wingull
   type: Water
   learnset:
@@ -6847,7 +7161,8 @@
   sp_atk: 55
   sp_def: 30
   speed: 85
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Pelipper
   type: Water
   learnset:
@@ -6877,7 +7192,8 @@
   sp_atk: 85
   sp_def: 70
   speed: 65
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Ralts
   type: Psychic
   learnset:
@@ -6902,7 +7218,8 @@
   sp_atk: 45
   sp_def: 35
   speed: 40
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Kirlia
   type: Psychic
   learnset:
@@ -6930,7 +7247,8 @@
   sp_atk: 65
   sp_def: 55
   speed: 50
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Gardevoir
   type: Psychic
   learnset:
@@ -6963,7 +7281,8 @@
   sp_atk: 65
   sp_def: 165
   speed: 135
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Surskit
   type: Bug
   learnset:
@@ -6983,7 +7302,8 @@
   sp_atk: 50
   sp_def: 52
   speed: 65
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Masquerain
   type: Bug
   learnset:
@@ -7009,7 +7329,8 @@
   sp_atk: 80
   sp_def: 82
   speed: 60
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Shroomish
   type: Grass
   learnset:
@@ -7031,7 +7352,8 @@
   sp_atk: 40
   sp_def: 60
   speed: 35
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Breloom
   type: Grass
   learnset:
@@ -7057,7 +7379,8 @@
   sp_atk: 60
   sp_def: 60
   speed: 70
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Slakoth
   type: Normal
   learnset:
@@ -7077,7 +7400,8 @@
   sp_atk: 35
   sp_def: 35
   speed: 30
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Vigoroth
   type: Normal
   learnset:
@@ -7100,7 +7424,8 @@
   sp_atk: 55
   sp_def: 55
   speed: 90
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Slaking
   type: Normal
   learnset:
@@ -7126,7 +7451,8 @@
   sp_atk: 95
   sp_def: 65
   speed: 100
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Nincada
   type: Bug
   learnset:
@@ -7146,7 +7472,8 @@
   sp_atk: 30
   sp_def: 30
   speed: 40
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Ninjask
   type: Bug
   learnset:
@@ -7173,7 +7500,8 @@
   sp_atk: 50
   sp_def: 50
   speed: 160
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Shedinja
   type: Bug
   learnset:
@@ -7195,7 +7523,8 @@
   sp_atk: 30
   sp_def: 30
   speed: 40
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Whismur
   type: Normal
   learnset:
@@ -7217,7 +7546,8 @@
   sp_atk: 51
   sp_def: 23
   speed: 28
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Loudred
   type: Normal
   learnset:
@@ -7243,10 +7573,12 @@
   sp_atk: 71
   sp_def: 43
   speed: 48
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Exploud
   type: Normal
   learnset:
+  - Boomburst
   - Ice Fang
   - Fire Fang
   - Thunder Fang
@@ -7268,13 +7600,15 @@
   - Sleep Talk
   - Hyper Voice
   - Hyper Beam
+  - Boomburst
   hp: 480
   attack: 104
   defense: 91
   sp_atk: 63
   sp_def: 91
   speed: 73
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Makuhita
   type: Fighting
   learnset:
@@ -7301,7 +7635,8 @@
   sp_atk: 20
   sp_def: 30
   speed: 25
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Hariyama
   type: Fighting
   learnset:
@@ -7331,7 +7666,8 @@
   sp_atk: 40
   sp_def: 60
   speed: 50
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Azurill
   type: Normal
   learnset:
@@ -7351,7 +7687,8 @@
   sp_atk: 20
   sp_def: 40
   speed: 20
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Nosepass
   type: Rock
   learnset:
@@ -7377,7 +7714,8 @@
   sp_atk: 45
   sp_def: 90
   speed: 30
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Skitty
   type: Normal
   learnset:
@@ -7404,7 +7742,8 @@
   sp_atk: 35
   sp_def: 35
   speed: 50
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Delcatty
   type: Normal
   learnset:
@@ -7418,10 +7757,13 @@
   sp_atk: 55
   sp_def: 55
   speed: 70
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Sableye
   type: Dark
   learnset:
+  - Mean Look
+  - Zen Headbutt
   - Leer
   - Scratch
   - Foresight
@@ -7432,7 +7774,7 @@
   - Detect
   - Shadow Sneak
   - Knock Off
-  - Faint Attack
+  - Feint Attack
   - Punishment
   - Shadow Claw
   - Power Gem
@@ -7447,11 +7789,13 @@
   sp_atk: 65
   sp_def: 65
   speed: 50
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Mawile
   type: Steel
   learnset:
   - Play Rough
+  - Iron Head
   - Fairy Wind
   - Astonish
   - Taunt
@@ -7476,7 +7820,8 @@
   sp_atk: 125
   sp_def: 55
   speed: 95
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Aron
   type: Steel
   learnset:
@@ -7502,7 +7847,8 @@
   sp_atk: 40
   sp_def: 40
   speed: 30
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Lairon
   type: Steel
   learnset:
@@ -7530,7 +7876,8 @@
   sp_atk: 50
   sp_def: 50
   speed: 40
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Aggron
   type: Steel
   learnset:
@@ -7558,7 +7905,8 @@
   sp_atk: 230
   sp_def: 60
   speed: 80
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Meditite
   type: Fighting
   learnset:
@@ -7583,7 +7931,8 @@
   sp_atk: 40
   sp_def: 55
   speed: 60
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Medicham
   type: Fighting
   learnset:
@@ -7615,7 +7964,8 @@
   sp_atk: 85
   sp_def: 80
   speed: 85
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Electrike
   type: Electric
   learnset:
@@ -7639,7 +7989,8 @@
   sp_atk: 65
   sp_def: 40
   speed: 65
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Manectric
   type: Electric
   learnset:
@@ -7669,7 +8020,8 @@
   sp_atk: 80
   sp_def: 135
   speed: 80
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Plusle
   type: Electric
   learnset:
@@ -7700,7 +8052,8 @@
   sp_atk: 85
   sp_def: 75
   speed: 95
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Minun
   type: Electric
   learnset:
@@ -7728,7 +8081,8 @@
   sp_atk: 75
   sp_def: 85
   speed: 95
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Volbeat
   type: Bug
   learnset:
@@ -7751,7 +8105,8 @@
   sp_atk: 47
   sp_def: 75
   speed: 85
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Illumise
   type: Bug
   learnset:
@@ -7773,7 +8128,8 @@
   sp_atk: 73
   sp_def: 75
   speed: 85
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Roselia
   type: Grass
   learnset:
@@ -7793,13 +8149,15 @@
   - Toxic
   - Aromatherapy
   - Synthesis
+  - Petal Blizzard
   hp: 50
   attack: 60
   defense: 45
   sp_atk: 100
   sp_def: 80
   speed: 65
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Gulpin
   type: Poison
   learnset:
@@ -7815,7 +8173,8 @@
   sp_atk: 43
   sp_def: 53
   speed: 40
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Swalot
   type: Poison
   learnset:
@@ -7844,7 +8203,8 @@
   sp_atk: 73
   sp_def: 83
   speed: 55
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Carvanha
   type: Water
   learnset:
@@ -7867,7 +8227,8 @@
   sp_atk: 65
   sp_def: 20
   speed: 65
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Sharpedo
   type: Water
   learnset:
@@ -7896,7 +8257,8 @@
   sp_atk: 95
   sp_def: 40
   speed: 95
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Wailmer
   type: Water
   learnset:
@@ -7922,7 +8284,8 @@
   sp_atk: 70
   sp_def: 35
   speed: 60
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Wailord
   type: Water
   learnset:
@@ -7951,7 +8314,8 @@
   sp_atk: 90
   sp_def: 45
   speed: 60
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Numel
   type: Fire
   learnset:
@@ -7976,7 +8340,8 @@
   sp_atk: 65
   sp_def: 45
   speed: 35
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Camerupt
   type: Fire
   learnset:
@@ -8004,7 +8369,8 @@
   sp_atk: 105
   sp_def: 75
   speed: 40
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Torkoal
   type: Fire
   learnset:
@@ -8031,7 +8397,8 @@
   sp_atk: 85
   sp_def: 70
   speed: 20
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Spoink
   type: Psychic
   learnset:
@@ -8056,7 +8423,8 @@
   sp_atk: 70
   sp_def: 80
   speed: 60
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Grumpig
   type: Psychic
   learnset:
@@ -8084,7 +8452,8 @@
   sp_atk: 90
   sp_def: 110
   speed: 80
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Spinda
   type: Normal
   learnset:
@@ -8107,7 +8476,8 @@
   sp_atk: 60
   sp_def: 60
   speed: 60
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Trapinch
   type: Ground
   learnset:
@@ -8134,7 +8504,8 @@
   sp_atk: 45
   sp_def: 45
   speed: 10
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Vibrava
   type: Ground
   learnset:
@@ -8161,7 +8532,8 @@
   sp_atk: 50
   sp_def: 50
   speed: 70
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Flygon
   type: Ground
   learnset:
@@ -8189,7 +8561,8 @@
   sp_atk: 80
   sp_def: 80
   speed: 100
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Cacnea
   type: Grass
   learnset:
@@ -8201,7 +8574,7 @@
   - Sand-Attack
   - Pin Missile
   - Ingrain
-  - Faint Attack
+  - Feint Attack
   - Spikes
   - Sucker Punch
   - Payback
@@ -8215,10 +8588,12 @@
   sp_atk: 85
   sp_def: 40
   speed: 35
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Cacturne
   type: Grass
   learnset:
+  - Destiny Bond
   - Revenge
   - Poison Sting
   - Leer
@@ -8230,7 +8605,7 @@
   - Sand-Attack
   - Pin Missile
   - Ingrain
-  - Faint Attack
+  - Feint Attack
   - Spikes
   - Sucker Punch
   - Payback
@@ -8244,7 +8619,8 @@
   sp_atk: 115
   sp_def: 60
   speed: 55
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Swablu
   type: Normal
   learnset:
@@ -8269,7 +8645,8 @@
   sp_atk: 40
   sp_def: 75
   speed: 50
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Altaria
   type: Dragon
   learnset:
@@ -8299,7 +8676,8 @@
   sp_atk: 70
   sp_def: 105
   speed: 80
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Zangoose
   type: Normal
   learnset:
@@ -8324,24 +8702,27 @@
   sp_atk: 60
   sp_def: 60
   speed: 90
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Seviper
   type: Poison
   learnset:
   - Wrap
-  - Lick
-  - Bite
   - Swagger
+  - Bite
+  - Lick
   - Poison Tail
   - Screech
   - Venoshock
   - Glare
   - Poison Fang
+  - Venom Drench
   - Night Slash
   - Gastro Acid
   - Haze
   - Poison Jab
   - Crunch
+  - Belch
   - Coil
   - Wring Out
   hp: 73
@@ -8350,7 +8731,8 @@
   sp_atk: 100
   sp_def: 60
   speed: 65
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Lunatone
   type: Rock
   learnset:
@@ -8376,7 +8758,8 @@
   sp_atk: 95
   sp_def: 85
   speed: 70
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Solrock
   type: Rock
   learnset:
@@ -8402,7 +8785,8 @@
   sp_atk: 55
   sp_def: 65
   speed: 70
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Barboach
   type: Water
   learnset:
@@ -8426,7 +8810,8 @@
   sp_atk: 46
   sp_def: 41
   speed: 60
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Whiscash
   type: Water
   learnset:
@@ -8454,7 +8839,8 @@
   sp_atk: 76
   sp_def: 71
   speed: 60
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Corphish
   type: Water
   learnset:
@@ -8477,7 +8863,8 @@
   sp_atk: 50
   sp_def: 35
   speed: 35
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Crawdaunt
   type: Water
   learnset:
@@ -8504,7 +8891,8 @@
   sp_atk: 90
   sp_def: 55
   speed: 55
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Baltoy
   type: Ground
   learnset:
@@ -8531,7 +8919,8 @@
   sp_atk: 40
   sp_def: 70
   speed: 55
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Claydol
   type: Ground
   learnset:
@@ -8562,7 +8951,8 @@
   sp_atk: 70
   sp_def: 120
   speed: 75
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Lileep
   type: Rock
   learnset:
@@ -8585,7 +8975,8 @@
   sp_atk: 61
   sp_def: 87
   speed: 23
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Cradily
   type: Rock
   learnset:
@@ -8610,7 +9001,8 @@
   sp_atk: 81
   sp_def: 107
   speed: 43
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Anorith
   type: Rock
   learnset:
@@ -8632,7 +9024,8 @@
   sp_atk: 40
   sp_def: 50
   speed: 75
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Armaldo
   type: Rock
   learnset:
@@ -8656,7 +9049,8 @@
   sp_atk: 70
   sp_def: 80
   speed: 45
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Feebas
   type: Water
   learnset:
@@ -8669,7 +9063,8 @@
   sp_atk: 10
   sp_def: 55
   speed: 80
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Milotic
   type: Water
   learnset:
@@ -8693,7 +9088,8 @@
   sp_atk: 100
   sp_def: 125
   speed: 81
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Castform
   type: Normal
   learnset:
@@ -8715,7 +9111,8 @@
   sp_atk: 70
   sp_def: 70
   speed: 70
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Castform
   type: Normal
   learnset:
@@ -8737,7 +9134,8 @@
   sp_atk: 70
   sp_def: 70
   speed: 70
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Castform
   type: Normal
   learnset:
@@ -8759,7 +9157,8 @@
   sp_atk: 70
   sp_def: 70
   speed: 70
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Castform
   type: Normal
   learnset:
@@ -8781,7 +9180,8 @@
   sp_atk: 70
   sp_def: 70
   speed: 70
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Kecleon
   type: Normal
   learnset:
@@ -8809,7 +9209,8 @@
   sp_atk: 60
   sp_def: 120
   speed: 40
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Shuppet
   type: Ghost
   learnset:
@@ -8834,7 +9235,8 @@
   sp_atk: 63
   sp_def: 33
   speed: 45
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Banette
   type: Ghost
   learnset:
@@ -8862,7 +9264,8 @@
   sp_atk: 75
   sp_def: 93
   speed: 83
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Duskull
   type: Ghost
   learnset:
@@ -8886,7 +9289,8 @@
   sp_atk: 30
   sp_def: 90
   speed: 25
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Dusclops
   type: Ghost
   learnset:
@@ -8917,7 +9321,8 @@
   sp_atk: 60
   sp_def: 130
   speed: 25
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Tropius
   type: Grass
   learnset:
@@ -8943,7 +9348,8 @@
   sp_atk: 72
   sp_def: 87
   speed: 51
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Chimecho
   type: Psychic
   learnset:
@@ -8968,7 +9374,8 @@
   sp_atk: 95
   sp_def: 80
   speed: 65
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Absol
   type: Dark
   learnset:
@@ -9001,7 +9408,8 @@
   sp_atk: 60
   sp_def: 115
   speed: 60
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Wynaut
   type: Psychic
   learnset:
@@ -9018,7 +9426,8 @@
   sp_atk: 23
   sp_def: 48
   speed: 23
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Snorunt
   type: Ice
   learnset:
@@ -9040,7 +9449,8 @@
   sp_atk: 50
   sp_def: 50
   speed: 50
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Glalie
   type: Ice
   learnset:
@@ -9065,7 +9475,8 @@
   sp_atk: 80
   sp_def: 80
   speed: 80
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Spheal
   type: Ice
   learnset:
@@ -9088,7 +9499,8 @@
   sp_atk: 55
   sp_def: 50
   speed: 25
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Sealeo
   type: Ice
   learnset:
@@ -9112,7 +9524,8 @@
   sp_atk: 75
   sp_def: 70
   speed: 45
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Walrein
   type: Ice
   learnset:
@@ -9138,7 +9551,8 @@
   sp_atk: 95
   sp_def: 90
   speed: 65
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Clamperl
   type: Water
   learnset:
@@ -9153,7 +9567,8 @@
   sp_atk: 74
   sp_def: 55
   speed: 32
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Huntail
   type: Water
   learnset:
@@ -9175,7 +9590,8 @@
   sp_atk: 94
   sp_def: 75
   speed: 52
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Gorebyss
   type: Water
   learnset:
@@ -9197,7 +9613,8 @@
   sp_atk: 114
   sp_def: 75
   speed: 52
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Relicanth
   type: Water
   learnset:
@@ -9220,7 +9637,8 @@
   sp_atk: 45
   sp_def: 65
   speed: 55
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Luvdisc
   type: Water
   learnset:
@@ -9244,7 +9662,8 @@
   sp_atk: 40
   sp_def: 65
   speed: 97
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Bagon
   type: Dragon
   learnset:
@@ -9266,7 +9685,8 @@
   sp_atk: 40
   sp_def: 30
   speed: 50
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Shelgon
   type: Dragon
   learnset:
@@ -9292,7 +9712,8 @@
   sp_atk: 60
   sp_def: 50
   speed: 50
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Salamence
   type: Dragon
   learnset:
@@ -9322,7 +9743,8 @@
   sp_atk: 110
   sp_def: 80
   speed: 100
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Beldum
   type: Steel
   learnset:
@@ -9333,7 +9755,8 @@
   sp_atk: 35
   sp_def: 60
   speed: 30
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Metang
   type: Steel
   learnset:
@@ -9359,7 +9782,8 @@
   sp_atk: 55
   sp_def: 80
   speed: 50
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Metagross
   type: Steel
   learnset:
@@ -9386,7 +9810,8 @@
   sp_atk: 95
   sp_def: 90
   speed: 70
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Regirock
   type: Rock
   learnset:
@@ -9409,7 +9834,8 @@
   sp_atk: 50
   sp_def: 100
   speed: 50
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Regice
   type: Ice
   learnset:
@@ -9432,7 +9858,8 @@
   sp_atk: 100
   sp_def: 200
   speed: 50
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Registeel
   type: Steel
   learnset:
@@ -9457,7 +9884,8 @@
   sp_atk: 75
   sp_def: 150
   speed: 50
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Latias
   type: Dragon
   learnset:
@@ -9485,7 +9913,8 @@
   sp_atk: 110
   sp_def: 130
   speed: 110
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Latios
   type: Dragon
   learnset:
@@ -9513,7 +9942,8 @@
   sp_atk: 130
   sp_def: 110
   speed: 110
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Kyogre
   type: Water
   learnset:
@@ -9536,7 +9966,8 @@
   sp_atk: 150
   sp_def: 140
   speed: 90
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Groudon
   type: Ground
   learnset:
@@ -9559,7 +9990,8 @@
   sp_atk: 100
   sp_def: 90
   speed: 90
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Rayquaza
   type: Dragon
   learnset:
@@ -9582,7 +10014,8 @@
   sp_atk: 150
   sp_def: 90
   speed: 95
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Jirachi
   type: Steel
   learnset:
@@ -9608,7 +10041,8 @@
   sp_atk: 100
   sp_def: 100
   speed: 100
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Deoxys
   type: Psychic
   learnset:
@@ -9676,7 +10110,8 @@
   sp_atk: 50
   sp_def: 95
   speed: 90
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Deoxys
   type: Psychic
   learnset:
@@ -9744,7 +10179,8 @@
   sp_atk: 50
   sp_def: 95
   speed: 90
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Deoxys
   type: Psychic
   learnset:
@@ -9812,7 +10248,8 @@
   sp_atk: 50
   sp_def: 95
   speed: 90
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Deoxys
   type: Psychic
   learnset:
@@ -9880,7 +10317,8 @@
   sp_atk: 50
   sp_def: 95
   speed: 90
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Turtwig
   type: Grass
   learnset:
@@ -9902,7 +10340,8 @@
   sp_atk: 45
   sp_def: 55
   speed: 31
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Grotle
   type: Grass
   learnset:
@@ -9925,7 +10364,8 @@
   sp_atk: 55
   sp_def: 65
   speed: 36
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Torterra
   type: Grass
   learnset:
@@ -9952,7 +10392,8 @@
   sp_atk: 75
   sp_def: 85
   speed: 56
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Chimchar
   type: Fire
   learnset:
@@ -9975,7 +10416,8 @@
   sp_atk: 58
   sp_def: 44
   speed: 61
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Monferno
   type: Fire
   learnset:
@@ -10000,7 +10442,8 @@
   sp_atk: 78
   sp_def: 52
   speed: 81
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Infernape
   type: Fire
   learnset:
@@ -10026,7 +10469,8 @@
   sp_atk: 104
   sp_def: 71
   speed: 108
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Piplup
   type: Water
   learnset:
@@ -10049,7 +10493,8 @@
   sp_atk: 61
   sp_def: 56
   speed: 40
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Prinplup
   type: Water
   learnset:
@@ -10074,7 +10519,8 @@
   sp_atk: 81
   sp_def: 76
   speed: 50
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Empoleon
   type: Water
   learnset:
@@ -10101,7 +10547,8 @@
   sp_atk: 111
   sp_def: 101
   speed: 60
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Starly
   type: Normal
   learnset:
@@ -10123,7 +10570,8 @@
   sp_atk: 30
   sp_def: 30
   speed: 60
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Staravia
   type: Normal
   learnset:
@@ -10146,7 +10594,8 @@
   sp_atk: 40
   sp_def: 40
   speed: 80
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Staraptor
   type: Normal
   learnset:
@@ -10171,7 +10620,8 @@
   sp_atk: 70
   sp_def: 50
   speed: 60
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Bidoof
   type: Normal
   learnset:
@@ -10193,7 +10643,8 @@
   sp_atk: 35
   sp_def: 40
   speed: 31
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Bibarel
   type: Normal
   learnset:
@@ -10217,7 +10668,8 @@
   sp_atk: 55
   sp_def: 60
   speed: 71
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Kricketot
   type: Bug
   learnset:
@@ -10231,7 +10683,8 @@
   sp_atk: 25
   sp_def: 41
   speed: 25
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Kricketune
   type: Bug
   learnset:
@@ -10254,13 +10707,15 @@
   sp_atk: 55
   sp_def: 51
   speed: 65
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Shinx
   type: Electric
   learnset:
   - Tackle
   - Leer
   - Charge
+  - Baby-Doll Eyes
   - Spark
   - Bite
   - Roar
@@ -10276,7 +10731,8 @@
   sp_atk: 40
   sp_def: 34
   speed: 45
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Luxio
   type: Electric
   learnset:
@@ -10299,10 +10755,12 @@
   sp_atk: 60
   sp_def: 49
   speed: 60
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Luxray
   type: Electric
   learnset:
+  - Electric Terrain
   - Tackle
   - Leer
   - Charge
@@ -10317,13 +10775,15 @@
   - Scary Face
   - Discharge
   - Wild Charge
+  - Electric Terrain
   hp: 80
   attack: 120
   defense: 79
   sp_atk: 95
   sp_def: 79
   speed: 70
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Budew
   type: Grass
   learnset:
@@ -10339,10 +10799,13 @@
   sp_atk: 50
   sp_def: 70
   speed: 55
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Roserade
   type: Grass
   learnset:
+  - Venom Drench
+  - Grassy Terrain
   - Weather Ball
   - Poison Sting
   - Mega Drain
@@ -10354,7 +10817,8 @@
   sp_atk: 65
   sp_def: 125
   speed: 105
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Cranidos
   type: Rock
   learnset:
@@ -10376,7 +10840,8 @@
   sp_atk: 30
   sp_def: 30
   speed: 58
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Rampardos
   type: Rock
   learnset:
@@ -10389,7 +10854,7 @@
   - Assurance
   - Chip Away
   - Endeavor
-  - AncientPower
+  - Ancient Power
   - Zen Headbutt
   - Screech
   - Head Smash
@@ -10399,7 +10864,8 @@
   sp_atk: 65
   sp_def: 50
   speed: 58
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Shieldon
   type: Rock
   learnset:
@@ -10421,7 +10887,8 @@
   sp_atk: 42
   sp_def: 88
   speed: 30
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Bastiodon
   type: Rock
   learnset:
@@ -10446,7 +10913,8 @@
   sp_atk: 47
   sp_def: 138
   speed: 30
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Burmy
   type: Bug
   learnset:
@@ -10460,7 +10928,8 @@
   sp_atk: 29
   sp_def: 45
   speed: 36
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Burmy
   type: Bug
   learnset:
@@ -10474,7 +10943,8 @@
   sp_atk: 29
   sp_def: 45
   speed: 36
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Burmy
   type: Bug
   learnset:
@@ -10488,7 +10958,8 @@
   sp_atk: 29
   sp_def: 45
   speed: 36
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Wormadam
   type: Bug
   learnset:
@@ -10537,7 +11008,8 @@
   sp_atk: 69
   sp_def: 95
   speed: 69
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Wormadam
   type: Bug
   learnset:
@@ -10586,7 +11058,8 @@
   sp_atk: 69
   sp_def: 95
   speed: 69
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Wormadam
   type: Bug
   learnset:
@@ -10635,7 +11108,8 @@
   sp_atk: 69
   sp_def: 95
   speed: 69
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Mothim
   type: Bug
   learnset:
@@ -10659,7 +11133,8 @@
   sp_atk: 94
   sp_def: 50
   speed: 66
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Combee
   type: Bug
   learnset:
@@ -10673,7 +11148,8 @@
   sp_atk: 30
   sp_def: 42
   speed: 70
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Vespiquen
   type: Bug
   learnset:
@@ -10700,7 +11176,8 @@
   sp_atk: 80
   sp_def: 102
   speed: 40
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Pachirisu
   type: Electric
   learnset:
@@ -10725,7 +11202,8 @@
   sp_atk: 45
   sp_def: 90
   speed: 95
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Buizel
   type: Water
   learnset:
@@ -10749,7 +11227,8 @@
   sp_atk: 60
   sp_def: 30
   speed: 85
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Floatzel
   type: Water
   learnset:
@@ -10778,7 +11257,8 @@
   sp_atk: 85
   sp_def: 50
   speed: 115
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Cherubi
   type: Grass
   learnset:
@@ -10799,7 +11279,8 @@
   sp_atk: 62
   sp_def: 53
   speed: 35
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Cherrim
   type: Grass
   learnset:
@@ -10822,7 +11303,8 @@
   sp_atk: 87
   sp_def: 78
   speed: 85
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Shellos
   type: Water
   learnset:
@@ -10842,7 +11324,8 @@
   sp_atk: 57
   sp_def: 62
   speed: 34
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Shellos
   type: Water
   learnset:
@@ -10862,7 +11345,8 @@
   sp_atk: 57
   sp_def: 62
   speed: 34
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Gastrodon
   type: Water
   learnset:
@@ -10885,7 +11369,8 @@
   sp_atk: 92
   sp_def: 82
   speed: 39
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Gastrodon
   type: Water
   learnset:
@@ -10908,7 +11393,8 @@
   sp_atk: 92
   sp_def: 82
   speed: 39
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Ambipom
   type: Normal
   learnset:
@@ -10934,7 +11420,8 @@
   sp_atk: 60
   sp_def: 66
   speed: 115
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Drifloon
   type: Ghost
   learnset:
@@ -10959,7 +11446,8 @@
   sp_atk: 60
   sp_def: 44
   speed: 70
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Drifblim
   type: Ghost
   learnset:
@@ -10986,7 +11474,8 @@
   sp_atk: 90
   sp_def: 54
   speed: 80
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Buneary
   type: Normal
   learnset:
@@ -11012,7 +11501,8 @@
   sp_atk: 44
   sp_def: 56
   speed: 85
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Lopunny
   type: Normal
   learnset:
@@ -11040,7 +11530,8 @@
   sp_atk: 54
   sp_def: 96
   speed: 105
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Mismagius
   type: Ghost
   learnset:
@@ -11056,7 +11547,8 @@
   sp_atk: 105
   sp_def: 105
   speed: 105
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Honchkrow
   type: Dark
   learnset:
@@ -11076,7 +11568,8 @@
   sp_atk: 105
   sp_def: 52
   speed: 71
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Glameow
   type: Normal
   learnset:
@@ -11099,7 +11592,8 @@
   sp_atk: 42
   sp_def: 37
   speed: 85
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Purugly
   type: Normal
   learnset:
@@ -11125,7 +11619,8 @@
   sp_atk: 64
   sp_def: 59
   speed: 112
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Chingling
   type: Psychic
   learnset:
@@ -11142,7 +11637,8 @@
   sp_atk: 65
   sp_def: 50
   speed: 45
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Stunky
   type: Poison
   learnset:
@@ -11166,7 +11662,8 @@
   sp_atk: 41
   sp_def: 41
   speed: 74
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Skuntank
   type: Poison
   learnset:
@@ -11192,7 +11689,8 @@
   sp_atk: 71
   sp_def: 61
   speed: 84
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Bronzor
   type: Steel
   learnset:
@@ -11218,7 +11716,8 @@
   sp_atk: 24
   sp_def: 86
   speed: 23
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Bronzong
   type: Steel
   learnset:
@@ -11249,7 +11748,8 @@
   sp_atk: 79
   sp_def: 116
   speed: 33
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Bonsly
   type: Rock
   learnset:
@@ -11272,7 +11772,8 @@
   sp_atk: 10
   sp_def: 45
   speed: 10
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Mime Jr.
   type: Psychic
   learnset:
@@ -11300,7 +11801,8 @@
   sp_atk: 70
   sp_def: 90
   speed: 60
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Happiny
   type: Normal
   learnset:
@@ -11315,7 +11817,8 @@
   sp_atk: 15
   sp_def: 65
   speed: 30
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Chatot
   type: Normal
   learnset:
@@ -11340,7 +11843,8 @@
   sp_atk: 92
   sp_def: 42
   speed: 91
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Spiritomb
   type: Ghost
   learnset:
@@ -11349,7 +11853,7 @@
   - Confuse Ray
   - Spite
   - Shadow Sneak
-  - Faint Attack
+  - Feint Attack
   - Hypnosis
   - Dream Eater
   - Ominous Wind
@@ -11363,7 +11867,8 @@
   sp_atk: 92
   sp_def: 108
   speed: 35
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Gible
   type: Dragon
   learnset:
@@ -11383,7 +11888,8 @@
   sp_atk: 40
   sp_def: 45
   speed: 42
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Gabite
   type: Dragon
   learnset:
@@ -11405,7 +11911,8 @@
   sp_atk: 50
   sp_def: 55
   speed: 82
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Garchomp
   type: Dragon
   learnset:
@@ -11431,24 +11938,28 @@
   sp_atk: 115
   sp_def: 120
   speed: 95
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Munchlax
   type: Normal
   learnset:
+  - Last Resort
+  - Snatch
+  - Lick
   - Metronome
   - Odor Sleuth
   - Tackle
   - Defense Curl
   - Amnesia
   - Lick
-  - Recycle
-  - Screech
   - Chip Away
+  - Screech
+  - Body Slam
   - Stockpile
   - Swallow
-  - Body Slam
-  - Fling
   - Rollout
+  - Fling
+  - Belly Drum
   - Natural Gift
   - Snatch
   - Last Resort
@@ -11458,7 +11969,8 @@
   sp_atk: 40
   sp_def: 85
   speed: 5
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Riolu
   type: Fighting
   learnset:
@@ -11479,7 +11991,8 @@
   sp_atk: 35
   sp_def: 40
   speed: 60
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Lucario
   type: Fighting
   learnset:
@@ -11511,7 +12024,8 @@
   sp_atk: 88
   sp_def: 140
   speed: 70
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Hippopotas
   type: Ground
   learnset:
@@ -11532,7 +12046,8 @@
   sp_atk: 38
   sp_def: 42
   speed: 32
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Hippowdon
   type: Ground
   learnset:
@@ -11558,7 +12073,8 @@
   sp_atk: 68
   sp_def: 72
   speed: 47
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Skorupi
   type: Poison
   learnset:
@@ -11584,7 +12100,8 @@
   sp_atk: 30
   sp_def: 55
   speed: 65
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Drapion
   type: Poison
   learnset:
@@ -11614,7 +12131,8 @@
   sp_atk: 60
   sp_def: 75
   speed: 95
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Croagunk
   type: Poison
   learnset:
@@ -11639,7 +12157,8 @@
   sp_atk: 61
   sp_def: 40
   speed: 50
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Toxicroak
   type: Poison
   learnset:
@@ -11666,7 +12185,8 @@
   sp_atk: 86
   sp_def: 65
   speed: 85
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Carnivine
   type: Grass
   learnset:
@@ -11690,7 +12210,8 @@
   sp_atk: 90
   sp_def: 72
   speed: 46
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Finneon
   type: Water
   learnset:
@@ -11714,7 +12235,8 @@
   sp_atk: 49
   sp_def: 61
   speed: 66
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Lumineon
   type: Water
   learnset:
@@ -11740,7 +12262,8 @@
   sp_atk: 69
   sp_def: 86
   speed: 91
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Mantyke
   type: Water
   learnset:
@@ -11765,7 +12288,8 @@
   sp_atk: 60
   sp_def: 120
   speed: 50
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Snover
   type: Grass
   learnset:
@@ -11787,7 +12311,8 @@
   sp_atk: 62
   sp_def: 60
   speed: 40
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Abomasnow
   type: Grass
   learnset:
@@ -11812,7 +12337,8 @@
   sp_atk: 105
   sp_def: 132
   speed: 105
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Weavile
   type: Dark
   learnset:
@@ -11842,19 +12368,21 @@
   sp_atk: 45
   sp_def: 85
   speed: 125
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Magnezone
   type: Electric
   learnset:
+  - Zap Cannon
+  - Magnetic Flux
   - Mirror Coat
   - Barrier
   - Tackle
   - Supersonic
-  - ThunderShock
   - SonicBoom
   - Supersonic
   - ThunderShock
-  - SonicBoom
+  - Electric Terrain
   - Thunder Wave
   - Magnet Bomb
   - Spark
@@ -11874,7 +12402,8 @@
   sp_atk: 130
   sp_def: 90
   speed: 60
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Lickilicky
   type: Normal
   learnset:
@@ -11900,7 +12429,8 @@
   sp_atk: 80
   sp_def: 95
   speed: 50
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Rhyperior
   type: Ground
   learnset:
@@ -11928,10 +12458,12 @@
   sp_atk: 55
   sp_def: 55
   speed: 40
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Tangrowth
   type: Grass
   learnset:
+  - Block
   - Ingrain
   - Constrict
   - Sleep Powder
@@ -11949,6 +12481,7 @@
   - Slam
   - Tickle
   - Wring Out
+  - Grassy Terrain
   - Power Whip
   - Block
   hp: 100
@@ -11957,7 +12490,8 @@
   sp_atk: 110
   sp_def: 50
   speed: 50
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Electivire
   type: Electric
   learnset:
@@ -11985,7 +12519,8 @@
   sp_atk: 95
   sp_def: 85
   speed: 95
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Magmortar
   type: Fire
   learnset:
@@ -12013,7 +12548,8 @@
   sp_atk: 125
   sp_def: 95
   speed: 83
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Togekiss
   type: Fairy
   learnset:
@@ -12028,10 +12564,13 @@
   sp_atk: 120
   sp_def: 115
   speed: 80
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Yanmega
   type: Bug
   learnset:
+  - Bug Buzz
+  - Air Slash
   - Night Slash
   - Bug Bite
   - Tackle
@@ -12058,7 +12597,8 @@
   sp_atk: 116
   sp_def: 56
   speed: 95
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Leafeon
   type: Grass
   learnset:
@@ -12082,7 +12622,8 @@
   sp_atk: 60
   sp_def: 65
   speed: 95
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Glaceon
   type: Ice
   learnset:
@@ -12106,7 +12647,8 @@
   sp_atk: 130
   sp_def: 95
   speed: 65
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Gliscor
   type: Ground
   learnset:
@@ -12137,7 +12679,8 @@
   sp_atk: 45
   sp_def: 75
   speed: 95
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Mamoswine
   type: Ice
   learnset:
@@ -12166,7 +12709,8 @@
   sp_atk: 70
   sp_def: 60
   speed: 80
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Porygon-Z
   type: Normal
   learnset:
@@ -12193,7 +12737,8 @@
   sp_atk: 135
   sp_def: 75
   speed: 90
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Gallade
   type: Psychic
   learnset:
@@ -12225,7 +12770,8 @@
   sp_atk: 65
   sp_def: 115
   speed: 80
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Probopass
   type: Rock
   learnset:
@@ -12256,7 +12802,8 @@
   sp_atk: 75
   sp_def: 150
   speed: 40
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Dusknoir
   type: Ghost
   learnset:
@@ -12287,7 +12834,8 @@
   sp_atk: 65
   sp_def: 135
   speed: 45
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Froslass
   type: Ice
   learnset:
@@ -12312,10 +12860,13 @@
   sp_atk: 80
   sp_def: 70
   speed: 110
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Rotom
   type: Electric
   learnset:
+  - Discharge
+  - Charge
   - Trick
   - Astonish
   - Thunder Wave
@@ -12336,10 +12887,13 @@
   sp_atk: 107
   sp_def: 105
   speed: 107
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Rotom
   type: Electric
   learnset:
+  - Discharge
+  - Charge
   - Trick
   - Astonish
   - Thunder Wave
@@ -12360,10 +12914,13 @@
   sp_atk: 107
   sp_def: 105
   speed: 107
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Rotom
   type: Electric
   learnset:
+  - Discharge
+  - Charge
   - Trick
   - Astonish
   - Thunder Wave
@@ -12384,10 +12941,13 @@
   sp_atk: 107
   sp_def: 105
   speed: 107
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Rotom
   type: Electric
   learnset:
+  - Discharge
+  - Charge
   - Trick
   - Astonish
   - Thunder Wave
@@ -12408,10 +12968,13 @@
   sp_atk: 107
   sp_def: 105
   speed: 107
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Rotom
   type: Electric
   learnset:
+  - Discharge
+  - Charge
   - Trick
   - Astonish
   - Thunder Wave
@@ -12432,10 +12995,13 @@
   sp_atk: 107
   sp_def: 105
   speed: 107
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Rotom
   type: Electric
   learnset:
+  - Discharge
+  - Charge
   - Trick
   - Astonish
   - Thunder Wave
@@ -12456,7 +13022,8 @@
   sp_atk: 107
   sp_def: 105
   speed: 107
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Uxie
   type: Psychic
   learnset:
@@ -12478,7 +13045,8 @@
   sp_atk: 75
   sp_def: 130
   speed: 95
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Mesprit
   type: Psychic
   learnset:
@@ -12500,7 +13068,8 @@
   sp_atk: 105
   sp_def: 105
   speed: 80
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Azelf
   type: Psychic
   learnset:
@@ -12522,7 +13091,8 @@
   sp_atk: 125
   sp_def: 70
   speed: 115
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Dialga
   type: Steel
   learnset:
@@ -12545,7 +13115,8 @@
   sp_atk: 150
   sp_def: 100
   speed: 90
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Palkia
   type: Water
   learnset:
@@ -12568,7 +13139,8 @@
   sp_atk: 150
   sp_def: 120
   speed: 100
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Heatran
   type: Fire
   learnset:
@@ -12591,7 +13163,8 @@
   sp_atk: 130
   sp_def: 106
   speed: 77
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Regigigas
   type: Normal
   learnset:
@@ -12615,7 +13188,8 @@
   sp_atk: 80
   sp_def: 110
   speed: 100
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Giratina
   type: Ghost
   learnset:
@@ -12638,7 +13212,8 @@
   sp_atk: 100
   sp_def: 120
   speed: 100
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Giratina
   type: Ghost
   learnset:
@@ -12661,7 +13236,8 @@
   sp_atk: 100
   sp_def: 120
   speed: 100
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Cresselia
   type: Psychic
   learnset:
@@ -12683,7 +13259,8 @@
   sp_atk: 75
   sp_def: 130
   speed: 85
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Phione
   type: Water
   learnset:
@@ -12704,7 +13281,8 @@
   sp_atk: 80
   sp_def: 80
   speed: 80
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Manaphy
   type: Water
   learnset:
@@ -12727,7 +13305,8 @@
   sp_atk: 100
   sp_def: 100
   speed: 100
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Darkrai
   type: Dark
   learnset:
@@ -12749,7 +13328,8 @@
   sp_atk: 135
   sp_def: 90
   speed: 125
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Shaymin
   type: Grass
   learnset:
@@ -12783,7 +13363,8 @@
   sp_atk: 75
   sp_def: 120
   speed: 75
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Shaymin
   type: Grass
   learnset:
@@ -12817,7 +13398,8 @@
   sp_atk: 75
   sp_def: 120
   speed: 75
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Arceus
   type: Normal
   learnset:
@@ -12841,7 +13423,8 @@
   sp_atk: 120
   sp_def: 120
   speed: 120
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Victini
   type: Psychic
   learnset:
@@ -12868,7 +13451,8 @@
   sp_atk: 100
   sp_def: 100
   speed: 100
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Snivy
   type: Grass
   learnset:
@@ -12893,7 +13477,8 @@
   sp_atk: 45
   sp_def: 55
   speed: 63
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Servine
   type: Grass
   learnset:
@@ -12921,7 +13506,8 @@
   sp_atk: 60
   sp_def: 75
   speed: 83
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Serperior
   type: Grass
   learnset:
@@ -12949,7 +13535,8 @@
   sp_atk: 75
   sp_def: 95
   speed: 113
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Tepig
   type: Fire
   learnset:
@@ -12974,7 +13561,8 @@
   sp_atk: 45
   sp_def: 45
   speed: 45
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Pignite
   type: Fire
   learnset:
@@ -13003,7 +13591,8 @@
   sp_atk: 70
   sp_def: 55
   speed: 55
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Emboar
   type: Fire
   learnset:
@@ -13033,7 +13622,8 @@
   sp_atk: 100
   sp_def: 65
   speed: 65
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Oshawott
   type: Water
   learnset:
@@ -13058,7 +13648,8 @@
   sp_atk: 63
   sp_def: 45
   speed: 45
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Dewott
   type: Water
   learnset:
@@ -13086,7 +13677,8 @@
   sp_atk: 83
   sp_def: 60
   speed: 60
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Samurott
   type: Water
   learnset:
@@ -13116,7 +13708,8 @@
   sp_atk: 108
   sp_def: 70
   speed: 70
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Patrat
   type: Normal
   learnset:
@@ -13141,7 +13734,8 @@
   sp_atk: 35
   sp_def: 39
   speed: 42
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Watchog
   type: Normal
   learnset:
@@ -13170,7 +13764,8 @@
   sp_atk: 60
   sp_def: 69
   speed: 77
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Lillipup
   type: Normal
   learnset:
@@ -13195,7 +13790,8 @@
   sp_atk: 25
   sp_def: 45
   speed: 55
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Herdier
   type: Normal
   learnset:
@@ -13219,7 +13815,8 @@
   sp_atk: 35
   sp_def: 65
   speed: 60
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Stoutland
   type: Normal
   learnset:
@@ -13246,7 +13843,8 @@
   sp_atk: 90
   sp_def: 45
   speed: 90
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Purrloin
   type: Dark
   learnset:
@@ -13273,7 +13871,8 @@
   sp_atk: 50
   sp_def: 37
   speed: 66
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Liepard
   type: Dark
   learnset:
@@ -13303,7 +13902,8 @@
   sp_atk: 88
   sp_def: 50
   speed: 106
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Pansage
   type: Grass
   learnset:
@@ -13329,7 +13929,8 @@
   sp_atk: 53
   sp_def: 48
   speed: 64
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Simisage
   type: Grass
   learnset:
@@ -13343,7 +13944,8 @@
   sp_atk: 98
   sp_def: 63
   speed: 101
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Pansear
   type: Fire
   learnset:
@@ -13368,7 +13970,8 @@
   sp_atk: 53
   sp_def: 48
   speed: 64
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Simisear
   type: Fire
   learnset:
@@ -13382,7 +13985,8 @@
   sp_atk: 98
   sp_def: 63
   speed: 101
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Panpour
   type: Water
   learnset:
@@ -13400,7 +14004,8 @@
   sp_atk: 53
   sp_def: 48
   speed: 64
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Simipour
   type: Water
   learnset:
@@ -13414,7 +14019,8 @@
   sp_atk: 98
   sp_def: 63
   speed: 101
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Munna
   type: Psychic
   learnset:
@@ -13441,7 +14047,8 @@
   sp_atk: 67
   sp_def: 55
   speed: 24
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Musharna
   type: Psychic
   learnset:
@@ -13455,7 +14062,8 @@
   sp_atk: 107
   sp_def: 95
   speed: 29
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Pidove
   type: Normal
   learnset:
@@ -13480,7 +14088,8 @@
   sp_atk: 36
   sp_def: 30
   speed: 43
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Tranquill
   type: Normal
   learnset:
@@ -13508,7 +14117,8 @@
   sp_atk: 50
   sp_def: 42
   speed: 65
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Unfezant
   type: Normal
   learnset:
@@ -13536,7 +14146,8 @@
   sp_atk: 80
   sp_def: 65
   speed: 55
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Unfezant
   type: Normal
   learnset:
@@ -13564,7 +14175,8 @@
   sp_atk: 80
   sp_def: 65
   speed: 55
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Blitzle
   type: Electric
   learnset:
@@ -13587,7 +14199,8 @@
   sp_atk: 50
   sp_def: 32
   speed: 76
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Zebstrika
   type: Electric
   learnset:
@@ -13613,7 +14226,8 @@
   sp_atk: 80
   sp_def: 63
   speed: 116
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Roggenrola
   type: Rock
   learnset:
@@ -13636,7 +14250,8 @@
   sp_atk: 25
   sp_def: 25
   speed: 15
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Boldore
   type: Rock
   learnset:
@@ -13663,7 +14278,8 @@
   sp_atk: 50
   sp_def: 40
   speed: 20
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Gigalith
   type: Rock
   learnset:
@@ -13690,7 +14306,8 @@
   sp_atk: 130
   sp_def: 60
   speed: 80
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Woobat
   type: Psychic
   learnset:
@@ -13714,7 +14331,8 @@
   sp_atk: 55
   sp_def: 43
   speed: 72
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Swoobat
   type: Psychic
   learnset:
@@ -13741,7 +14359,8 @@
   sp_atk: 77
   sp_def: 55
   speed: 114
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Drilbur
   type: Ground
   learnset:
@@ -13766,7 +14385,8 @@
   sp_atk: 30
   sp_def: 45
   speed: 68
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Excadrill
   type: Ground
   learnset:
@@ -13794,7 +14414,8 @@
   sp_atk: 50
   sp_def: 65
   speed: 88
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Audino
   type: Normal
   learnset:
@@ -13820,7 +14441,8 @@
   sp_atk: 60
   sp_def: 86
   speed: 50
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Timburr
   type: Fighting
   learnset:
@@ -13846,7 +14468,8 @@
   sp_atk: 25
   sp_def: 35
   speed: 35
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Gurdurr
   type: Fighting
   learnset:
@@ -13874,7 +14497,8 @@
   sp_atk: 40
   sp_def: 50
   speed: 40
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Conkeldurr
   type: Fighting
   learnset:
@@ -13902,7 +14526,8 @@
   sp_atk: 55
   sp_def: 65
   speed: 45
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Tympole
   type: Water
   learnset:
@@ -13926,7 +14551,8 @@
   sp_atk: 50
   sp_def: 40
   speed: 64
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Palpitoad
   type: Water
   learnset:
@@ -13952,7 +14578,8 @@
   sp_atk: 65
   sp_def: 55
   speed: 69
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Seismitoad
   type: Water
   learnset:
@@ -13980,7 +14607,8 @@
   sp_atk: 75
   sp_def: 85
   speed: 75
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Throh
   type: Fighting
   learnset:
@@ -14005,7 +14633,8 @@
   sp_atk: 30
   sp_def: 85
   speed: 45
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Sawk
   type: Fighting
   learnset:
@@ -14030,7 +14659,8 @@
   sp_atk: 30
   sp_def: 75
   speed: 85
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Sewaddle
   type: Bug
   learnset:
@@ -14045,7 +14675,8 @@
   sp_atk: 40
   sp_def: 60
   speed: 42
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Swadloon
   type: Bug
   learnset:
@@ -14061,7 +14692,8 @@
   sp_atk: 50
   sp_def: 80
   speed: 42
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Leavanny
   type: Bug
   learnset:
@@ -14086,7 +14718,8 @@
   sp_atk: 80
   sp_def: 70
   speed: 80
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Venipede
   type: Bug
   learnset:
@@ -14110,7 +14743,8 @@
   sp_atk: 30
   sp_def: 39
   speed: 57
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Whirlipede
   type: Bug
   learnset:
@@ -14137,7 +14771,8 @@
   sp_atk: 40
   sp_def: 79
   speed: 47
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Scolipede
   type: Bug
   learnset:
@@ -14165,7 +14800,8 @@
   sp_atk: 89
   sp_def: 55
   speed: 69
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Cottonee
   type: Grass
   learnset:
@@ -14191,7 +14827,8 @@
   sp_atk: 37
   sp_def: 50
   speed: 66
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Whimsicott
   type: Grass
   learnset:
@@ -14208,7 +14845,8 @@
   sp_atk: 77
   sp_def: 75
   speed: 116
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Petilil
   type: Grass
   learnset:
@@ -14234,7 +14872,8 @@
   sp_atk: 70
   sp_def: 50
   speed: 30
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Lilligant
   type: Grass
   learnset:
@@ -14251,7 +14890,8 @@
   sp_atk: 110
   sp_def: 75
   speed: 90
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Basculin
   type: Water
   learnset:
@@ -14277,7 +14917,8 @@
   sp_atk: 80
   sp_def: 55
   speed: 98
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Basculin
   type: Water
   learnset:
@@ -14303,7 +14944,8 @@
   sp_atk: 80
   sp_def: 55
   speed: 98
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Sandile
   type: Ground
   learnset:
@@ -14330,7 +14972,8 @@
   sp_atk: 35
   sp_def: 35
   speed: 65
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Krokorok
   type: Ground
   learnset:
@@ -14359,7 +15002,8 @@
   sp_atk: 45
   sp_def: 45
   speed: 74
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Krookodile
   type: Ground
   learnset:
@@ -14388,7 +15032,8 @@
   sp_atk: 80
   sp_def: 65
   speed: 70
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Darumaka
   type: Fire
   learnset:
@@ -14414,7 +15059,8 @@
   sp_atk: 15
   sp_def: 45
   speed: 50
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Darmanitan
   type: Fire
   learnset:
@@ -14444,7 +15090,8 @@
   sp_atk: 105
   sp_def: 140
   speed: 105
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Darmanitan
   type: Fire
   learnset:
@@ -14474,10 +15121,13 @@
   sp_atk: 105
   sp_def: 140
   speed: 105
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Maractus
   type: Grass
   learnset:
+  - Cotton Guard
+  - After You
   - Peck
   - Absorb
   - Sweet Scent
@@ -14493,6 +15143,7 @@
   - Petal Dance
   - Sucker Punch
   - Sunny Day
+  - Petal Blizzard
   - SolarBeam
   - Cotton Guard
   - After You
@@ -14502,7 +15153,8 @@
   sp_atk: 106
   sp_def: 67
   speed: 60
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Dwebble
   type: Bug
   learnset:
@@ -14527,7 +15179,8 @@
   sp_atk: 35
   sp_def: 35
   speed: 55
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Crustle
   type: Bug
   learnset:
@@ -14555,7 +15208,8 @@
   sp_atk: 65
   sp_def: 75
   speed: 45
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Scraggy
   type: Dark
   learnset:
@@ -14581,7 +15235,8 @@
   sp_atk: 35
   sp_def: 70
   speed: 48
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Scrafty
   type: Dark
   learnset:
@@ -14609,7 +15264,8 @@
   sp_atk: 45
   sp_def: 115
   speed: 58
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Sigilyph
   type: Psychic
   learnset:
@@ -14636,7 +15292,8 @@
   sp_atk: 103
   sp_def: 80
   speed: 97
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Yamask
   type: Ghost
   learnset:
@@ -14661,7 +15318,8 @@
   sp_atk: 55
   sp_def: 65
   speed: 30
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Cofagrigus
   type: Ghost
   learnset:
@@ -14689,7 +15347,8 @@
   sp_atk: 95
   sp_def: 105
   speed: 30
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Tirtouga
   type: Water
   learnset:
@@ -14717,7 +15376,8 @@
   sp_atk: 53
   sp_def: 45
   speed: 22
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Carracosta
   type: Water
   learnset:
@@ -14746,7 +15406,8 @@
   sp_atk: 83
   sp_def: 65
   speed: 32
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Archen
   type: Rock
   learnset:
@@ -14774,7 +15435,8 @@
   sp_atk: 74
   sp_def: 45
   speed: 70
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Archeops
   type: Rock
   learnset:
@@ -14803,7 +15465,8 @@
   sp_atk: 112
   sp_def: 65
   speed: 110
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Trubbish
   type: Poison
   learnset:
@@ -14829,7 +15492,8 @@
   sp_atk: 40
   sp_def: 62
   speed: 65
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Garbodor
   type: Poison
   learnset:
@@ -14857,7 +15521,8 @@
   sp_atk: 60
   sp_def: 82
   speed: 75
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Zorua
   type: Dark
   learnset:
@@ -14883,7 +15548,8 @@
   sp_atk: 80
   sp_def: 40
   speed: 65
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Zoroark
   type: Dark
   learnset:
@@ -14913,7 +15579,8 @@
   sp_atk: 120
   sp_def: 60
   speed: 105
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Minccino
   type: Normal
   learnset:
@@ -14940,7 +15607,8 @@
   sp_atk: 40
   sp_def: 40
   speed: 75
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Cinccino
   type: Normal
   learnset:
@@ -14956,7 +15624,8 @@
   sp_atk: 65
   sp_def: 60
   speed: 115
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Gothita
   type: Psychic
   learnset:
@@ -14982,7 +15651,8 @@
   sp_atk: 55
   sp_def: 65
   speed: 45
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Gothorita
   type: Psychic
   learnset:
@@ -15011,7 +15681,8 @@
   sp_atk: 75
   sp_def: 85
   speed: 55
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Gothitelle
   type: Psychic
   learnset:
@@ -15040,7 +15711,8 @@
   sp_atk: 95
   sp_def: 110
   speed: 65
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Solosis
   type: Psychic
   learnset:
@@ -15066,7 +15738,8 @@
   sp_atk: 105
   sp_def: 50
   speed: 20
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Duosion
   type: Psychic
   learnset:
@@ -15095,7 +15768,8 @@
   sp_atk: 125
   sp_def: 60
   speed: 30
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Reuniclus
   type: Psychic
   learnset:
@@ -15125,7 +15799,8 @@
   sp_atk: 125
   sp_def: 85
   speed: 30
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Ducklett
   type: Water
   learnset:
@@ -15150,7 +15825,8 @@
   sp_atk: 44
   sp_def: 50
   speed: 55
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Swanna
   type: Water
   learnset:
@@ -15178,7 +15854,8 @@
   sp_atk: 87
   sp_def: 63
   speed: 98
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Vanillite
   type: Ice
   learnset:
@@ -15203,7 +15880,8 @@
   sp_atk: 65
   sp_def: 60
   speed: 44
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Vanillish
   type: Ice
   learnset:
@@ -15231,7 +15909,8 @@
   sp_atk: 80
   sp_def: 75
   speed: 59
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Vanilluxe
   type: Ice
   learnset:
@@ -15260,7 +15939,8 @@
   sp_atk: 110
   sp_def: 95
   speed: 79
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Deerling
   type: Normal
   learnset:
@@ -15285,7 +15965,8 @@
   sp_atk: 40
   sp_def: 50
   speed: 75
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Sawsbuck
   type: Normal
   learnset:
@@ -15314,7 +15995,8 @@
   sp_atk: 60
   sp_def: 70
   speed: 95
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Emolga
   type: Electric
   learnset:
@@ -15339,7 +16021,8 @@
   sp_atk: 75
   sp_def: 60
   speed: 103
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Karrablast
   type: Bug
   learnset:
@@ -15364,7 +16047,8 @@
   sp_atk: 40
   sp_def: 45
   speed: 60
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Escavalier
   type: Bug
   learnset:
@@ -15392,7 +16076,8 @@
   sp_atk: 60
   sp_def: 105
   speed: 20
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Foongus
   type: Grass
   learnset:
@@ -15417,7 +16102,8 @@
   sp_atk: 55
   sp_def: 55
   speed: 15
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Amoonguss
   type: Grass
   learnset:
@@ -15445,7 +16131,8 @@
   sp_atk: 85
   sp_def: 80
   speed: 30
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Frillish
   type: Water
   learnset:
@@ -15469,7 +16156,8 @@
   sp_atk: 65
   sp_def: 85
   speed: 40
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Frillish
   type: Water
   learnset:
@@ -15493,7 +16181,8 @@
   sp_atk: 65
   sp_def: 85
   speed: 40
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Jellicent
   type: Water
   learnset:
@@ -15519,7 +16208,8 @@
   sp_atk: 85
   sp_def: 105
   speed: 60
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Jellicent
   type: Water
   learnset:
@@ -15545,7 +16235,8 @@
   sp_atk: 85
   sp_def: 105
   speed: 60
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Alomomola
   type: Water
   learnset:
@@ -15572,7 +16263,8 @@
   sp_atk: 40
   sp_def: 45
   speed: 65
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Joltik
   type: Bug
   learnset:
@@ -15598,7 +16290,8 @@
   sp_atk: 57
   sp_def: 50
   speed: 65
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Galvantula
   type: Bug
   learnset:
@@ -15625,7 +16318,8 @@
   sp_atk: 97
   sp_def: 60
   speed: 108
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Ferroseed
   type: Grass
   learnset:
@@ -15650,7 +16344,8 @@
   sp_atk: 24
   sp_def: 86
   speed: 10
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Ferrothorn
   type: Grass
   learnset:
@@ -15679,7 +16374,8 @@
   sp_atk: 54
   sp_def: 116
   speed: 20
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Klink
   type: Steel
   learnset:
@@ -15704,7 +16400,8 @@
   sp_atk: 45
   sp_def: 60
   speed: 30
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Klang
   type: Steel
   learnset:
@@ -15732,7 +16429,8 @@
   sp_atk: 70
   sp_def: 85
   speed: 50
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Klinklang
   type: Steel
   learnset:
@@ -15760,7 +16458,8 @@
   sp_atk: 70
   sp_def: 85
   speed: 90
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Tynamo
   type: Electric
   learnset:
@@ -15774,7 +16473,8 @@
   sp_atk: 45
   sp_def: 40
   speed: 60
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Eelektrik
   type: Electric
   learnset:
@@ -15799,7 +16499,8 @@
   sp_atk: 75
   sp_def: 70
   speed: 40
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Eelektross
   type: Electric
   learnset:
@@ -15814,7 +16515,8 @@
   sp_atk: 105
   sp_def: 80
   speed: 50
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Elgyem
   type: Psychic
   learnset:
@@ -15842,7 +16544,8 @@
   sp_atk: 85
   sp_def: 55
   speed: 30
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Beheeyem
   type: Psychic
   learnset:
@@ -15873,7 +16576,8 @@
   sp_atk: 125
   sp_def: 95
   speed: 40
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Litwick
   type: Ghost
   learnset:
@@ -15900,7 +16604,8 @@
   sp_atk: 65
   sp_def: 55
   speed: 20
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Lampent
   type: Ghost
   learnset:
@@ -15929,10 +16634,12 @@
   sp_atk: 95
   sp_def: 60
   speed: 55
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Chandelure
   type: Ghost
   learnset:
+  - Pain Split
   - Smog
   - Confuse Ray
   - Flame Burst
@@ -15943,7 +16650,8 @@
   sp_atk: 145
   sp_def: 90
   speed: 80
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Axew
   type: Dragon
   learnset:
@@ -15969,7 +16677,8 @@
   sp_atk: 30
   sp_def: 40
   speed: 57
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Fraxure
   type: Dragon
   learnset:
@@ -15998,7 +16707,8 @@
   sp_atk: 40
   sp_def: 50
   speed: 67
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Haxorus
   type: Dragon
   learnset:
@@ -16027,7 +16737,8 @@
   sp_atk: 60
   sp_def: 70
   speed: 97
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Cubchoo
   type: Ice
   learnset:
@@ -16052,7 +16763,8 @@
   sp_atk: 60
   sp_def: 40
   speed: 40
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Beartic
   type: Ice
   learnset:
@@ -16083,7 +16795,8 @@
   sp_atk: 70
   sp_def: 80
   speed: 50
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Cryogonal
   type: Ice
   learnset:
@@ -16111,7 +16824,8 @@
   sp_atk: 95
   sp_def: 135
   speed: 105
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Shelmet
   type: Bug
   learnset:
@@ -16136,7 +16850,8 @@
   sp_atk: 40
   sp_def: 65
   speed: 25
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Accelgor
   type: Bug
   learnset:
@@ -16164,7 +16879,8 @@
   sp_atk: 100
   sp_def: 60
   speed: 145
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Stunfisk
   type: Ground
   learnset:
@@ -16189,7 +16905,8 @@
   sp_atk: 81
   sp_def: 99
   speed: 32
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Mienfoo
   type: Fighting
   learnset:
@@ -16215,7 +16932,8 @@
   sp_atk: 55
   sp_def: 50
   speed: 65
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Mienshao
   type: Fighting
   learnset:
@@ -16244,7 +16962,8 @@
   sp_atk: 95
   sp_def: 60
   speed: 105
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Druddigon
   type: Dragon
   learnset:
@@ -16270,7 +16989,8 @@
   sp_atk: 60
   sp_def: 90
   speed: 48
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Golett
   type: Ground
   learnset:
@@ -16295,7 +17015,8 @@
   sp_atk: 35
   sp_def: 50
   speed: 35
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Golurk
   type: Ground
   learnset:
@@ -16324,7 +17045,8 @@
   sp_atk: 55
   sp_def: 80
   speed: 55
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Pawniard
   type: Dark
   learnset:
@@ -16350,7 +17072,8 @@
   sp_atk: 40
   sp_def: 40
   speed: 60
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Bisharp
   type: Dark
   learnset:
@@ -16380,7 +17103,8 @@
   sp_atk: 60
   sp_def: 70
   speed: 70
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Bouffalant
   type: Normal
   learnset:
@@ -16404,7 +17128,8 @@
   sp_atk: 40
   sp_def: 95
   speed: 55
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Rufflet
   type: Normal
   learnset:
@@ -16430,7 +17155,8 @@
   sp_atk: 37
   sp_def: 50
   speed: 60
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Braviary
   type: Normal
   learnset:
@@ -16459,7 +17185,8 @@
   sp_atk: 57
   sp_def: 75
   speed: 80
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Vullaby
   type: Dark
   learnset:
@@ -16485,7 +17212,8 @@
   sp_atk: 45
   sp_def: 65
   speed: 60
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Mandibuzz
   type: Dark
   learnset:
@@ -16514,10 +17242,14 @@
   sp_atk: 55
   sp_def: 95
   speed: 80
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Heatmor
   type: Fire
   learnset:
+  - Inferno
+  - Hone Claws
+  - Tackle
   - Incinerate
   - Lick
   - Odor Sleuth
@@ -16540,10 +17272,14 @@
   sp_atk: 105
   sp_def: 66
   speed: 65
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Durant
   type: Bug
   learnset:
+  - Guillotine
+  - Iron Defense
+  - Metal Sound
   - Vice Grip
   - Sand-Attack
   - Fury Cutter
@@ -16565,7 +17301,8 @@
   sp_atk: 48
   sp_def: 48
   speed: 109
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Deino
   type: Dark
   learnset:
@@ -16591,7 +17328,8 @@
   sp_atk: 45
   sp_def: 50
   speed: 38
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Zweilous
   type: Dark
   learnset:
@@ -16619,7 +17357,8 @@
   sp_atk: 65
   sp_def: 70
   speed: 58
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Hydreigon
   type: Dark
   learnset:
@@ -16647,7 +17386,8 @@
   sp_atk: 125
   sp_def: 90
   speed: 98
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Larvesta
   type: Bug
   learnset:
@@ -16669,7 +17409,8 @@
   sp_atk: 50
   sp_def: 55
   speed: 60
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Volcarona
   type: Bug
   learnset:
@@ -16694,7 +17435,8 @@
   sp_atk: 135
   sp_def: 105
   speed: 100
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Cobalion
   type: Steel
   learnset:
@@ -16718,7 +17460,8 @@
   sp_atk: 90
   sp_def: 72
   speed: 108
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Terrakion
   type: Rock
   learnset:
@@ -16742,7 +17485,8 @@
   sp_atk: 72
   sp_def: 90
   speed: 108
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Virizion
   type: Grass
   learnset:
@@ -16766,7 +17510,8 @@
   sp_atk: 90
   sp_def: 129
   speed: 108
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Tornadus
   type: Flying
   learnset:
@@ -16793,7 +17538,8 @@
   sp_atk: 80
   sp_def: 110
   speed: 90
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Thundurus
   type: Electric
   learnset:
@@ -16820,7 +17566,8 @@
   sp_atk: 70
   sp_def: 145
   speed: 80
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Reshiram
   type: Dragon
   learnset:
@@ -16846,7 +17593,8 @@
   sp_atk: 150
   sp_def: 120
   speed: 90
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Zekrom
   type: Dragon
   learnset:
@@ -16872,7 +17620,8 @@
   sp_atk: 120
   sp_def: 100
   speed: 90
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Landorus
   type: Ground
   learnset:
@@ -16899,7 +17648,8 @@
   sp_atk: 90
   sp_def: 105
   speed: 80
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Kyurem
   type: Dragon
   learnset:
@@ -16954,7 +17704,8 @@
   sp_atk: 120
   sp_def: 90
   speed: 170
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Keldeo
   type: Water
   learnset:
@@ -16978,7 +17729,8 @@
   sp_atk: 129
   sp_def: 90
   speed: 108
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Meloetta
   type: Normal
   learnset:
@@ -17003,7 +17755,8 @@
   sp_atk: 0
   sp_def: 0
   speed: 0
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Meloetta
   type: Normal
   learnset:
@@ -17028,7 +17781,8 @@
   sp_atk: 0
   sp_def: 0
   speed: 0
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Genesect
   type: Bug
   learnset:
@@ -17057,7 +17811,8 @@
   sp_atk: 120
   sp_def: 95
   speed: 99
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Chespin
   type: Grass
   learnset:
@@ -17082,7 +17837,8 @@
   sp_atk: 48
   sp_def: 45
   speed: 38
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Quilladin
   type: Grass
   learnset:
@@ -17107,7 +17863,8 @@
   sp_atk: 56
   sp_def: 58
   speed: 57
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Chesnaught
   type: Grass
   learnset:
@@ -17139,7 +17896,8 @@
   sp_atk: 74
   sp_def: 75
   speed: 64
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Fennekin
   type: Fire
   learnset:
@@ -17165,7 +17923,8 @@
   sp_atk: 62
   sp_def: 60
   speed: 60
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Braixen
   type: Fire
   learnset:
@@ -17191,7 +17950,8 @@
   sp_atk: 90
   sp_def: 70
   speed: 73
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Delphox
   type: Fire
   learnset:
@@ -17224,7 +17984,8 @@
   sp_atk: 114
   sp_def: 100
   speed: 104
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Froakie
   type: Water
   learnset:
@@ -17248,7 +18009,8 @@
   sp_atk: 62
   sp_def: 44
   speed: 71
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Frogadier
   type: Water
   learnset:
@@ -17272,7 +18034,8 @@
   sp_atk: 83
   sp_def: 56
   speed: 97
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Greninja
   type: Water
   learnset:
@@ -17303,7 +18066,8 @@
   sp_atk: 103
   sp_def: 71
   speed: 122
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Bunnelby
   type: Normal
   learnset:
@@ -17329,7 +18093,8 @@
   sp_atk: 32
   sp_def: 36
   speed: 57
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Diggersby
   type: Normal
   learnset:
@@ -17360,7 +18125,8 @@
   sp_atk: 50
   sp_def: 77
   speed: 78
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Fletchling
   type: Normal
   learnset:
@@ -17384,7 +18150,8 @@
   sp_atk: 40
   sp_def: 38
   speed: 62
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Fletchinder
   type: Fire
   learnset:
@@ -17409,7 +18176,8 @@
   sp_atk: 56
   sp_def: 52
   speed: 84
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Talonflame
   type: Fire
   learnset:
@@ -17437,7 +18205,8 @@
   sp_atk: 74
   sp_def: 69
   speed: 126
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Scatterbug
   type: Bug
   learnset:
@@ -17451,7 +18220,8 @@
   sp_atk: 27
   sp_def: 25
   speed: 35
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Spewpa
   type: Bug
   learnset:
@@ -17463,7 +18233,8 @@
   sp_atk: 27
   sp_def: 30
   speed: 29
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Vivillon
   type: Bug
   learnset:
@@ -17489,7 +18260,8 @@
   sp_atk: 90
   sp_def: 50
   speed: 89
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Litleo
   type: Fire
   learnset:
@@ -17514,7 +18286,8 @@
   sp_atk: 73
   sp_def: 54
   speed: 72
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Pyroar
   type: Fire
   learnset:
@@ -17540,7 +18313,8 @@
   sp_atk: 109
   sp_def: 66
   speed: 106
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Flabébé
   type: Fairy
   learnset:
@@ -17564,7 +18338,8 @@
   sp_atk: 61
   sp_def: 79
   speed: 42
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Floette
   type: Fairy
   learnset:
@@ -17588,7 +18363,8 @@
   sp_atk: 75
   sp_def: 98
   speed: 52
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Florges
   type: Fairy
   learnset:
@@ -17610,7 +18386,8 @@
   sp_atk: 112
   sp_def: 154
   speed: 75
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Skiddo
   type: Grass
   learnset:
@@ -17636,7 +18413,8 @@
   sp_atk: 62
   sp_def: 57
   speed: 52
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Gogoat
   type: Grass
   learnset:
@@ -17665,7 +18443,8 @@
   sp_atk: 97
   sp_def: 81
   speed: 68
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Pancham
   type: Fighting
   learnset:
@@ -17689,7 +18468,8 @@
   sp_atk: 46
   sp_def: 48
   speed: 43
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Pangoro
   type: Fighting
   learnset:
@@ -17716,7 +18496,8 @@
   sp_atk: 69
   sp_def: 71
   speed: 58
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Furfrou
   type: Normal
   learnset:
@@ -17739,7 +18520,8 @@
   sp_atk: 65
   sp_def: 90
   speed: 102
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Espurr
   type: Psychic
   learnset:
@@ -17758,7 +18540,8 @@
   sp_atk: 63
   sp_def: 60
   speed: 68
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Meowstic
   type: Psychic
   learnset:
@@ -17808,7 +18591,8 @@
   sp_atk: 83
   sp_def: 81
   speed: 104
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Honedge
   type: Steel
   learnset:
@@ -17833,7 +18617,8 @@
   sp_atk: 35
   sp_def: 37
   speed: 28
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Doublade
   type: Steel
   learnset:
@@ -17858,7 +18643,8 @@
   sp_atk: 45
   sp_def: 49
   speed: 35
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Aegislash
   type: Steel
   learnset:
@@ -17882,7 +18668,8 @@
   sp_atk: 50
   sp_def: 150
   speed: 50
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Spritzee
   type: Fairy
   learnset:
@@ -17908,7 +18695,8 @@
   sp_atk: 63
   sp_def: 65
   speed: 23
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Aromatisse
   type: Fairy
   learnset:
@@ -17938,7 +18726,8 @@
   sp_atk: 99
   sp_def: 89
   speed: 29
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Swirlix
   type: Fairy
   learnset:
@@ -17964,7 +18753,8 @@
   sp_atk: 59
   sp_def: 57
   speed: 49
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Slurpuff
   type: Fairy
   learnset:
@@ -17990,7 +18780,8 @@
   sp_atk: 85
   sp_def: 75
   speed: 72
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Inkay
   type: Dark
   learnset:
@@ -18018,7 +18809,8 @@
   sp_atk: 37
   sp_def: 46
   speed: 45
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Malamar
   type: Dark
   learnset:
@@ -18048,7 +18840,8 @@
   sp_atk: 68
   sp_def: 75
   speed: 73
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Binacle
   type: Rock
   learnset:
@@ -18074,7 +18867,8 @@
   sp_atk: 39
   sp_def: 56
   speed: 50
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Barbaracle
   type: Rock
   learnset:
@@ -18104,7 +18898,8 @@
   sp_atk: 54
   sp_def: 86
   speed: 68
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Skrelp
   type: Poison
   learnset:
@@ -18130,7 +18925,8 @@
   sp_atk: 60
   sp_def: 60
   speed: 30
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Dragalge
   type: Poison
   learnset:
@@ -18160,7 +18956,8 @@
   sp_atk: 97
   sp_def: 123
   speed: 44
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Clauncher
   type: Water
   learnset:
@@ -18183,7 +18980,8 @@
   sp_atk: 58
   sp_def: 63
   speed: 44
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Clawitzer
   type: Water
   learnset:
@@ -18213,7 +19011,8 @@
   sp_atk: 120
   sp_def: 89
   speed: 59
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Helioptile
   type: Electric
   learnset:
@@ -18236,7 +19035,8 @@
   sp_atk: 61
   sp_def: 43
   speed: 70
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Heliolisk
   type: Electric
   learnset:
@@ -18253,7 +19053,8 @@
   sp_atk: 109
   sp_def: 94
   speed: 109
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Tyrunt
   type: Rock
   learnset:
@@ -18278,7 +19079,8 @@
   sp_atk: 45
   sp_def: 45
   speed: 48
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Tyrantrum
   type: Rock
   learnset:
@@ -18307,7 +19109,8 @@
   sp_atk: 69
   sp_def: 59
   speed: 71
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Amaura
   type: Rock
   learnset:
@@ -18335,7 +19138,8 @@
   sp_atk: 67
   sp_def: 63
   speed: 46
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Aurorus
   type: Rock
   learnset:
@@ -18365,7 +19169,8 @@
   sp_atk: 99
   sp_def: 92
   speed: 58
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Sylveon
   type: Fairy
   learnset:
@@ -18390,7 +19195,8 @@
   sp_atk: 110
   sp_def: 130
   speed: 60
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Hawlucha
   type: Fighting
   learnset:
@@ -18417,7 +19223,8 @@
   sp_atk: 74
   sp_def: 63
   speed: 118
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Dedenne
   type: Electric
   learnset:
@@ -18443,7 +19250,8 @@
   sp_atk: 81
   sp_def: 67
   speed: 101
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Carbink
   type: Rock
   learnset:
@@ -18469,7 +19277,8 @@
   sp_atk: 50
   sp_def: 150
   speed: 50
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Goomy
   type: Dragon
   learnset:
@@ -18490,7 +19299,8 @@
   sp_atk: 55
   sp_def: 75
   speed: 40
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Sliggoo
   type: Dragon
   learnset:
@@ -18511,7 +19321,8 @@
   sp_atk: 83
   sp_def: 113
   speed: 60
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Goodra
   type: Dragon
   learnset:
@@ -18537,7 +19348,8 @@
   sp_atk: 110
   sp_def: 150
   speed: 80
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Klefki
   type: Steel
   learnset:
@@ -18563,7 +19375,8 @@
   sp_atk: 80
   sp_def: 87
   speed: 75
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Phantump
   type: Ghost
   learnset:
@@ -18587,7 +19400,8 @@
   sp_atk: 50
   sp_def: 60
   speed: 38
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Trevenant
   type: Ghost
   learnset:
@@ -18613,7 +19427,8 @@
   sp_atk: 65
   sp_def: 82
   speed: 56
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Pumpkaboo
   type: Ghost
   learnset:
@@ -18638,7 +19453,8 @@
   sp_atk: 59
   sp_def: 66
   speed: 70
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Gourgeist
   type: Ghost
   learnset:
@@ -18669,7 +19485,8 @@
   sp_atk: 85
   sp_def: 100
   speed: 122
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Bergmite
   type: Ice
   learnset:
@@ -18694,7 +19511,8 @@
   sp_atk: 32
   sp_def: 35
   speed: 28
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Avalugg
   type: Ice
   learnset:
@@ -18724,7 +19542,8 @@
   sp_atk: 44
   sp_def: 46
   speed: 28
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Noibat
   type: Flying
   learnset:
@@ -18750,7 +19569,8 @@
   sp_atk: 45
   sp_def: 40
   speed: 55
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Noivern
   type: Flying
   learnset:
@@ -18782,7 +19602,8 @@
   sp_atk: 97
   sp_def: 80
   speed: 123
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Xerneas
   type: Fairy
   learnset:
@@ -18810,7 +19631,8 @@
   sp_atk: 131
   sp_def: 98
   speed: 99
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Yveltal
   type: Dark
   learnset:
@@ -18838,7 +19660,8 @@
   sp_atk: 131
   sp_def: 98
   speed: 99
-- !ruby/object:Pokemon
+- |
+  --- !ruby/object:Pokemon
   name: Zygarde
   type: Dragon
   learnset:

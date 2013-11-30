@@ -10,7 +10,7 @@ class Scraper
     @urls = []
   end
 
-  def get_pokemon_urls
+  def get_urls
     pokemons = html.xpath('//a[contains(@title, "(Pokémon)")]').map { |link| link['href'] }
     urls = pokemons.map {|url| url = "http://bulbapedia.bulbagarden.net" + url}
   end
@@ -20,7 +20,15 @@ class Scraper
   end
 
   def get_learnset
-    html.search('//h3[contains(span, "Learnset")]/following::table//a[contains(@title, "(move)")]/span[following::span[contains(@id, "By_TM.2FHM")]]').map {|move| move.text}
+    moves = html.search('//h3[contains(span, "Learnset")]/following::table//a[contains(@title, "(move)")]/span[following::span[contains(@id, "By_TM.2FHM")]]').map {|move| move.text}
+    levels = html.search('//h3[contains(span, "Learnset")]/following::table//tr/td[position()=1]/span[following::span[contains(@id, "By_TM.2FHM")]]').map {|level| level.text}
+    learnset = {}
+    size = moves.size
+
+    size.times do |i|
+      learnset[moves[i]] = levels[i].to_i
+    end
+    learnset
   end
 
   def get_base_stats

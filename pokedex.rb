@@ -1,14 +1,19 @@
 require 'awesome_print'
 require './lib/scraper'
 require './lib/pokemon'
+require './factory'
 require 'yaml'
 require 'ruby-debug'
 
 class Pokedex
   attr_reader :pokedex
 
+  include PokemonFactory
+  
   def initialize
-    File.open("./pokedex2.yaml", "r") do |file|
+    get_pokemon
+
+    File.open("./pokedex.yaml", "r") do |file|
       @pokedex = YAML::load(file)
     end
   end
