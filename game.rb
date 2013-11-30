@@ -1,7 +1,6 @@
 require './lib/trainer'
-require 'yaml'
 require './lib/pokemon'
-require 'ruby-debug'
+require 'yaml'
 
 class Game
   attr_reader :pokedex, :trainer
@@ -49,7 +48,7 @@ class Game
   end
 
   def starter_pokemon_message
-    puts "I will give you one Pokemon to start out your journey with."
+    puts "\nI will give you one Pokemon to start out your journey with.\n"
     sleep(1)
     puts "Do you want the grass Pokemon, Bulbasaur?"
     sleep(1)
@@ -105,10 +104,7 @@ class Game
     end
 
     puts "\nHere are all your Pokemon!"
-    trainer.my_pokemon.each do |pokemon|
-      puts "#{pokemon.name} (#{pokemon.type})"
-      sleep(1)
-    end
+    trainer.my_pokemon.each {|pokemon| puts "#{pokemon.name} (#{pokemon.type})"}
   end
 end
 
