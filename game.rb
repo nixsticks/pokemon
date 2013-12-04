@@ -81,6 +81,8 @@ class Game
     5.times do
       pokemon = pokedex.sample
       puts "#{pokemon.name} (#{pokemon.type})"
+      puts "Moves:"
+      pokemon.moves.each {|move| puts move}
       trainer.my_pokemon << pokemon
       sleep(1)
     end
