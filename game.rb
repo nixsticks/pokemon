@@ -10,16 +10,36 @@ class Game
     File.open("./pokedex.yaml", "r") do |file|
       @pokedex = YAML::load(file)
     end
-    @trainer = Trainer.new
   end
 
   def run
-    run_intro
+    puts new_or_load_message
+    run_intro unless new_or_load
     starter_pokemon_message
     get_starter_pokemon
     bonus_pokemon
     puts mulligan_message
     mulligan
+    puts save_user_message
+    save_user?
+  end
+
+  def new_or_load_message
+    "Load saved user?"
+  end
+
+  def new_or_load
+    case get_input
+    when /^y(es)?$/ 
+      @trainer = YAML::load("../lib/trainer.yaml")
+      return true
+    when /^no?$/
+      @trainer = Trainer.new
+      return false
+    else
+      puts "Please answer yes or no."
+      new_or_load
+    end
   end
 
   def run_intro
@@ -30,17 +50,13 @@ class Game
       end
     end
 
-    trainer.name = get_name
+    trainer.name = get_input.capitalize
 
     puts "\n#{trainer.name}! Your very own POKéMON legend is about to unfold!"
     sleep(1)
     puts "A world of dreams and adventures with POKéMON awaits!"
     sleep(1)
     puts "Let’s go!"
-  end
-
-  def get_name
-    get_input.capitalize
   end
 
   def get_input
@@ -61,7 +77,7 @@ class Game
     desired = get_input
 
     if /bulbasaur|squirtle|charmander/.match(desired)
-      trainer.my_pokemon << pokemon_lookup(desired)
+      trainer.my_pokemon[0] = pokemon_lookup(desired)
     else
       puts "Sorry, you can't have that Pokemon."
       get_starter_pokemon
@@ -78,12 +94,13 @@ class Game
     puts "\nI'll now give you some bonus Pokemon!"
     sleep(2)
     puts "\nHere are your Pokemon!"
-    5.times do
+    5.times do |i|
       pokemon = pokedex.sample
+      puts
       puts "#{pokemon.name} (#{pokemon.type})"
       puts "Moves:"
       pokemon.moves.each {|move| puts move}
-      trainer.my_pokemon << pokemon
+      trainer.my_pokemon[i+1] = pokemon
       sleep(1)
     end
   end
@@ -106,8 +123,25 @@ class Game
     end
 
     puts "\nHere are all your Pokemon!"
-    trainer.my_pokemon.each {|pokemon| puts "#{pokemon.name} (#{pokemon.type})"}
+    trainer.my_pokemon.each_pair {|number, pokemon| puts "#{pokemon.name} (#{pokemon.type})"; puts}
+  end
+
+  def save_user_message
+    "Save user?"
+  end
+
+  def save_user?
+    case get_input
+    when /^y(es)?$/
+      File.open("trainer.yaml", "w") {|file| file.puts YAML::dump(trainer)}
+    when /^no?$/
+      exit
+    else
+      puts "Please say yes or no."
+      save_user?
+    end
   end
 end
+
 
 Game.new.run

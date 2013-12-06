@@ -1,5 +1,5 @@
 class Pokemon
-  attr_reader :name, :type, :learnset
+  attr_reader :name, :type, :learnset, :moves
   attr_writer :level, :moves
 
   def initialize(name, type, learnset, base_stats)
@@ -20,5 +20,9 @@ class Pokemon
   def learn(move)
     moves << move if learnset.keys.include?(move) && learnset[move] <= level
     puts "#{name} learned #{move}!"
+  end
+
+  def attack(move)
+    moves.include?(move) ? puts "#{name} used #{move}!" : puts "#{name} does not know that move."
   end
 end
