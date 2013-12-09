@@ -1,0 +1,2514 @@
+---
+- !ruby/object:Pokemon
+  name: Venusaur
+  type: Grass
+  level: 3
+  learnset:
+    Tackle: 0
+    Growl: 3
+    Leech Seed: 7
+    Vine Whip: 9
+    Poison Powder: 13
+    Sleep Powder: 13
+    Take Down: 15
+    Razor Leaf: 20
+    Sweet Scent: 23
+    Growth: 28
+    Double-Edge: 31
+    Petal Dance: 32
+    Worry Seed: 39
+    Synthesis: 45
+    Petal Blizzard: 50
+    Solar Beam: 53
+  moves:
+  - Tackle
+  - Growl
+  hp: 525
+  attack: 80
+  defense: 100
+  sp_atk: 123
+  sp_def: 122
+  speed: 120
+- !ruby/object:Pokemon
+  name: Charizard
+  type: Fire
+  level: 3
+  learnset:
+    Dragon Claw: 0
+    Shadow Claw: 0
+    Air Slash: 0
+    Scratch: 0
+    Growl: 0
+    Ember: 7
+    Smokescreen: 10
+    Dragon Rage: 17
+    Scary Face: 21
+    Fire Fang: 28
+    Flame Burst: 32
+    Wing Attack: 36
+    Slash: 41
+    Flamethrower: 47
+    Fire Spin: 56
+    Inferno: 62
+    Heat Wave: 71
+    Flare Blitz: 77
+  moves:
+  - Dragon Claw
+  - Shadow Claw
+  - Air Slash
+  - Scratch
+  - Growl
+  hp: 100
+  attack: 634
+  defense: 78
+  sp_atk: 104
+  sp_def: 78
+  speed: 159
+- !ruby/object:Pokemon
+  name: Blastoise
+  type: Water
+  level: 3
+  learnset:
+    Flash Cannon: 0
+    Tackle: 0
+    Tail Whip: 4
+    Bubble: 7
+    Withdraw: 10
+    Water Gun: 13
+    Bite: 16
+    Rapid Spin: 20
+    Protect: 24
+    Water Pulse: 28
+    Aqua Tail: 32
+    Skull Bash: 39
+    Iron Defense: 46
+    Rain Dance: 53
+    Hydro Pump: 60
+  moves:
+  - Flash Cannon
+  - Tackle
+  hp: 530
+  attack: 79
+  defense: 103
+  sp_atk: 120
+  sp_def: 135
+  speed: 115
+- !ruby/object:Pokemon
+  name: Butterfree
+  type: Bug
+  level: 3
+  learnset:
+    Confusion: 10
+    PoisonPowder: 12
+    Stun Spore: 12
+    Sleep Powder: 12
+    Gust: 16
+    Supersonic: 18
+    Whirlwind: 22
+    Psybeam: 24
+    Silver Wind: 28
+    Tailwind: 30
+    Rage Powder: 34
+    Safeguard: 36
+    Captivate: 40
+    Bug Buzz: 42
+    Quiver Dance: 46
+  moves: []
+  hp: 385
+  attack: 60
+  defense: 45
+  sp_atk: 50
+  sp_def: 90
+  speed: 80
+- !ruby/object:Pokemon
+  name: Beedrill
+  type: Bug
+  level: 3
+  learnset:
+    Fury Attack: 10
+    Focus Energy: 13
+    Twineedle: 16
+    Rage: 19
+    Pursuit: 22
+    Toxic Spikes: 25
+    Pin Missile: 28
+    Agility: 31
+    Assurance: 34
+    Poison Jab: 37
+    Endeavor: 40
+    Fell Stinger: 45
+  moves: []
+  hp: 385
+  attack: 65
+  defense: 90
+  sp_atk: 40
+  sp_def: 45
+  speed: 80
+- !ruby/object:Pokemon
+  name: Pidgeot
+  type: Normal
+  level: 3
+  learnset:
+    Tackle: 0
+    Sand-Attack: 5
+    Gust: 9
+    Quick Attack: 13
+    Whirlwind: 17
+    Twister: 22
+    FeatherDance: 27
+    Agility: 32
+    Wing Attack: 38
+    Roost: 44
+    Tailwind: 50
+    Mirror Move: 56
+    Air Slash: 62
+    Hurricane: 68
+  moves:
+  - Tackle
+  hp: 469
+  attack: 83
+  defense: 80
+  sp_atk: 75
+  sp_def: 70
+  speed: 70
+- !ruby/object:Pokemon
+  name: Raichu
+  type: Electric
+  level: 3
+  learnset:
+    Thunder Shock: 0
+    Tail Whip: 0
+    Quick Attack: 0
+    Thunderbolt: 0
+  moves:
+  - Thunder Shock
+  - Tail Whip
+  - Quick Attack
+  - Thunderbolt
+  hp: 475
+  attack: 60
+  defense: 90
+  sp_atk: 55
+  sp_def: 90
+  speed: 80
+- !ruby/object:Pokemon
+  name: Nidoqueen
+  type: Poison
+  level: 3
+  learnset:
+    Scratch: 0
+    Tail Whip: 0
+    Double Kick: 0
+    Poison Sting: 0
+    Chip Away: 23
+    Body Slam: 35
+    Earth Power: 43
+    Superpower: 58
+  moves:
+  - Scratch
+  - Tail Whip
+  - Double Kick
+  - Poison Sting
+  hp: 495
+  attack: 90
+  defense: 92
+  sp_atk: 87
+  sp_def: 75
+  speed: 85
+- !ruby/object:Pokemon
+  name: Clefable
+  type: Fairy
+  level: 3
+  learnset:
+    Disarming Voice: 0
+    Sing: 0
+    Double Slap: 0
+    Minimize: 0
+    Metronome: 0
+  moves:
+  - Disarming Voice
+  - Sing
+  - Double Slap
+  - Minimize
+  - Metronome
+  hp: 473
+  attack: 95
+  defense: 70
+  sp_atk: 73
+  sp_def: 95
+  speed: 90
+- !ruby/object:Pokemon
+  name: Wigglytuff
+  type: Normal
+  level: 3
+  learnset:
+    Double-Edge: 0
+    Play Rough: 0
+    Sing: 0
+    Disable: 0
+    Defense Curl: 0
+    Double Slap: 0
+  moves:
+  - Double-Edge
+  - Play Rough
+  - Sing
+  - Disable
+  - Defense Curl
+  - Double Slap
+  hp: 425
+  attack: 140
+  defense: 70
+  sp_atk: 45
+  sp_def: 85
+  speed: 50
+- !ruby/object:Pokemon
+  name: Crobat
+  type: Poison
+  level: 3
+  learnset:
+    Cross Poison: 0
+    Screech: 0
+    Leech Life: 0
+    Supersonic: 4
+    Astonish: 8
+    Bite: 12
+    Wing Attack: 15
+    Confuse Ray: 19
+    Swift: 24
+    Air Cutter: 28
+    Acrobatics: 33
+    Mean Look: 38
+    Poison Fang: 42
+    Haze: 47
+    Air Slash: 52
+  moves:
+  - Cross Poison
+  - Screech
+  - Leech Life
+  hp: 85
+  attack: 90
+  defense: 80
+  sp_atk: 70
+  sp_def: 80
+  speed: 130
+- !ruby/object:Pokemon
+  name: Vileplume
+  type: Grass
+  level: 3
+  learnset:
+    Mega Drain: 0
+    Aromatherapy: 0
+    Stun Spore: 0
+    PoisonPowder: 0
+    Petal Blizzard: 50
+    Petal Dance: 53
+    SolarBeam: 65
+  moves:
+  - Mega Drain
+  - Aromatherapy
+  - Stun Spore
+  - PoisonPowder
+  hp: 480
+  attack: 75
+  defense: 80
+  sp_atk: 85
+  sp_def: 110
+  speed: 90
+- !ruby/object:Pokemon
+  name: Poliwrath
+  type: Water
+  level: 3
+  learnset:
+    Circle Throw: 0
+    BubbleBeam: 0
+    Hypnosis: 0
+    DoubleSlap: 0
+    Submission: 0
+    DynamicPunch: 0
+    Mind Reader: 0
+  moves:
+  - Circle Throw
+  - BubbleBeam
+  - Hypnosis
+  - DoubleSlap
+  - Submission
+  - DynamicPunch
+  - Mind Reader
+  hp: 500
+  attack: 90
+  defense: 95
+  sp_atk: 95
+  sp_def: 70
+  speed: 90
+- !ruby/object:Pokemon
+  name: Alakazam
+  type: Psychic
+  level: 3
+  learnset:
+    Teleport: 0
+    Kinesis: 0
+    Confusion: 16
+    Disable: 18
+    Miracle Eye: 22
+    Ally Switch: 24
+    Psybeam: 28
+    Reflect: 30
+    Telekinesis: 34
+    Recover: 36
+    Psycho Cut: 40
+    Calm Mind: 42
+    Psychic: 46
+    Future Sight: 48
+    Trick: 52
+  moves:
+  - Teleport
+  - Kinesis
+  hp: 120
+  attack: 500
+  defense: 55
+  sp_atk: 50
+  sp_def: 65
+  speed: 175
+- !ruby/object:Pokemon
+  name: Machamp
+  type: Fighting
+  level: 3
+  learnset:
+    Wide Guard: 0
+    Low Kick: 0
+    Leer: 0
+    Focus Energy: 7
+    Karate Chop: 10
+    Low Sweep: 13
+    Foresight: 19
+    Seismic Toss: 22
+    Revenge: 25
+    Vital Throw: 32
+    Submission: 36
+    Wake-Up Slap: 40
+    Cross Chop: 44
+    Scary Face: 51
+    DynamicPunch: 55
+  moves:
+  - Wide Guard
+  - Low Kick
+  - Leer
+  hp: 90
+  attack: 130
+  defense: 80
+  sp_atk: 65
+  sp_def: 85
+  speed: 55
+- !ruby/object:Pokemon
+  name: Victreebel
+  type: Grass
+  level: 3
+  learnset:
+    Stockpile: 0
+    Swallow: 0
+    Spit Up: 0
+    Vine Whip: 0
+    Sleep Powder: 0
+    Sweet Scent: 0
+    Razor Leaf: 0
+    Leaf Tornado: 27
+    Leaf Storm: 47
+    Leaf Blade: 47
+  moves:
+  - Stockpile
+  - Swallow
+  - Spit Up
+  - Vine Whip
+  - Sleep Powder
+  - Sweet Scent
+  - Razor Leaf
+  hp: 480
+  attack: 80
+  defense: 105
+  sp_atk: 65
+  sp_def: 100
+  speed: 70
+- !ruby/object:Pokemon
+  name: Golem
+  type: Rock
+  level: 3
+  learnset:
+    Tackle: 0
+    Defense Curl: 0
+    Mud Sport: 4
+    Rock Polish: 8
+    Rock Throw: 11
+    Magnitude: 15
+    Steamroller: 18
+    Rock Blast: 22
+    Smack Down: 27
+    Selfdestruct: 31
+    Bulldoze: 36
+    Stealth Rock: 42
+    Earthquake: 47
+    Explosion: 53
+    Double-Edge: 58
+    Stone Edge: 64
+    Heavy Slam: 69
+  moves:
+  - Tackle
+  - Defense Curl
+  hp: 485
+  attack: 80
+  defense: 120
+  sp_atk: 130
+  sp_def: 55
+  speed: 65
+- !ruby/object:Pokemon
+  name: Magnezone
+  type: Electric
+  level: 3
+  learnset:
+    Zap Cannon: 73
+    Magnetic Flux: 0
+    Mirror Coat: 0
+    Barrier: 0
+    Tackle: 0
+    Supersonic: 4
+    SonicBoom: 0
+    ThunderShock: 7
+    Electric Terrain: 11
+    Thunder Wave: 15
+    Magnet Bomb: 18
+    Spark: 21
+    Mirror Shot: 25
+    Metal Sound: 29
+    Electro Ball: 34
+    Flash Cannon: 39
+    Screech: 45
+    Discharge: 51
+    Lock-On: 56
+    Magnet Rise: 62
+    Gyro Ball: 67
+  moves:
+  - Magnetic Flux
+  - Mirror Coat
+  - Barrier
+  - Tackle
+  - SonicBoom
+  hp: 70
+  attack: 70
+  defense: 115
+  sp_atk: 130
+  sp_def: 90
+  speed: 60
+- !ruby/object:Pokemon
+  name: Gengar
+  type: Ghost
+  level: 3
+  learnset:
+    Hypnosis: 0
+    Lick: 0
+    Spite: 5
+    Mean Look: 8
+    Curse: 12
+    Night Shade: 15
+    Confuse Ray: 19
+    Sucker Punch: 22
+    Shadow Punch: 25
+    Payback: 28
+    Shadow Ball: 33
+    Dream Eater: 39
+    Dark Pulse: 44
+    Destiny Bond: 50
+    Hex: 55
+    Nightmare: 61
+  moves:
+  - Hypnosis
+  - Lick
+  hp: 500
+  attack: 60
+  defense: 65
+  sp_atk: 80
+  sp_def: 170
+  speed: 95
+- !ruby/object:Pokemon
+  name: Rhyperior
+  type: Ground
+  level: 3
+  learnset:
+    Poison Jab: 0
+    Horn Attack: 0
+    Tail Whip: 0
+    Stomp: 9
+    Fury Attack: 19
+    Scary Face: 19
+    Rock Blast: 23
+    Chip Away: 30
+    Take Down: 41
+    Hammer Arm: 42
+    Drill Run: 47
+    Stone Edge: 56
+    Earthquake: 62
+    Horn Drill: 71
+    Megahorn: 77
+    Rock Wrecker: 86
+  moves:
+  - Poison Jab
+  - Horn Attack
+  - Tail Whip
+  hp: 115
+  attack: 140
+  defense: 130
+  sp_atk: 55
+  sp_def: 55
+  speed: 40
+- !ruby/object:Pokemon
+  name: Blissey
+  type: Normal
+  level: 3
+  learnset:
+    Double-Edge: 54
+    Defense Curl: 0
+    Pound: 0
+    Growl: 0
+    Tail Whip: 5
+    Refresh: 9
+    DoubleSlap: 12
+    Softboiled: 16
+    Bestow: 20
+    Minimize: 23
+    Take Down: 27
+    Sing: 31
+    Fling: 34
+    Heal Pulse: 38
+    Egg Bomb: 42
+    Light Screen: 46
+    Healing Wish: 50
+  moves:
+  - Defense Curl
+  - Pound
+  - Growl
+  hp: 255
+  attack: 10
+  defense: 10
+  sp_atk: 75
+  sp_def: 135
+  speed: 55
+- !ruby/object:Pokemon
+  name: Kingdra
+  type: Water
+  level: 3
+  learnset:
+    Dragon Pulse: 57
+    Yawn: 0
+    Water Gun: 11
+    SmokeScreen: 4
+    Leer: 8
+    Bubble: 0
+    Focus Energy: 14
+    BubbleBeam: 18
+    Agility: 23
+    Twister: 26
+    Brine: 30
+    Hydro Pump: 40
+    Dragon Dance: 48
+  moves:
+  - Yawn
+  - Bubble
+  hp: 75
+  attack: 95
+  defense: 95
+  sp_atk: 95
+  sp_def: 95
+  speed: 85
+- !ruby/object:Pokemon
+  name: Electivire
+  type: Electric
+  level: 3
+  learnset:
+    Electric Terrain: 65
+    Ion Deluge: 0
+    Fire Punch: 0
+    Quick Attack: 0
+    Leer: 0
+    ThunderShock: 5
+    Low Kick: 8
+    Swift: 12
+    Shock Wave: 15
+    Thunder Wave: 19
+    Electro Ball: 22
+    Light Screen: 26
+    ThunderPunch: 29
+    Discharge: 36
+    Screech: 42
+    Thunderbolt: 49
+    Thunder: 55
+    Giga Impact: 62
+  moves:
+  - Ion Deluge
+  - Fire Punch
+  - Quick Attack
+  - Leer
+  hp: 75
+  attack: 123
+  defense: 67
+  sp_atk: 95
+  sp_def: 85
+  speed: 95
+- !ruby/object:Pokemon
+  name: Magmortar
+  type: Fire
+  level: 3
+  learnset:
+    ThunderPunch: 0
+    Smog: 0
+    Leer: 0
+    Ember: 5
+    SmokeScreen: 8
+    Feint Attack: 12
+    Fire Spin: 15
+    Clear Smog: 19
+    Flame Burst: 22
+    Confuse Ray: 26
+    Fire Punch: 29
+    Lava Plume: 36
+    Sunny Day: 42
+    Flamethrower: 49
+    Fire Blast: 55
+    Hyper Beam: 62
+  moves:
+  - ThunderPunch
+  - Smog
+  - Leer
+  hp: 75
+  attack: 95
+  defense: 67
+  sp_atk: 125
+  sp_def: 95
+  speed: 83
+- !ruby/object:Pokemon
+  name: Porygon-Z
+  type: Normal
+  level: 3
+  learnset:
+    Trick Room: 0
+    Conversion 2: 0
+    Tackle: 0
+    Conversion: 0
+    Nasty Plot: 0
+    Psybeam: 7
+    Agility: 12
+    Recover: 18
+    Magnet Rise: 23
+    Signal Beam: 29
+    Embargo: 34
+    Discharge: 40
+    Lock-On: 45
+    Tri Attack: 51
+    Magic Coat: 56
+    Zap Cannon: 62
+    Hyper Beam: 67
+  moves:
+  - Trick Room
+  - Conversion 2
+  - Tackle
+  - Conversion
+  - Nasty Plot
+  hp: 85
+  attack: 80
+  defense: 70
+  sp_atk: 135
+  sp_def: 75
+  speed: 90
+- !ruby/object:Pokemon
+  name: Dragonite
+  type: Dragon
+  level: 3
+  learnset:
+    Hurricane: 81
+    Fire Punch: 0
+    ThunderPunch: 0
+    Roost: 0
+    Wrap: 0
+    Leer: 0
+    Thunder Wave: 5
+    Twister: 11
+    Dragon Rage: 15
+    Slam: 21
+    Agility: 25
+    Dragon Tail: 33
+    Aqua Tail: 39
+    Dragon Rush: 47
+    Safeguard: 53
+    Wing Attack: 55
+    Dragon Dance: 61
+    Outrage: 67
+    Hyper Beam: 75
+  moves:
+  - Fire Punch
+  - ThunderPunch
+  - Roost
+  - Wrap
+  - Leer
+  hp: 91
+  attack: 134
+  defense: 95
+  sp_atk: 100
+  sp_def: 100
+  speed: 80
+- !ruby/object:Pokemon
+  name: Meganium
+  type: Grass
+  level: 3
+  learnset:
+    Tackle: 0
+    Growl: 0
+    Razor Leaf: 6
+    PoisonPowder: 9
+    Synthesis: 12
+    Reflect: 18
+    Magical Leaf: 22
+    Natural Gift: 26
+    Petal Dance: 32
+    Sweet Scent: 34
+    Light Screen: 40
+    Body Slam: 46
+    Safeguard: 54
+    Aromatherapy: 60
+    SolarBeam: 66
+  moves:
+  - Tackle
+  - Growl
+  hp: 80
+  attack: 82
+  defense: 100
+  sp_atk: 83
+  sp_def: 100
+  speed: 80
+- !ruby/object:Pokemon
+  name: Typhlosion
+  type: Fire
+  level: 3
+  learnset:
+    Gyro Ball: 0
+    Tackle: 0
+    Leer: 0
+    SmokeScreen: 6
+    Ember: 10
+    Quick Attack: 13
+    Flame Wheel: 20
+    Defense Curl: 24
+    Swift: 31
+    Flame Charge: 35
+    Lava Plume: 43
+    Flamethrower: 48
+    Inferno: 56
+    Rollout: 61
+    Double-Edge: 69
+    Eruption: 74
+  moves:
+  - Gyro Ball
+  - Tackle
+  - Leer
+  hp: 78
+  attack: 84
+  defense: 78
+  sp_atk: 109
+  sp_def: 85
+  speed: 100
+- !ruby/object:Pokemon
+  name: Feraligatr
+  type: Water
+  level: 3
+  learnset:
+    Scratch: 0
+    Leer: 0
+    Water Gun: 6
+    Rage: 8
+    Bite: 13
+    Scary Face: 15
+    Ice Fang: 21
+    Flail: 24
+    Agility: 30
+    Crunch: 32
+    Chip Away: 37
+    Slash: 45
+    Screech: 50
+    Thrash: 58
+    Aqua Tail: 63
+    Superpower: 71
+    Hydro Pump: 76
+  moves:
+  - Scratch
+  - Leer
+  hp: 85
+  attack: 105
+  defense: 100
+  sp_atk: 79
+  sp_def: 83
+  speed: 78
+- !ruby/object:Pokemon
+  name: Togekiss
+  type: Fairy
+  level: 3
+  learnset:
+    After You: 0
+    Sky Attack: 0
+    Extreme Speed: 0
+    Aura Sphere: 0
+    Air Slash: 0
+  moves:
+  - After You
+  - Sky Attack
+  - Extreme Speed
+  - Aura Sphere
+  - Air Slash
+  hp: 85
+  attack: 50
+  defense: 95
+  sp_atk: 120
+  sp_def: 115
+  speed: 80
+- !ruby/object:Pokemon
+  name: Ampharos
+  type: Electric
+  level: 3
+  learnset:
+    Zap Cannon: 0
+    Magnetic Flux: 0
+    Ion Deluge: 0
+    Dragon Pulse: 65
+    Fire Punch: 0
+    Tackle: 0
+    Growl: 0
+    Thunder Wave: 4
+    Thunder Shock: 8
+    Cotton Spore: 11
+    Charge: 16
+    Take Down: 20
+    Electro Ball: 25
+    Confuse Ray: 29
+    Thunder Punch: 30
+    Power Gem: 35
+    Discharge: 40
+    Cotton Guard: 46
+    Signal Beam: 51
+    Light Screen: 57
+    Thunder: 62
+  moves:
+  - Zap Cannon
+  - Magnetic Flux
+  - Ion Deluge
+  - Fire Punch
+  - Tackle
+  - Growl
+  hp: 55
+  attack: 510
+  defense: 90
+  sp_atk: 95
+  sp_def: 105
+  speed: 165
+- !ruby/object:Pokemon
+  name: Azumarill
+  type: Water
+  level: 3
+  learnset:
+    Tackle: 0
+    Bubble: 0
+    Tail Whip: 2
+    Water Sport: 5
+    Water Gun: 7
+    Defense Curl: 10
+    Rollout: 10
+    Bubble Beam: 13
+    Helping Hand: 16
+    Aqua Tail: 21
+    Double-Edge: 25
+    Aqua Ring: 31
+    Rain Dance: 35
+    Superpower: 42
+    Hydro Pump: 46
+    Play Rough: 50
+  moves:
+  - Tackle
+  - Bubble
+  - Tail Whip
+  hp: 410
+  attack: 100
+  defense: 50
+  sp_atk: 80
+  sp_def: 60
+  speed: 80
+- !ruby/object:Pokemon
+  name: Jumpluff
+  type: Grass
+  level: 3
+  learnset:
+    Splash: 0
+    Synthesis: 4
+    Tail Whip: 6
+    Tackle: 8
+    Fairy Wind: 10
+    PoisonPowder: 12
+    Stun Spore: 14
+    Sleep Powder: 16
+    Bullet Seed: 20
+    Leech Seed: 24
+    Mega Drain: 29
+    Acrobatics: 34
+    Rage Powder: 39
+    Cotton Spore: 44
+    U-turn: 49
+    Worry Seed: 54
+    Giga Drain: 59
+    Bounce: 64
+    Memento: 69
+  moves:
+  - Splash
+  hp: 450
+  attack: 75
+  defense: 55
+  sp_atk: 70
+  sp_def: 55
+  speed: 95
+- !ruby/object:Pokemon
+  name: Mamoswine
+  type: Ice
+  level: 3
+  learnset:
+    AncientPower: 0
+    Peck: 0
+    Odor Sleuth: 0
+    Mud Sport: 4
+    Powder Snow: 8
+    Mud-Slap: 13
+    Endure: 16
+    Mud Bomb: 20
+    Hail: 25
+    Ice Fang: 28
+    Take Down: 32
+    Double Hit: 33
+    Mist: 48
+    Thrash: 0
+    Earthquake: 40
+    Blizzard: 56
+    Scary Face: 65
+  moves:
+  - AncientPower
+  - Peck
+  - Odor Sleuth
+  - Thrash
+  hp: 110
+  attack: 130
+  defense: 80
+  sp_atk: 70
+  sp_def: 60
+  speed: 80
+- !ruby/object:Pokemon
+  name: Tyranitar
+  type: Rock
+  level: 3
+  learnset:
+    Thunder Fang: 0
+    Ice Fang: 0
+    Fire Fang: 0
+    Bite: 0
+    Leer: 0
+    Sandstorm: 5
+    Screech: 10
+    Chip Away: 14
+    Rock Slide: 19
+    Scary Face: 23
+    Thrash: 28
+    Dark Pulse: 34
+    Payback: 41
+    Crunch: 47
+    Earthquake: 54
+    Stone Edge: 63
+    Hyper Beam: 73
+    Giga Impact: 82
+  moves:
+  - Thunder Fang
+  - Ice Fang
+  - Fire Fang
+  - Bite
+  - Leer
+  hp: 600
+  attack: 100
+  defense: 164
+  sp_atk: 150
+  sp_def: 95
+  speed: 120
+- !ruby/object:Pokemon
+  name: Sceptile
+  type: Grass
+  level: 3
+  learnset:
+    Night Slash: 0
+    Pound: 0
+    Leer: 0
+    Absorb: 6
+    Quick Attack: 11
+    X-Scissor: 16
+    Pursuit: 17
+    Screech: 23
+    Leaf Blade: 29
+    Agility: 35
+    Slam: 43
+    Detect: 51
+    False Swipe: 59
+    Leaf Storm: 67
+  moves:
+  - Night Slash
+  - Pound
+  - Leer
+  hp: 70
+  attack: 85
+  defense: 65
+  sp_atk: 105
+  sp_def: 85
+  speed: 120
+- !ruby/object:Pokemon
+  name: Blaziken
+  type: Fire
+  level: 3
+  learnset:
+    Fire Punch: 0
+    High Jump Kick: 0
+    Scratch: 0
+    Growl: 0
+    Focus Energy: 7
+    Ember: 13
+    Double Kick: 16
+    Peck: 17
+    Sand Attack: 21
+    Bulk Up: 28
+    Quick Attack: 32
+    Blaze Kick: 36
+    Slash: 42
+    Brave Bird: 49
+    Sky Uppercut: 59
+    Flare Blitz: 66
+  moves:
+  - Fire Punch
+  - High Jump Kick
+  - Scratch
+  - Growl
+  hp: 530
+  attack: 80
+  defense: 160
+  sp_atk: 80
+  sp_def: 130
+  speed: 80
+- !ruby/object:Pokemon
+  name: Swampert
+  type: Water
+  level: 3
+  learnset:
+    Tackle: 0
+    Growl: 0
+    Mud-Slap: 6
+    Water Gun: 10
+    Bide: 15
+    Mud Shot: 16
+    Foresight: 20
+    Mud Bomb: 25
+    Take Down: 31
+    Muddy Water: 39
+    Protect: 46
+    Earthquake: 52
+    Endeavor: 61
+    Hammer Arm: 69
+  moves:
+  - Tackle
+  - Growl
+  hp: 100
+  attack: 110
+  defense: 90
+  sp_atk: 85
+  sp_def: 90
+  speed: 60
+- !ruby/object:Pokemon
+  name: Beautifly
+  type: Bug
+  level: 3
+  learnset:
+    Absorb: 10
+    Gust: 13
+    Stun Spore: 17
+    Morning Sun: 20
+    Mega Drain: 24
+    Whirlwind: 27
+    Attract: 31
+    Silver Wind: 34
+    Giga Drain: 38
+    Bug Buzz: 41
+    Quiver Dance: 45
+  moves: []
+  hp: 385
+  attack: 60
+  defense: 70
+  sp_atk: 50
+  sp_def: 100
+  speed: 50
+- !ruby/object:Pokemon
+  name: Ludicolo
+  type: Water
+  level: 3
+  learnset:
+    Astonish: 0
+    Growl: 0
+    Mega Drain: 0
+    Nature Power: 0
+  moves:
+  - Astonish
+  - Growl
+  - Mega Drain
+  - Nature Power
+  hp: 80
+  attack: 70
+  defense: 70
+  sp_atk: 90
+  sp_def: 100
+  speed: 70
+- !ruby/object:Pokemon
+  name: Shiftry
+  type: Grass
+  level: 3
+  learnset:
+    Feint Attack: 0
+    Whirlwind: 0
+    Nasty Plot: 0
+    Razor Leaf: 0
+    Leaf Tornado: 19
+    Leaf Storm: 49
+  moves:
+  - Feint Attack
+  - Whirlwind
+  - Nasty Plot
+  - Razor Leaf
+  hp: 90
+  attack: 100
+  defense: 60
+  sp_atk: 90
+  sp_def: 60
+  speed: 80
+- !ruby/object:Pokemon
+  name: Gardevoir
+  type: Psychic
+  level: 3
+  learnset:
+    Moonblast: 85
+    Stored Power: 80
+    Misty Terrain: 0
+    Healing Wish: 0
+    Growl: 0
+    Confusion: 6
+    Double Team: 10
+    Teleport: 12
+    Wish: 17
+    Magical Leaf: 22
+    Heal Pulse: 25
+    Calm Mind: 33
+    Psychic: 40
+    Imprison: 45
+    Future Sight: 53
+    Captivate: 60
+    Hypnosis: 65
+    Dream Eater: 73
+  moves:
+  - Misty Terrain
+  - Healing Wish
+  - Growl
+  hp: 518
+  attack: 68
+  defense: 85
+  sp_atk: 65
+  sp_def: 165
+  speed: 135
+- !ruby/object:Pokemon
+  name: Slaking
+  type: Normal
+  level: 3
+  learnset:
+    Scratch: 0
+    Yawn: 0
+    Encore: 7
+    Slack Off: 13
+    Faint Attack: 19
+    Amnesia: 25
+    Covet: 31
+    Swagger: 36
+    Chip Away: 37
+    Counter: 43
+    Flail: 49
+    Fling: 55
+    Punishment: 61
+    Hammer Arm: 67
+  moves:
+  - Scratch
+  - Yawn
+  hp: 150
+  attack: 160
+  defense: 100
+  sp_atk: 95
+  sp_def: 65
+  speed: 100
+- !ruby/object:Pokemon
+  name: Exploud
+  type: Normal
+  level: 3
+  learnset:
+    Boomburst: 85
+    Ice Fang: 0
+    Fire Fang: 0
+    Thunder Fang: 0
+    Pound: 0
+    Uproar: 5
+    Astonish: 11
+    Howl: 15
+    Bite: 20
+    Supersonic: 23
+    Stomp: 29
+    Screech: 37
+    Crunch: 40
+    Roar: 45
+    Synchronoise: 55
+    Rest: 55
+    Sleep Talk: 63
+    Hyper Voice: 71
+    Hyper Beam: 79
+  moves:
+  - Ice Fang
+  - Fire Fang
+  - Thunder Fang
+  - Pound
+  hp: 480
+  attack: 104
+  defense: 91
+  sp_atk: 63
+  sp_def: 91
+  speed: 73
+- !ruby/object:Pokemon
+  name: Aggron
+  type: Steel
+  level: 3
+  learnset:
+    Tackle: 0
+    Harden: 0
+    Mud-Slap: 4
+    Headbutt: 8
+    Metal Claw: 11
+    Iron Defense: 15
+    Roar: 18
+    Take Down: 22
+    Iron Head: 25
+    Protect: 29
+    Metal Sound: 34
+    Iron Tail: 40
+    Autotomize: 48
+    Heavy Slam: 57
+    Double-Edge: 65
+    Metal Burst: 74
+  moves:
+  - Tackle
+  - Harden
+  hp: 530
+  attack: 70
+  defense: 140
+  sp_atk: 230
+  sp_def: 60
+  speed: 80
+- !ruby/object:Pokemon
+  name: Roserade
+  type: Grass
+  level: 3
+  learnset:
+    Venom Drench: 0
+    Grassy Terrain: 0
+    Weather Ball: 0
+    Poison Sting: 0
+    Mega Drain: 0
+    Magical Leaf: 0
+    Sweet Scent: 0
+  moves:
+  - Venom Drench
+  - Grassy Terrain
+  - Weather Ball
+  - Poison Sting
+  - Mega Drain
+  - Magical Leaf
+  - Sweet Scent
+  hp: 505
+  attack: 60
+  defense: 70
+  sp_atk: 65
+  sp_def: 125
+  speed: 105
+- !ruby/object:Pokemon
+  name: Flygon
+  type: Ground
+  level: 3
+  learnset:
+    Sonic Boom: 0
+    Sand Attack: 0
+    Feint Attack: 0
+    Sand Tomb: 0
+    Mud-Slap: 0
+    Bide: 0
+    Bulldoze: 0
+    Rock Slide: 0
+    Supersonic: 0
+    Screech: 0
+    Dig: 29
+    Crunch: 34
+    Dragon Breath: 35
+    Earth Power: 39
+    Sandstorm: 44
+    Dragon Tail: 45
+    Hyper Beam: 49
+    Dragon Claw: 55
+  moves:
+  - Sonic Boom
+  - Sand Attack
+  - Feint Attack
+  - Sand Tomb
+  - Mud-Slap
+  - Bide
+  - Bulldoze
+  - Rock Slide
+  - Supersonic
+  - Screech
+  hp: 80
+  attack: 100
+  defense: 80
+  sp_atk: 80
+  sp_def: 80
+  speed: 100
+- !ruby/object:Pokemon
+  name: Dusknoir
+  type: Ghost
+  level: 3
+  learnset:
+    Fire Punch: 0
+    Ice Punch: 0
+    ThunderPunch: 0
+    Gravity: 0
+    Bind: 0
+    Leer: 0
+    Night Shade: 0
+    Disable: 6
+    Foresight: 9
+    Astonish: 14
+    Confuse Ray: 17
+    Shadow Sneak: 22
+    Pursuit: 25
+    Curse: 30
+    Will-O-Wisp: 33
+    Shadow Punch: 37
+    Hex: 42
+    Mean Look: 49
+    Payback: 58
+    Future Sight: 61
+  moves:
+  - Fire Punch
+  - Ice Punch
+  - ThunderPunch
+  - Gravity
+  - Bind
+  - Leer
+  - Night Shade
+  hp: 45
+  attack: 100
+  defense: 135
+  sp_atk: 65
+  sp_def: 135
+  speed: 45
+- !ruby/object:Pokemon
+  name: Walrein
+  type: Ice
+  level: 3
+  learnset:
+    Crunch: 0
+    Powder Snow: 0
+    Growl: 0
+    Water Gun: 0
+    Encore: 7
+    Ice Ball: 13
+    Body Slam: 19
+    Aurora Beam: 25
+    Hail: 31
+    Swagger: 32
+    Rest: 39
+    Snore: 39
+    Ice Fang: 44
+    Blizzard: 52
+    Sheer Cold: 65
+  moves:
+  - Crunch
+  - Powder Snow
+  - Growl
+  - Water Gun
+  hp: 110
+  attack: 80
+  defense: 90
+  sp_atk: 95
+  sp_def: 90
+  speed: 65
+- !ruby/object:Pokemon
+  name: Salamence
+  type: Dragon
+  level: 3
+  learnset:
+    Fire Fang: 0
+    Thunder Fang: 0
+    Rage: 0
+    Bite: 5
+    Leer: 10
+    Headbutt: 16
+    Focus Energy: 20
+    Ember: 25
+    Protect: 30
+    DragonBreath: 32
+    Zen Headbutt: 37
+    Scary Face: 43
+    Fly: 50
+    Crunch: 53
+    Dragon Claw: 61
+    Double-Edge: 70
+    Dragon Tail: 80
+  moves:
+  - Fire Fang
+  - Thunder Fang
+  - Rage
+  hp: 95
+  attack: 135
+  defense: 80
+  sp_atk: 110
+  sp_def: 80
+  speed: 100
+- !ruby/object:Pokemon
+  name: Metagross
+  type: Steel
+  level: 3
+  learnset:
+    Magnet Rise: 0
+    Take Down: 0
+    Metal Claw: 20
+    Confusion: 20
+    Pursuit: 23
+    Miracle Eye: 26
+    Zen Headbutt: 29
+    Bullet Punch: 32
+    Scary Face: 35
+    Agility: 38
+    Psychic: 41
+    Meteor Mash: 44
+    Hammer Arm: 45
+    Iron Defense: 53
+    Hyper Beam: 62
+  moves:
+  - Magnet Rise
+  - Take Down
+  hp: 80
+  attack: 135
+  defense: 130
+  sp_atk: 95
+  sp_def: 90
+  speed: 70
+- !ruby/object:Pokemon
+  name: Torterra
+  type: Grass
+  level: 3
+  learnset:
+    Wood Hammer: 0
+    Tackle: 0
+    Withdraw: 5
+    Absorb: 9
+    Razor Leaf: 13
+    Curse: 17
+    Bite: 22
+    Mega Drain: 27
+    Earthquake: 32
+    Leech Seed: 33
+    Synthesis: 39
+    Crunch: 45
+    Giga Drain: 51
+    Leaf Storm: 57
+  moves:
+  - Wood Hammer
+  - Tackle
+  hp: 95
+  attack: 109
+  defense: 105
+  sp_atk: 75
+  sp_def: 85
+  speed: 56
+- !ruby/object:Pokemon
+  name: Infernape
+  type: Fire
+  level: 3
+  learnset:
+    Scratch: 0
+    Leer: 0
+    Ember: 7
+    Taunt: 9
+    Mach Punch: 14
+    Fury Swipes: 16
+    Flame Wheel: 19
+    Feint: 26
+    Punishment: 29
+    Close Combat: 36
+    Fire Spin: 42
+    Acrobatics: 52
+    Calm Mind: 58
+    Flare Blitz: 68
+  moves:
+  - Scratch
+  - Leer
+  hp: 76
+  attack: 104
+  defense: 71
+  sp_atk: 104
+  sp_def: 71
+  speed: 108
+- !ruby/object:Pokemon
+  name: Empoleon
+  type: Water
+  level: 3
+  learnset:
+    Tackle: 0
+    Growl: 4
+    Bubble: 8
+    Swords Dance: 11
+    Peck: 15
+    Metal Claw: 16
+    BubbleBeam: 19
+    Swagger: 24
+    Fury Attack: 28
+    Brine: 33
+    Aqua Jet: 36
+    Whirlpool: 39
+    Mist: 46
+    Drill Peck: 52
+    Hydro Pump: 59
+  moves:
+  - Tackle
+  hp: 84
+  attack: 86
+  defense: 88
+  sp_atk: 111
+  sp_def: 101
+  speed: 60
+- !ruby/object:Pokemon
+  name: Staraptor
+  type: Normal
+  level: 3
+  learnset:
+    Tackle: 0
+    Growl: 0
+    Quick Attack: 5
+    Wing Attack: 9
+    Double Team: 13
+    Endeavor: 18
+    Whirlwind: 23
+    Aerial Ace: 28
+    Take Down: 33
+    Close Combat: 34
+    Agility: 41
+    Brave Bird: 49
+    Final Gambit: 57
+  moves:
+  - Tackle
+  - Growl
+  hp: 475
+  attack: 85
+  defense: 120
+  sp_atk: 70
+  sp_def: 50
+  speed: 60
+- !ruby/object:Pokemon
+  name: Luxray
+  type: Electric
+  level: 3
+  learnset:
+    Electric Terrain: 67
+    Tackle: 0
+    Leer: 5
+    Charge: 9
+    Spark: 13
+    Bite: 18
+    Roar: 23
+    Swagger: 28
+    Thunder Fang: 35
+    Crunch: 42
+    Scary Face: 49
+    Discharge: 56
+    Wild Charge: 63
+  moves:
+  - Tackle
+  hp: 80
+  attack: 120
+  defense: 79
+  sp_atk: 95
+  sp_def: 79
+  speed: 70
+- !ruby/object:Pokemon
+  name: Garchomp
+  type: Dragon
+  level: 3
+  learnset:
+    Fire Fang: 0
+    Tackle: 0
+    Sand Attack: 3
+    Dragon Rage: 7
+    Sandstorm: 13
+    Take Down: 15
+    Sand Tomb: 19
+    Dual Chop: 24
+    Slash: 28
+    Dragon Claw: 33
+    Dig: 40
+    Crunch: 48
+    Dragon Rush: 55
+  moves:
+  - Fire Fang
+  - Tackle
+  - Sand Attack
+  hp: 600
+  attack: 108
+  defense: 170
+  sp_atk: 115
+  sp_def: 120
+  speed: 95
+- !ruby/object:Pokemon
+  name: Serperior
+  type: Grass
+  level: 3
+  learnset:
+    Tackle: 0
+    Leer: 4
+    Vine Whip: 7
+    Wrap: 10
+    Growth: 13
+    Leaf Tornado: 16
+    Leech Seed: 20
+    Mega Drain: 24
+    Slam: 28
+    Leaf Blade: 32
+    Coil: 38
+    Giga Drain: 44
+    Wring Out: 50
+    Gastro Acid: 56
+    Leaf Storm: 62
+  moves:
+  - Tackle
+  hp: 75
+  attack: 75
+  defense: 95
+  sp_atk: 75
+  sp_def: 95
+  speed: 113
+- !ruby/object:Pokemon
+  name: Emboar
+  type: Fire
+  level: 3
+  learnset:
+    Hammer Arm: 0
+    Tackle: 0
+    Tail Whip: 3
+    Ember: 7
+    Odor Sleuth: 9
+    Defense Curl: 13
+    Flame Charge: 15
+    Arm Thrust: 17
+    Smog: 20
+    Rollout: 23
+    Take Down: 28
+    Heat Crash: 31
+    Assurance: 38
+    Flamethrower: 43
+    Head Smash: 50
+    Roar: 55
+    Flare Blitz: 62
+  moves:
+  - Hammer Arm
+  - Tackle
+  - Tail Whip
+  hp: 110
+  attack: 123
+  defense: 65
+  sp_atk: 100
+  sp_def: 65
+  speed: 65
+- !ruby/object:Pokemon
+  name: Samurott
+  type: Water
+  level: 3
+  learnset:
+    Megahorn: 0
+    Tackle: 0
+    Tail Whip: 5
+    Water Gun: 7
+    Water Sport: 11
+    Focus Energy: 13
+    Razor Shell: 17
+    Fury Cutter: 20
+    Water Pulse: 25
+    Revenge: 28
+    Aqua Jet: 33
+    Slash: 36
+    Encore: 38
+    Aqua Tail: 45
+    Retaliate: 50
+    Swords Dance: 57
+    Hydro Pump: 62
+  moves:
+  - Megahorn
+  - Tackle
+  hp: 95
+  attack: 100
+  defense: 85
+  sp_atk: 108
+  sp_def: 70
+  speed: 70
+- !ruby/object:Pokemon
+  name: Stoutland
+  type: Normal
+  level: 3
+  learnset:
+    Ice Fang: 0
+    Fire Fang: 0
+    Thunder Fang: 0
+    Leer: 0
+    Tackle: 0
+    Odor Sleuth: 5
+    Bite: 8
+    Helping Hand: 12
+    Take Down: 15
+    Work Up: 20
+    Crunch: 24
+    Roar: 29
+    Retaliate: 36
+    Reversal: 42
+    Last Resort: 51
+    Giga Impact: 59
+    Play Rough: 63
+  moves:
+  - Ice Fang
+  - Fire Fang
+  - Thunder Fang
+  - Leer
+  - Tackle
+  hp: 490
+  attack: 85
+  defense: 110
+  sp_atk: 90
+  sp_def: 45
+  speed: 90
+- !ruby/object:Pokemon
+  name: Unfezant
+  type: Normal
+  level: 3
+  learnset:
+    Gust: 0
+    Growl: 4
+    Leer: 8
+    Quick Attack: 11
+    Air Cutter: 15
+    Roost: 18
+    Detect: 23
+    Taunt: 27
+    Air Slash: 33
+    Razor Wind: 38
+    FeatherDance: 44
+    Swagger: 49
+    Facade: 55
+    Tailwind: 60
+    Sky Attack: 66
+  moves:
+  - Gust
+  hp: 478
+  attack: 80
+  defense: 115
+  sp_atk: 80
+  sp_def: 65
+  speed: 55
+- !ruby/object:Pokemon
+  name: Gigalith
+  type: Rock
+  level: 3
+  learnset:
+    Tackle: 0
+    Harden: 4
+    Sand-Attack: 7
+    Headbutt: 10
+    Rock Blast: 14
+    Mud-Slap: 17
+    Iron Defense: 20
+    Smack Down: 23
+    Power Gem: 25
+    Rock Slide: 30
+    Stealth Rock: 36
+    Sandstorm: 42
+    Stone Edge: 48
+    Explosion: 55
+  moves:
+  - Tackle
+  hp: 505
+  attack: 85
+  defense: 135
+  sp_atk: 130
+  sp_def: 60
+  speed: 80
+- !ruby/object:Pokemon
+  name: Conkeldurr
+  type: Fighting
+  level: 3
+  learnset:
+    Pound: 0
+    Leer: 0
+    Focus Energy: 4
+    Bide: 8
+    Low Kick: 12
+    Rock Throw: 16
+    Wake-Up Slap: 20
+    Chip Away: 24
+    Bulk Up: 29
+    Rock Slide: 33
+    DynamicPunch: 37
+    Scary Face: 41
+    Hammer Arm: 45
+    Stone Edge: 49
+    Focus Punch: 53
+    Superpower: 57
+  moves:
+  - Pound
+  - Leer
+  hp: 105
+  attack: 140
+  defense: 95
+  sp_atk: 55
+  sp_def: 65
+  speed: 45
+- !ruby/object:Pokemon
+  name: Seismitoad
+  type: Water
+  level: 3
+  learnset:
+    Bubble: 0
+    Growl: 0
+    Supersonic: 5
+    Round: 9
+    BubbleBeam: 12
+    Mud Shot: 16
+    Aqua Ring: 20
+    Uproar: 23
+    Muddy Water: 28
+    Rain Dance: 33
+    Acid: 36
+    Flail: 39
+    Drain Punch: 44
+    Echoed Voice: 49
+    Hydro Pump: 53
+    Hyper Voice: 59
+  moves:
+  - Bubble
+  - Growl
+  hp: 499
+  attack: 105
+  defense: 95
+  sp_atk: 75
+  sp_def: 85
+  speed: 75
+- !ruby/object:Pokemon
+  name: Leavanny
+  type: Bug
+  level: 3
+  learnset:
+    False Swipe: 0
+    Tackle: 0
+    String Shot: 0
+    Bug Bite: 8
+    Razor Leaf: 15
+    Struggle Bug: 22
+    Slash: 29
+    Helping Hand: 32
+    Fell Stinger: 34
+    Leaf Blade: 36
+    X-Scissor: 39
+    Entrainment: 43
+    Swords Dance: 46
+    Leaf Storm: 50
+  moves:
+  - False Swipe
+  - Tackle
+  - String Shot
+  hp: 490
+  attack: 75
+  defense: 103
+  sp_atk: 80
+  sp_def: 70
+  speed: 80
+- !ruby/object:Pokemon
+  name: Scolipede
+  type: Bug
+  level: 3
+  learnset:
+    Megahorn: 0
+    Defense Curl: 0
+    Rollout: 0
+    Poison Sting: 5
+    Screech: 8
+    Pursuit: 12
+    Protect: 15
+    Poison Tail: 19
+    Bug Bite: 23
+    Venoshock: 28
+    Baton Pass: 30
+    Agility: 33
+    Steamroller: 39
+    Toxic: 44
+    Rock Climb: 50
+    Double-Edge: 55
+  moves:
+  - Megahorn
+  - Defense Curl
+  - Rollout
+  hp: 475
+  attack: 60
+  defense: 100
+  sp_atk: 89
+  sp_def: 55
+  speed: 69
+- !ruby/object:Pokemon
+  name: Krookodile
+  type: Ground
+  level: 3
+  learnset:
+    Leer: 0
+    Rage: 0
+    Bite: 4
+    Sand-Attack: 7
+    Torment: 10
+    Sand Tomb: 13
+    Assurance: 16
+    Mud-Slap: 19
+    Embargo: 22
+    Swagger: 25
+    Crunch: 28
+    Dig: 32
+    Scary Face: 36
+    Foul Play: 42
+    Sandstorm: 48
+    Earthquake: 54
+    Outrage: 60
+  moves:
+  - Leer
+  - Rage
+  hp: 509
+  attack: 95
+  defense: 117
+  sp_atk: 80
+  sp_def: 65
+  speed: 70
+- !ruby/object:Pokemon
+  name: Gothitelle
+  type: Psychic
+  level: 3
+  learnset:
+    Pound: 0
+    Confusion: 3
+    Tickle: 7
+    Fake Tears: 10
+    DoubleSlap: 14
+    Psybeam: 16
+    Embargo: 19
+    Faint Attack: 24
+    Psyshock: 25
+    Flatter: 28
+    Future Sight: 31
+    Heal Block: 34
+    Psychic: 39
+    Telekinesis: 45
+    Charm: 54
+    Magic Room: 59
+  moves:
+  - Pound
+  - Confusion
+  hp: 70
+  attack: 55
+  defense: 95
+  sp_atk: 95
+  sp_def: 110
+  speed: 65
+- !ruby/object:Pokemon
+  name: Reuniclus
+  type: Psychic
+  level: 3
+  learnset:
+    Psywave: 0
+    Reflect: 3
+    Rollout: 7
+    Snatch: 10
+    Hidden Power: 14
+    Light Screen: 16
+    Charm: 19
+    Recover: 24
+    Psyshock: 25
+    Endeavor: 28
+    Future Sight: 31
+    Pain Split: 34
+    Psychic: 39
+    Dizzy Punch: 41
+    Skill Swap: 45
+    Heal Block: 54
+    Wonder Room: 59
+  moves:
+  - Psywave
+  - Reflect
+  hp: 110
+  attack: 65
+  defense: 75
+  sp_atk: 125
+  sp_def: 85
+  speed: 30
+- !ruby/object:Pokemon
+  name: Vanilluxe
+  type: Ice
+  level: 3
+  learnset:
+    Sheer Cold: 67
+    Freeze-Dry: 0
+    Weather Ball: 0
+    Icicle Spear: 0
+    Harden: 4
+    Astonish: 7
+    Uproar: 10
+    Icy Wind: 13
+    Mist: 16
+    Avalanche: 19
+    Taunt: 22
+    Mirror Shot: 26
+    Acid Armor: 31
+    Ice Beam: 36
+    Hail: 42
+    Mirror Coat: 50
+    Blizzard: 59
+  moves:
+  - Freeze-Dry
+  - Weather Ball
+  - Icicle Spear
+  hp: 71
+  attack: 95
+  defense: 85
+  sp_atk: 110
+  sp_def: 95
+  speed: 79
+- !ruby/object:Pokemon
+  name: Klinklang
+  type: Steel
+  level: 3
+  learnset:
+    Magnetic Flux: 76
+    Zap Cannon: 66
+    Vice Grip: 0
+    Charge: 6
+    ThunderShock: 11
+    Gear Grind: 16
+    Bind: 21
+    Charge Beam: 25
+    Autotomize: 31
+    Mirror Shot: 36
+    Screech: 40
+    Discharge: 44
+    Metal Sound: 48
+    Shift Gear: 54
+    Lock-On: 60
+    Hyper Beam: 72
+  moves:
+  - Vice Grip
+  hp: 60
+  attack: 100
+  defense: 115
+  sp_atk: 70
+  sp_def: 85
+  speed: 90
+- !ruby/object:Pokemon
+  name: Eelektross
+  type: Electric
+  level: 3
+  learnset:
+    Crush Claw: 0
+    Headbutt: 0
+    Acid: 0
+    Discharge: 0
+    Crunch: 0
+  moves:
+  - Crush Claw
+  - Headbutt
+  - Acid
+  - Discharge
+  - Crunch
+  hp: 85
+  attack: 115
+  defense: 80
+  sp_atk: 105
+  sp_def: 80
+  speed: 50
+- !ruby/object:Pokemon
+  name: Chandelure
+  type: Ghost
+  level: 3
+  learnset:
+    Pain Split: 0
+    Smog: 0
+    Confuse Ray: 0
+    Flame Burst: 0
+    Hex: 0
+  moves:
+  - Pain Split
+  - Smog
+  - Confuse Ray
+  - Flame Burst
+  - Hex
+  hp: 60
+  attack: 55
+  defense: 90
+  sp_atk: 145
+  sp_def: 90
+  speed: 80
+- !ruby/object:Pokemon
+  name: Haxorus
+  type: Dragon
+  level: 3
+  learnset:
+    Scratch: 0
+    Leer: 4
+    Assurance: 7
+    Dragon Rage: 10
+    Dual Chop: 13
+    Scary Face: 16
+    Slash: 20
+    False Swipe: 24
+    Dragon Claw: 28
+    Dragon Dance: 32
+    Taunt: 36
+    Dragon Pulse: 42
+    Swords Dance: 50
+    Guillotine: 58
+    Outrage: 66
+    Giga Impact: 74
+  moves:
+  - Scratch
+  hp: 76
+  attack: 147
+  defense: 90
+  sp_atk: 60
+  sp_def: 70
+  speed: 97
+- !ruby/object:Pokemon
+  name: Hydreigon
+  type: Dark
+  level: 3
+  learnset:
+    Outrage: 79
+    Hyper Voice: 68
+    Tri Attack: 0
+    Dragon Rage: 0
+    Focus Energy: 4
+    Bite: 9
+    Headbutt: 12
+    DragonBreath: 17
+    Roar: 20
+    Crunch: 25
+    Slam: 28
+    Dragon Pulse: 32
+    Work Up: 38
+    Dragon Rush: 42
+    Body Slam: 48
+    Scary Face: 55
+  moves:
+  - Tri Attack
+  - Dragon Rage
+  hp: 92
+  attack: 105
+  defense: 90
+  sp_atk: 125
+  sp_def: 90
+  speed: 98
+- !ruby/object:Pokemon
+  name: Chesnaught
+  type: Grass
+  level: 3
+  learnset:
+    Feint: 0
+    Hammer Arm: 60
+    Belly Drum: 0
+    Tackle: 0
+    Growl: 0
+    Vine Whip: 5
+    Rollout: 8
+    Bite: 11
+    Leech Seed: 15
+    Pin Missile: 20
+    Needle Arm: 26
+    Take Down: 30
+    Seed Bomb: 35
+    Spiky Shield: 75
+    Mud Shot: 41
+    Bulk Up: 44
+    Body Slam: 48
+    Pain Split: 52
+    Wood Hammer: 55
+    Giga Impact: 70
+  moves:
+  - Feint
+  - Belly Drum
+  - Tackle
+  - Growl
+  hp: 88
+  attack: 107
+  defense: 122
+  sp_atk: 74
+  sp_def: 75
+  speed: 64
+- !ruby/object:Pokemon
+  name: Delphox
+  type: Fire
+  level: 3
+  learnset:
+    Future Sight: 69
+    Role Play: 0
+    Switcheroo: 0
+    Shadow Ball: 0
+    Scratch: 0
+    Tail Whip: 0
+    Ember: 5
+    Howl: 11
+    Flame Charge: 14
+    Psybeam: 18
+    Fire Spin: 22
+    Lucky Chant: 27
+    Light Screen: 30
+    Psyshock: 34
+    Mystical Fire: 75
+    Flamethrower: 42
+    Will-O-Wisp: 47
+    Psychic: 51
+    Sunny Day: 55
+    Magic Room: 58
+    Fire Blast: 61
+  moves:
+  - Role Play
+  - Switcheroo
+  - Shadow Ball
+  - Scratch
+  - Tail Whip
+  hp: 75
+  attack: 69
+  defense: 72
+  sp_atk: 114
+  sp_def: 100
+  speed: 104
+- !ruby/object:Pokemon
+  name: Greninja
+  type: Water
+  level: 3
+  learnset:
+    Night Slash: 70
+    Role Play: 0
+    Mat Block: 0
+    Pound: 0
+    Growl: 0
+    Bubble: 5
+    Quick Attack: 8
+    Lick: 10
+    Water Pulse: 14
+    Smokescreen: 20
+    Shadow Sneak: 23
+    Spikes: 28
+    Feint Attack: 33
+    Water Shuriken: 75
+    Substitute: 43
+    Extrasensory: 49
+    Double Team: 52
+    Haze: 56
+    Hydro Pump: 60
+  moves:
+  - Role Play
+  - Mat Block
+  - Pound
+  - Growl
+  hp: 72
+  attack: 95
+  defense: 67
+  sp_atk: 103
+  sp_def: 71
+  speed: 122
+- !ruby/object:Pokemon
+  name: Talonflame
+  type: Fire
+  level: 3
+  learnset:
+    Brave Bird: 64
+    Flare Blitz: 0
+    Tackle: 0
+    Growl: 0
+    Quick Attack: 6
+    Peck: 10
+    Agility: 13
+    Flail: 16
+    Ember: 17
+    Roost: 25
+    Razor Wind: 27
+    Natural Gift: 31
+    Flame Charge: 39
+    Acrobatics: 44
+    Me First: 49
+    Tailwind: 55
+    Steel Wing: 60
+  moves:
+  - Flare Blitz
+  - Tackle
+  - Growl
+  hp: 78
+  attack: 81
+  defense: 71
+  sp_atk: 74
+  sp_def: 69
+  speed: 126
+- !ruby/object:Pokemon
+  name: Vivillon
+  type: Bug
+  level: 3
+  learnset:
+    Poison Powder: 0
+    Stun Spore: 0
+    Gust: 0
+    Light Screen: 0
+    Powder: 55
+    Sleep Powder: 0
+    Struggle Bug: 12
+    Psybeam: 17
+    Supersonic: 21
+    Draining Kiss: 25
+    Aromatherapy: 31
+    Bug Buzz: 35
+    Safeguard: 41
+    Quiver Dance: 45
+    Hurricane: 50
+  moves:
+  - Poison Powder
+  - Stun Spore
+  - Gust
+  - Light Screen
+  - Sleep Powder
+  hp: 80
+  attack: 52
+  defense: 50
+  sp_atk: 90
+  sp_def: 50
+  speed: 89
+- !ruby/object:Pokemon
+  name: Florges
+  type: Fairy
+  level: 3
+  learnset:
+    Disarming Voice: 0
+    Lucky Chant: 0
+    Wish: 0
+    Magical Leaf: 0
+    Flower Shield: 0
+    Grass Knot: 0
+    Grassy Terrain: 0
+    Petal Blizzard: 0
+    Misty Terrain: 0
+    Moonblast: 0
+    Petal Dance: 0
+    Aromatherapy: 0
+  moves:
+  - Disarming Voice
+  - Lucky Chant
+  - Wish
+  - Magical Leaf
+  - Flower Shield
+  - Grass Knot
+  - Grassy Terrain
+  - Petal Blizzard
+  - Misty Terrain
+  - Moonblast
+  - Petal Dance
+  - Aromatherapy
+  hp: 78
+  attack: 65
+  defense: 68
+  sp_atk: 112
+  sp_def: 154
+  speed: 75
+- !ruby/object:Pokemon
+  name: Aegislash
+  type: Steel
+  level: 3
+  learnset:
+    Fury Cutter: 0
+    Pursuit: 0
+    Autotomize: 0
+    Shadow Sneak: 0
+    Slash: 0
+    Iron Defense: 0
+    Night Slash: 0
+    Power Trick: 0
+    Iron Head: 0
+    Head Smash: 0
+    Swords Dance: 0
+    Aerial Ace: 0
+    King's Shield: 0
+    Sacred Sword: 0
+  moves:
+  - Fury Cutter
+  - Pursuit
+  - Autotomize
+  - Shadow Sneak
+  - Slash
+  - Iron Defense
+  - Night Slash
+  - Power Trick
+  - Iron Head
+  - Head Smash
+  - Swords Dance
+  - Aerial Ace
+  - King's Shield
+  - Sacred Sword
+  hp: 520
+  attack: 60
+  defense: 150
+  sp_atk: 50
+  sp_def: 150
+  speed: 50
+- !ruby/object:Pokemon
+  name: Goodra
+  type: Dragon
+  level: 3
+  learnset:
+    Outrage: 63
+    Feint: 0
+    Tackle: 0
+    Bubble: 0
+    Absorb: 5
+    Protect: 9
+    Bide: 13
+    Dragon Breath: 18
+    Rain Dance: 25
+    Flail: 28
+    Body Slam: 32
+    Muddy Water: 38
+    Dragon Pulse: 47
+    Aqua Tail: 50
+    Power Whip: 55
+  moves:
+  - Feint
+  - Tackle
+  - Bubble
+  hp: 90
+  attack: 100
+  defense: 70
+  sp_atk: 110
+  sp_def: 150
+  speed: 80

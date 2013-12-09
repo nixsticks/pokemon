@@ -1,0 +1,7237 @@
+---
+- !ruby/object:Ivysaur
+  type: Grass
+  level: 3
+  learnset:
+    Tackle: 0
+    Growl: 3
+    Leech Seed: 7
+    Vine Whip: 9
+    Poison Powder: 13
+    Sleep Powder: 13
+    Take Down: 15
+    Razor Leaf: 20
+    Sweet Scent: 23
+    Growth: 28
+    Double-Edge: 31
+    Worry Seed: 36
+    Synthesis: 39
+    Solar Beam: 44
+  moves:
+  - Tackle
+  - Growl
+  hp: 60
+  attack: 62
+  defense: 63
+  sp_atk: 80
+  sp_def: 80
+  speed: 60
+  evolution:
+    Venusaur: 32
+- !ruby/object:Charmeleon
+  type: Fire
+  level: 3
+  learnset:
+    Scratch: 0
+    Growl: 0
+    Ember: 7
+    Smokescreen: 10
+    Dragon Rage: 17
+    Scary Face: 21
+    Fire Fang: 28
+    Flame Burst: 32
+    Slash: 39
+    Flamethrower: 43
+    Fire Spin: 50
+    Inferno: 54
+  moves:
+  - Scratch
+  - Growl
+  hp: 58
+  attack: 64
+  defense: 58
+  sp_atk: 80
+  sp_def: 65
+  speed: 80
+  evolution:
+    Charizard: 36
+- !ruby/object:Wartortle
+  type: Water
+  level: 3
+  learnset:
+    Tackle: 0
+    Tail Whip: 4
+    Bubble: 7
+    Withdraw: 10
+    Water Gun: 13
+    Bite: 16
+    Rapid Spin: 20
+    Protect: 24
+    Water Pulse: 28
+    Aqua Tail: 32
+    Skull Bash: 36
+    Iron Defense: 40
+    Rain Dance: 44
+    Hydro Pump: 48
+  moves:
+  - Tackle
+  hp: 59
+  attack: 63
+  defense: 80
+  sp_atk: 65
+  sp_def: 80
+  speed: 58
+  evolution:
+    Blastoise: 36
+- !ruby/object:Metapod
+  type: Bug
+  level: 3
+  learnset:
+    Harden: 7
+  moves: []
+  hp: 50
+  attack: 20
+  defense: 55
+  sp_atk: 25
+  sp_def: 25
+  speed: 30
+  evolution:
+    Butterfree: 10
+- !ruby/object:Kakuna
+  type: Bug
+  level: 3
+  learnset:
+    Harden: 7
+  moves: []
+  hp: 45
+  attack: 25
+  defense: 50
+  sp_atk: 25
+  sp_def: 25
+  speed: 35
+  evolution:
+    Beedrill: 10
+- !ruby/object:Pidgeotto
+  type: Normal
+  level: 3
+  learnset:
+    Tackle: 0
+    Sand-Attack: 5
+    Gust: 9
+    Quick Attack: 13
+    Whirlwind: 17
+    Twister: 22
+    FeatherDance: 27
+    Agility: 32
+    Wing Attack: 37
+    Roost: 42
+    Tailwind: 47
+    Mirror Move: 52
+    Air Slash: 57
+    Hurricane: 62
+  moves:
+  - Tackle
+  hp: 63
+  attack: 60
+  defense: 55
+  sp_atk: 50
+  sp_def: 50
+  speed: 71
+  evolution:
+    Pidgeot: 36
+- !ruby/object:Raticate
+  type: Normal
+  level: 3
+  learnset:
+    Swords Dance: 0
+    Tackle: 0
+    Tail Whip: 0
+    Quick Attack: 4
+    Focus Energy: 7
+    Bite: 10
+    Pursuit: 13
+    Hyper Fang: 16
+    Sucker Punch: 19
+    Scary Face: 20
+    Crunch: 24
+    Assurance: 29
+    Super Fang: 34
+    Double-Edge: 39
+    Endeavor: 44
+  moves:
+  - Swords Dance
+  - Tackle
+  - Tail Whip
+  hp: 55
+  attack: 81
+  defense: 60
+  sp_atk: 50
+  sp_def: 70
+  speed: 97
+- !ruby/object:Fearow
+  type: Normal
+  level: 3
+  learnset:
+    Drill Run: 53
+    Pluck: 0
+    Peck: 0
+    Growl: 0
+    Leer: 5
+    Fury Attack: 9
+    Pursuit: 13
+    Aerial Ace: 17
+    Mirror Move: 23
+    Agility: 29
+    Assurance: 35
+    Roost: 41
+    Drill Peck: 47
+  moves:
+  - Pluck
+  - Peck
+  - Growl
+  hp: 65
+  attack: 90
+  defense: 65
+  sp_atk: 61
+  sp_def: 61
+  speed: 100
+- !ruby/object:Arbok
+  type: Poison
+  level: 3
+  learnset:
+    Ice Fang: 0
+    Thunder Fang: 0
+    Fire Fang: 0
+    Wrap: 0
+    Leer: 0
+    Poison Sting: 4
+    Bite: 9
+    Glare: 12
+    Screech: 17
+    Acid: 20
+    Crunch: 22
+    Stockpile: 27
+    Swallow: 27
+    Spit Up: 27
+    Acid Spray: 32
+    Mud Bomb: 39
+    Gastro Acid: 44
+    Haze: 51
+    Coil: 56
+    Gunk Shot: 63
+  moves:
+  - Ice Fang
+  - Thunder Fang
+  - Fire Fang
+  - Wrap
+  - Leer
+  hp: 60
+  attack: 85
+  defense: 69
+  sp_atk: 65
+  sp_def: 79
+  speed: 80
+- !ruby/object:Pikachu
+  type: Electric
+  level: 3
+  learnset:
+    Growl: 0
+    Thunder Shock: 0
+    Tail Whip: 5
+    Play Nice: 7
+    Quick Attack: 10
+    Thunder Wave: 13
+    Electro Ball: 18
+    Double Team: 21
+    Nuzzle: 23
+    Slam: 26
+    Thunderbolt: 29
+    Feint: 34
+    Agility: 37
+    Discharge: 42
+    Light Screen: 46
+    Thunder: 50
+  moves:
+  - Growl
+  - Thunder Shock
+  hp: 300
+  attack: 35
+  defense: 55
+  sp_atk: 40
+  sp_def: 50
+  speed: 50
+- !ruby/object:Sandslash
+  type: Ground
+  level: 3
+  learnset:
+    Scratch: 0
+    Defense Curl: 3
+    Sand-Attack: 7
+    Poison Sting: 9
+    Rollout: 21
+    Rapid Spin: 13
+    Swift: 15
+    Fury Cutter: 28
+    Magnitude: 0
+    Fury Swipes: 19
+    Crush Claw: 22
+    Sand Tomb: 33
+    Slash: 40
+    Dig: 0
+    Gyro Ball: 45
+    Swords Dance: 0
+    Sandstorm: 52
+    Earthquake: 0
+  moves:
+  - Scratch
+  - Defense Curl
+  - Magnitude
+  - Dig
+  - Swords Dance
+  - Earthquake
+  hp: 75
+  attack: 100
+  defense: 110
+  sp_atk: 45
+  sp_def: 55
+  speed: 65
+- !ruby/object:Nidorina
+  type: Poison
+  level: 3
+  learnset:
+    Growl: 0
+    Scratch: 0
+    Tail Whip: 7
+    Double Kick: 9
+    Poison Sting: 13
+    Fury Swipes: 20
+    Bite: 23
+    Helping Hand: 28
+    Toxic Spikes: 35
+    Flatter: 38
+    Crunch: 43
+    Captivate: 50
+    Poison Fang: 58
+  moves:
+  - Growl
+  - Scratch
+  hp: 70
+  attack: 62
+  defense: 67
+  sp_atk: 55
+  sp_def: 55
+  speed: 56
+- !ruby/object:Clefairy
+  type: Fairy
+  level: 3
+  learnset:
+    After You: 58
+    Healing Wish: 55
+    Disarming Voice: 0
+    Pound: 0
+    Growl: 0
+    Encore: 4
+    Sing: 7
+    Double Slap: 10
+    Defense Curl: 13
+    Follow Me: 16
+    Bestow: 19
+    Wake-Up Slap: 22
+    Minimize: 25
+    Stored Power: 28
+    Metronome: 31
+    Cosmic Power: 34
+    Lucky Chant: 37
+    Body Slam: 40
+    Moonlight: 43
+    Moonblast: 46
+    Gravity: 49
+    Meteor Mash: 50
+  moves:
+  - Disarming Voice
+  - Pound
+  - Growl
+  hp: 70
+  attack: 45
+  defense: 48
+  sp_atk: 60
+  sp_def: 65
+  speed: 35
+- !ruby/object:Ninetales
+  type: Fire
+  level: 3
+  learnset:
+    Imprison: 0
+    Nasty Plot: 0
+    Flamethrower: 0
+    Quick Attack: 0
+    Confuse Ray: 0
+    Safeguard: 0
+  moves:
+  - Imprison
+  - Nasty Plot
+  - Flamethrower
+  - Quick Attack
+  - Confuse Ray
+  - Safeguard
+  hp: 73
+  attack: 76
+  defense: 75
+  sp_atk: 81
+  sp_def: 100
+  speed: 100
+- !ruby/object:Jigglypuff
+  type: Normal
+  level: 3
+  learnset:
+    Sing: 0
+    Defense Curl: 5
+    Pound: 7
+    Play Nice: 10
+    Disable: 13
+    Round: 17
+    Rollout: 21
+    Double Slap: 25
+    Rest: 29
+    Body Slam: 33
+    Gyro Ball: 37
+    Wake-Up Slap: 41
+    Mimic: 45
+    Hyper Voice: 48
+    Disarming Voice: 50
+    Double-Edge: 53
+  moves:
+  - Sing
+  hp: 115
+  attack: 45
+  defense: 20
+  sp_atk: 45
+  sp_def: 25
+  speed: 20
+- !ruby/object:Golbat
+  type: Poison
+  level: 3
+  learnset:
+    Screech: 0
+    Leech Life: 0
+    Supersonic: 4
+    Astonish: 8
+    Bite: 12
+    Wing Attack: 15
+    Confuse Ray: 19
+    Swift: 24
+    Air Cutter: 28
+    Acrobatics: 33
+    Mean Look: 38
+    Poison Fang: 42
+    Haze: 47
+    Air Slash: 52
+  moves:
+  - Screech
+  - Leech Life
+  hp: 75
+  attack: 80
+  defense: 70
+  sp_atk: 65
+  sp_def: 75
+  speed: 90
+- !ruby/object:Gloom
+  type: Grass
+  level: 3
+  learnset:
+    Absorb: 0
+    Sweet Scent: 5
+    Acid: 9
+    PoisonPowder: 13
+    Stun Spore: 15
+    Sleep Powder: 17
+    Mega Drain: 23
+    Lucky Chant: 29
+    Natural Gift: 35
+    Moonlight: 41
+    Giga Drain: 47
+    Petal Blizzard: 50
+    Petal Dance: 53
+    Grassy Terrain: 56
+  moves:
+  - Absorb
+  hp: 60
+  attack: 65
+  defense: 70
+  sp_atk: 85
+  sp_def: 75
+  speed: 40
+- !ruby/object:Parasect
+  type: Bug
+  level: 3
+  learnset:
+    Cross Poison: 0
+    Scratch: 0
+    Stun Spore: 6
+    PoisonPowder: 6
+    Leech Life: 11
+    Fury Cutter: 17
+    Spore: 22
+    Slash: 29
+    Growth: 37
+    Giga Drain: 44
+    Aromatherapy: 51
+    Rage Powder: 59
+    X-Scissor: 66
+  moves:
+  - Cross Poison
+  - Scratch
+  hp: 60
+  attack: 95
+  defense: 80
+  sp_atk: 60
+  sp_def: 80
+  speed: 30
+- !ruby/object:Venomoth
+  type: Bug
+  level: 3
+  learnset:
+    Silver Wind: 0
+    Tackle: 0
+    Disable: 0
+    Foresight: 0
+    Supersonic: 5
+    Confusion: 11
+    PoisonPowder: 13
+    Leech Life: 17
+    Stun Spore: 23
+    Psybeam: 25
+    Sleep Powder: 29
+    Gust: 31
+    Signal Beam: 37
+    Zen Headbutt: 41
+    Poison Fang: 47
+    Psychic: 55
+    Bug Buzz: 59
+    Quiver Dance: 63
+  moves:
+  - Silver Wind
+  - Tackle
+  - Disable
+  - Foresight
+  hp: 70
+  attack: 65
+  defense: 60
+  sp_atk: 90
+  sp_def: 75
+  speed: 90
+- !ruby/object:Dugtrio
+  type: Ground
+  level: 3
+  learnset:
+    Night Slash: 0
+    Tri Attack: 0
+    Scratch: 0
+    Sand-Attack: 0
+    Growl: 4
+    Astonish: 7
+    Mud-Slap: 12
+    Magnitude: 15
+    Bulldoze: 18
+    Sucker Punch: 23
+    Sand Tomb: 26
+    Mud Bomb: 28
+    Earth Power: 33
+    Dig: 40
+    Slash: 45
+    Earthquake: 50
+    Fissure: 57
+  moves:
+  - Night Slash
+  - Tri Attack
+  - Scratch
+  - Sand-Attack
+  hp: 35
+  attack: 80
+  defense: 50
+  sp_atk: 50
+  sp_def: 70
+  speed: 120
+- !ruby/object:Persian
+  type: Normal
+  level: 3
+  learnset:
+    Switcheroo: 0
+    Scratch: 0
+    Growl: 0
+    Bite: 6
+    Fake Out: 9
+    Fury Swipes: 14
+    Screech: 17
+    Faint Attack: 22
+    Taunt: 25
+    Swift: 0
+    Power Gem: 32
+    Slash: 37
+    Nasty Plot: 44
+    Assurance: 49
+    Captivate: 56
+    Night Slash: 61
+    Feint: 68
+  moves:
+  - Switcheroo
+  - Scratch
+  - Growl
+  - Swift
+  hp: 65
+  attack: 70
+  defense: 60
+  sp_atk: 65
+  sp_def: 65
+  speed: 115
+- !ruby/object:Golduck
+  type: Water
+  level: 3
+  learnset:
+    Aqua Jet: 0
+    Water Sport: 0
+    Scratch: 0
+    Tail Whip: 4
+    Water Gun: 8
+    Disable: 11
+    Confusion: 15
+    Water Pulse: 18
+    Fury Swipes: 22
+    Screech: 25
+    Zen Headbutt: 29
+    Aqua Tail: 32
+    Soak: 38
+    Psych Up: 43
+    Amnesia: 49
+    Hydro Pump: 54
+    Wonder Room: 60
+  moves:
+  - Aqua Jet
+  - Water Sport
+  - Scratch
+  hp: 80
+  attack: 82
+  defense: 78
+  sp_atk: 95
+  sp_def: 80
+  speed: 85
+- !ruby/object:Primeape
+  type: Fighting
+  level: 3
+  learnset:
+    Fling: 0
+    Scratch: 0
+    Low Kick: 0
+    Leer: 0
+    Focus Energy: 0
+    Fury Swipes: 9
+    Karate Chop: 13
+    Seismic Toss: 17
+    Screech: 21
+    Assurance: 25
+    Rage: 28
+    Swagger: 35
+    Cross Chop: 41
+    Thrash: 47
+    Punishment: 53
+    Close Combat: 59
+    Final Gambit: 63
+  moves:
+  - Fling
+  - Scratch
+  - Low Kick
+  - Leer
+  - Focus Energy
+  hp: 65
+  attack: 105
+  defense: 60
+  sp_atk: 60
+  sp_def: 70
+  speed: 95
+- !ruby/object:Arcanine
+  type: Fire
+  level: 3
+  learnset:
+    Thunder Fang: 0
+    Bite: 0
+    Roar: 0
+    Odor Sleuth: 0
+    Fire Fang: 0
+    ExtremeSpeed: 34
+  moves:
+  - Thunder Fang
+  - Bite
+  - Roar
+  - Odor Sleuth
+  - Fire Fang
+  hp: 90
+  attack: 110
+  defense: 80
+  sp_atk: 100
+  sp_def: 80
+  speed: 95
+- !ruby/object:Poliwhirl
+  type: Water
+  level: 3
+  learnset:
+    Water Sport: 0
+    Bubble: 5
+    Hypnosis: 8
+    Water Gun: 11
+    DoubleSlap: 15
+    Rain Dance: 18
+    Body Slam: 21
+    BubbleBeam: 27
+    Mud Shot: 32
+    Belly Drum: 37
+    Wake-Up Slap: 43
+    Hydro Pump: 48
+    Mud Bomb: 53
+  moves:
+  - Water Sport
+  hp: 65
+  attack: 65
+  defense: 65
+  sp_atk: 50
+  sp_def: 50
+  speed: 90
+- !ruby/object:Kadabra
+  type: Psychic
+  level: 3
+  learnset:
+    Teleport: 0
+    Kinesis: 0
+    Confusion: 16
+    Disable: 18
+    Miracle Eye: 22
+    Ally Switch: 24
+    Psybeam: 28
+    Reflect: 30
+    Telekinesis: 34
+    Recover: 36
+    Psycho Cut: 40
+    Role Play: 42
+    Psychic: 46
+    Future Sight: 48
+    Trick: 52
+  moves:
+  - Teleport
+  - Kinesis
+  hp: 40
+  attack: 35
+  defense: 30
+  sp_atk: 120
+  sp_def: 70
+  speed: 105
+- !ruby/object:Machoke
+  type: Fighting
+  level: 3
+  learnset:
+    Low Kick: 0
+    Leer: 0
+    Focus Energy: 7
+    Karate Chop: 10
+    Low Sweep: 13
+    Foresight: 19
+    Seismic Toss: 22
+    Revenge: 25
+    Vital Throw: 32
+    Submission: 36
+    Wake-Up Slap: 40
+    Cross Chop: 44
+    Scary Face: 51
+    DynamicPunch: 55
+  moves:
+  - Low Kick
+  - Leer
+  hp: 80
+  attack: 100
+  defense: 70
+  sp_atk: 50
+  sp_def: 60
+  speed: 45
+- !ruby/object:Weepinbell
+  type: Grass
+  level: 3
+  learnset:
+    Vine Whip: 0
+    Growth: 7
+    Wrap: 11
+    Sleep Powder: 13
+    PoisonPowder: 15
+    Stun Spore: 17
+    Acid: 23
+    Knock Off: 27
+    Sweet Scent: 29
+    Gastro Acid: 35
+    Razor Leaf: 39
+    Slam: 41
+    Wring Out: 47
+  moves:
+  - Vine Whip
+  hp: 65
+  attack: 90
+  defense: 50
+  sp_atk: 85
+  sp_def: 45
+  speed: 55
+- !ruby/object:Tentacruel
+  type: Water
+  level: 3
+  learnset:
+    Poison Sting: 0
+    Supersonic: 5
+    Constrict: 8
+    Acid: 12
+    Toxic Spikes: 15
+    BubbleBeam: 19
+    Wrap: 22
+    Acid Spray: 26
+    Barrier: 29
+    Water Pulse: 34
+    Poison Jab: 38
+    Screech: 43
+    Hex: 47
+    Hydro Pump: 52
+    Sludge Wave: 56
+    Wring Out: 61
+  moves:
+  - Poison Sting
+  hp: 80
+  attack: 70
+  defense: 65
+  sp_atk: 80
+  sp_def: 120
+  speed: 100
+- !ruby/object:Graveler
+  type: Rock
+  level: 3
+  learnset:
+    Tackle: 0
+    Defense Curl: 0
+    Mud Sport: 4
+    Rock Polish: 8
+    Rock Throw: 11
+    Magnitude: 15
+    Rollout: 18
+    Rock Blast: 22
+    Smack Down: 27
+    Selfdestruct: 31
+    Bulldoze: 36
+    Stealth Rock: 42
+    Earthquake: 47
+    Explosion: 53
+    Double-Edge: 58
+    Stone Edge: 64
+  moves:
+  - Tackle
+  - Defense Curl
+  hp: 55
+  attack: 95
+  defense: 115
+  sp_atk: 45
+  sp_def: 45
+  speed: 35
+- !ruby/object:Rapidash
+  type: Fire
+  level: 3
+  learnset:
+    Poison Jab: 0
+    Megahorn: 0
+    Growl: 0
+    Quick Attack: 0
+    Tail Whip: 4
+    Ember: 9
+    Flame Wheel: 13
+    Stomp: 17
+    Flame Charge: 21
+    Fire Spin: 25
+    Take Down: 29
+    Inferno: 33
+    Agility: 37
+    Fury Attack: 40
+    Fire Blast: 41
+    Bounce: 45
+    Flare Blitz: 49
+  moves:
+  - Poison Jab
+  - Megahorn
+  - Growl
+  - Quick Attack
+  hp: 65
+  attack: 100
+  defense: 70
+  sp_atk: 80
+  sp_def: 80
+  speed: 105
+- !ruby/object:Slowbro
+  type: Water
+  level: 3
+  learnset:
+    Heal Pulse: 68
+    Curse: 0
+    Yawn: 0
+    Tackle: 0
+    Growl: 5
+    Water Gun: 9
+    Confusion: 14
+    Disable: 19
+    Headbutt: 23
+    Water Pulse: 28
+    Zen Headbutt: 32
+    Slack Off: 36
+    Withdraw: 37
+    Amnesia: 43
+    Psychic: 49
+    Rain Dance: 55
+    Psych Up: 62
+  moves:
+  - Curse
+  - Yawn
+  - Tackle
+  hp: 95
+  attack: 75
+  defense: 110
+  sp_atk: 100
+  sp_def: 80
+  speed: 30
+- !ruby/object:Magneton
+  type: Electric
+  level: 3
+  learnset:
+    Zap Cannon: 73
+    Tri Attack: 0
+    Tackle: 0
+    Supersonic: 4
+    Thunder Shock: 7
+    SonicBoom: 0
+    Electric Terrain: 11
+    Thunder Wave: 15
+    Magnet Bomb: 18
+    Spark: 21
+    Mirror Shot: 25
+    Metal Sound: 29
+    Electro Ball: 34
+    Flash Cannon: 39
+    Screech: 45
+    Discharge: 51
+    Lock-On: 56
+    Magnet Rise: 62
+    Gyro Ball: 67
+  moves:
+  - Tri Attack
+  - Tackle
+  - SonicBoom
+  hp: 50
+  attack: 60
+  defense: 95
+  sp_atk: 120
+  sp_def: 70
+  speed: 70
+- !ruby/object:Dodrio
+  type: Normal
+  level: 3
+  learnset:
+    Pluck: 0
+    Peck: 0
+    Growl: 0
+    Quick Attack: 5
+    Rage: 10
+    Fury Attack: 14
+    Pursuit: 19
+    Uproar: 23
+    Acupressure: 28
+    Tri Attack: 34
+    Agility: 41
+    Drill Peck: 47
+    Endeavor: 54
+    Thrash: 60
+  moves:
+  - Pluck
+  - Peck
+  - Growl
+  hp: 60
+  attack: 110
+  defense: 70
+  sp_atk: 60
+  sp_def: 60
+  speed: 100
+- !ruby/object:Dewgong
+  type: Water
+  level: 3
+  learnset:
+    Headbutt: 0
+    Growl: 3
+    Signal Beam: 7
+    Icy Wind: 11
+    Encore: 13
+    Ice Shard: 17
+    Rest: 21
+    Aqua Ring: 23
+    Aurora Beam: 27
+    Aqua Jet: 31
+    Brine: 33
+    Sheer Cold: 34
+    Take Down: 39
+    Dive: 45
+    Aqua Tail: 49
+    Ice Beam: 55
+    Safeguard: 61
+    Hail: 65
+  moves:
+  - Headbutt
+  - Growl
+  hp: 90
+  attack: 70
+  defense: 80
+  sp_atk: 70
+  sp_def: 95
+  speed: 70
+- !ruby/object:Muk
+  type: Poison
+  level: 3
+  learnset:
+    Poison Gas: 0
+    Pound: 0
+    Harden: 4
+    Mud-Slap: 7
+    Disable: 12
+    Sludge: 20
+    Minimize: 17
+    Mud Bomb: 23
+    Sludge Bomb: 36
+    Fling: 28
+    Screech: 33
+    Sludge Wave: 50
+    Acid Armor: 42
+    Gunk Shot: 58
+    Memento: 64
+  moves:
+  - Poison Gas
+  - Pound
+  hp: 105
+  attack: 105
+  defense: 75
+  sp_atk: 65
+  sp_def: 100
+  speed: 50
+- !ruby/object:Cloyster
+  type: Water
+  level: 3
+  learnset:
+    Hydro Pump: 0
+    Shell Smash: 0
+    Toxic Spikes: 0
+    Withdraw: 0
+    Supersonic: 0
+    Protect: 0
+    Aurora Beam: 0
+    Spike Cannon: 13
+    Spikes: 28
+    Icicle Crash: 50
+  moves:
+  - Hydro Pump
+  - Shell Smash
+  - Toxic Spikes
+  - Withdraw
+  - Supersonic
+  - Protect
+  - Aurora Beam
+  hp: 50
+  attack: 95
+  defense: 180
+  sp_atk: 85
+  sp_def: 45
+  speed: 70
+- !ruby/object:Haunter
+  type: Ghost
+  level: 3
+  learnset:
+    Hypnosis: 0
+    Lick: 0
+    Spite: 5
+    Mean Look: 8
+    Curse: 12
+    Night Shade: 15
+    Confuse Ray: 19
+    Sucker Punch: 22
+    Shadow Punch: 25
+    Payback: 28
+    Shadow Ball: 33
+    Dream Eater: 39
+    Dark Pulse: 44
+    Destiny Bond: 50
+    Hex: 55
+    Nightmare: 61
+  moves:
+  - Hypnosis
+  - Lick
+  hp: 45
+  attack: 50
+  defense: 45
+  sp_atk: 115
+  sp_def: 55
+  speed: 95
+- !ruby/object:Steelix
+  type: Steel
+  level: 3
+  learnset:
+    Thunder Fang: 0
+    Ice Fang: 0
+    Fire Fang: 0
+    Mud Sport: 0
+    Tackle: 0
+    Harden: 0
+    Bind: 0
+    Curse: 4
+    Rock Throw: 7
+    Rock Tomb: 10
+    Rage: 13
+    Stealth Rock: 16
+    Autotomize: 19
+    Gyro Ball: 20
+    Smack Down: 22
+    DragonBreath: 25
+    Slam: 28
+    Screech: 31
+    Rock Slide: 34
+    Crunch: 37
+    Iron Tail: 40
+    Dig: 43
+    Stone Edge: 46
+    Double-Edge: 49
+    Sandstorm: 52
+  moves:
+  - Thunder Fang
+  - Ice Fang
+  - Fire Fang
+  - Mud Sport
+  - Tackle
+  - Harden
+  - Bind
+  hp: 75
+  attack: 85
+  defense: 200
+  sp_atk: 55
+  sp_def: 65
+  speed: 30
+- !ruby/object:Hypno
+  type: Psychic
+  level: 3
+  learnset:
+    Future Sight: 61
+    Nasty Plot: 53
+    Nightmare: 0
+    Switcheroo: 0
+    Pound: 0
+    Hypnosis: 0
+    Disable: 5
+    Confusion: 9
+    Headbutt: 29
+    Poison Gas: 17
+    Meditate: 21
+    Psybeam: 25
+    Psych Up: 33
+    Synchronoise: 37
+    Zen Headbutt: 41
+    Swagger: 45
+    Psychic: 49
+    Psyshock: 57
+  moves:
+  - Nightmare
+  - Switcheroo
+  - Pound
+  - Hypnosis
+  hp: 85
+  attack: 73
+  defense: 70
+  sp_atk: 73
+  sp_def: 115
+  speed: 67
+- !ruby/object:Kingler
+  type: Water
+  level: 3
+  learnset:
+    Wide Guard: 0
+    Mud Sport: 0
+    Bubble: 0
+    Vice Grip: 5
+    Leer: 9
+    Harden: 11
+    BubbleBeam: 15
+    Mud Shot: 19
+    Metal Claw: 21
+    Stomp: 25
+    Protect: 32
+    Guillotine: 37
+    Slam: 44
+    Brine: 51
+    Crabhammer: 56
+    Flail: 63
+  moves:
+  - Wide Guard
+  - Mud Sport
+  - Bubble
+  hp: 55
+  attack: 130
+  defense: 115
+  sp_atk: 50
+  sp_def: 50
+  speed: 75
+- !ruby/object:Electrode
+  type: Electric
+  level: 3
+  learnset:
+    Magnetic Flux: 0
+    Charge: 0
+    Tackle: 5
+    SonicBoom: 0
+    Spark: 12
+    Eerie Impulse: 8
+    Rollout: 15
+    Screech: 19
+    Charge Beam: 22
+    Light Screen: 26
+    Electro Ball: 29
+    Selfdestruct: 35
+    Swift: 40
+    Magnet Rise: 46
+    Gyro Ball: 51
+    Explosion: 57
+    Mirror Coat: 62
+  moves:
+  - Magnetic Flux
+  - Charge
+  - SonicBoom
+  hp: 60
+  attack: 50
+  defense: 70
+  sp_atk: 80
+  sp_def: 80
+  speed: 140
+- !ruby/object:Exeggutor
+  type: Grass
+  level: 3
+  learnset:
+    Seed Bomb: 0
+    Barrage: 0
+    Hypnosis: 0
+    Confusion: 0
+    Stomp: 0
+    Psyshock: 17
+    Egg Bomb: 27
+    Wood Hammer: 37
+    Leaf Storm: 47
+  moves:
+  - Seed Bomb
+  - Barrage
+  - Hypnosis
+  - Confusion
+  - Stomp
+  hp: 95
+  attack: 95
+  defense: 85
+  sp_atk: 125
+  sp_def: 65
+  speed: 55
+- !ruby/object:Marowak
+  type: Ground
+  level: 3
+  learnset:
+    Growl: 0
+    Tail Whip: 3
+    Bone Club: 7
+    Headbutt: 11
+    Leer: 13
+    Focus Energy: 17
+    Bonemerang: 21
+    Rage: 23
+    False Swipe: 27
+    Thrash: 33
+    Fling: 37
+    Bone Rush: 43
+    Endeavor: 49
+    Double-Edge: 53
+    Retaliate: 59
+  moves:
+  - Growl
+  - Tail Whip
+  hp: 60
+  attack: 80
+  defense: 110
+  sp_atk: 50
+  sp_def: 80
+  speed: 45
+- !ruby/object:Hitmonlee
+  type: Fighting
+  level: 3
+  learnset:
+    Revenge: 0
+    Double Kick: 0
+    Meditate: 5
+    Rolling Kick: 9
+    Jump Kick: 13
+    Brick Break: 17
+    Focus Energy: 21
+    Feint: 25
+    Hi Jump Kick: 29
+    Mind Reader: 33
+    Foresight: 37
+    Wide Guard: 41
+    Blaze Kick: 45
+    Endure: 49
+    Mega Kick: 53
+    Close Combat: 57
+    Reversal: 61
+  moves:
+  - Revenge
+  - Double Kick
+  hp: 50
+  attack: 0
+  defense: 0
+  sp_atk: 35
+  sp_def: 110
+  speed: 87
+- !ruby/object:Lickilicky
+  type: Normal
+  level: 3
+  learnset:
+    Lick: 0
+    Supersonic: 5
+    Defense Curl: 9
+    Knock Off: 13
+    Wrap: 17
+    Stomp: 21
+    Disable: 25
+    Slam: 29
+    Rollout: 33
+    Chip Away: 37
+    Me First: 41
+    Refresh: 45
+    Screech: 49
+    Power Whip: 53
+    Wring Out: 57
+    Gyro Ball: 61
+  moves:
+  - Lick
+  hp: 110
+  attack: 85
+  defense: 95
+  sp_atk: 80
+  sp_def: 95
+  speed: 50
+- !ruby/object:Weezing
+  type: Poison
+  level: 3
+  learnset:
+    Poison Gas: 0
+    Tackle: 0
+    Smog: 6
+    SmokeScreen: 10
+    Assurance: 15
+    Clear Smog: 19
+    Sludge: 28
+    Selfdestruct: 24
+    Haze: 33
+    Double Hit: 39
+    Sludge Bomb: 52
+    Explosion: 46
+    Destiny Bond: 59
+    Memento: 65
+  moves:
+  - Poison Gas
+  - Tackle
+  hp: 65
+  attack: 90
+  defense: 120
+  sp_atk: 85
+  sp_def: 70
+  speed: 60
+- !ruby/object:Rhydon
+  type: Ground
+  level: 3
+  learnset:
+    Horn Attack: 0
+    Tail Whip: 0
+    Stomp: 9
+    Fury Attack: 12
+    Scary Face: 19
+    Rock Blast: 23
+    Bulldoze: 30
+    Chip Away: 34
+    Take Down: 41
+    Hammer Arm: 42
+    Drill Run: 47
+    Stone Edge: 56
+    Earthquake: 62
+    Horn Drill: 71
+    Megahorn: 77
+  moves:
+  - Horn Attack
+  - Tail Whip
+  hp: 105
+  attack: 130
+  defense: 120
+  sp_atk: 45
+  sp_def: 45
+  speed: 40
+- !ruby/object:Chansey
+  type: Normal
+  level: 3
+  learnset:
+    Double-Edge: 54
+    Defense Curl: 0
+    Pound: 0
+    Growl: 0
+    Tail Whip: 5
+    Refresh: 9
+    DoubleSlap: 12
+    Softboiled: 16
+    Bestow: 20
+    Minimize: 23
+    Take Down: 27
+    Sing: 31
+    Fling: 34
+    Heal Pulse: 38
+    Egg Bomb: 42
+    Light Screen: 46
+    Healing Wish: 50
+  moves:
+  - Defense Curl
+  - Pound
+  - Growl
+  hp: 250
+  attack: 5
+  defense: 5
+  sp_atk: 35
+  sp_def: 105
+  speed: 50
+- !ruby/object:Tangrowth
+  type: Grass
+  level: 3
+  learnset:
+    Block: 56
+    Ingrain: 0
+    Constrict: 0
+    Sleep Powder: 4
+    Vine Whip: 7
+    Absorb: 10
+    PoisonPowder: 14
+    Bind: 17
+    Growth: 20
+    Mega Drain: 23
+    Knock Off: 27
+    Stun Spore: 30
+    Natural Gift: 33
+    Giga Drain: 36
+    AncientPower: 40
+    Slam: 43
+    Tickle: 46
+    Wring Out: 49
+    Grassy Terrain: 50
+    Power Whip: 53
+  moves:
+  - Ingrain
+  - Constrict
+  hp: 100
+  attack: 100
+  defense: 125
+  sp_atk: 110
+  sp_def: 50
+  speed: 50
+- !ruby/object:Seadra
+  type: Water
+  level: 3
+  learnset:
+    Water Gun: 11
+    SmokeScreen: 4
+    Leer: 8
+    Bubble: 0
+    Focus Energy: 14
+    BubbleBeam: 18
+    Agility: 23
+    Twister: 26
+    Brine: 30
+    Hydro Pump: 40
+    Dragon Dance: 48
+    Dragon Pulse: 57
+  moves:
+  - Bubble
+  hp: 55
+  attack: 65
+  defense: 95
+  sp_atk: 95
+  sp_def: 45
+  speed: 85
+- !ruby/object:Seaking
+  type: Water
+  level: 3
+  learnset:
+    Poison Jab: 0
+    Peck: 0
+    Tail Whip: 0
+    Water Sport: 0
+    Supersonic: 7
+    Horn Attack: 11
+    Water Pulse: 17
+    Flail: 21
+    Aqua Ring: 27
+    Fury Attack: 31
+    Waterfall: 40
+    Horn Drill: 47
+    Agility: 56
+    Soak: 63
+    Megahorn: 72
+  moves:
+  - Poison Jab
+  - Peck
+  - Tail Whip
+  - Water Sport
+  hp: 80
+  attack: 92
+  defense: 65
+  sp_atk: 65
+  sp_def: 80
+  speed: 68
+- !ruby/object:Starmie
+  type: Water
+  level: 3
+  learnset:
+    Water Gun: 0
+    Rapid Spin: 0
+    Recover: 0
+    Swift: 0
+    Confuse Ray: 28
+  moves:
+  - Water Gun
+  - Rapid Spin
+  - Recover
+  - Swift
+  hp: 60
+  attack: 75
+  defense: 85
+  sp_atk: 100
+  sp_def: 85
+  speed: 115
+- !ruby/object:MrMime
+  type: Psychic
+  level: 3
+  learnset:
+    Misty Terrain: 0
+    Magical Leaf: 0
+    Quick Guard: 0
+    Wide Guard: 0
+    Power Swap: 0
+    Guard Swap: 0
+    Barrier: 0
+    Confusion: 0
+    Copycat: 4
+    Meditate: 8
+    Double Slap: 11
+    Mimic: 15
+    Psywave: 15
+    Encore: 18
+    Light Screen: 22
+    Reflect: 22
+    Psybeam: 25
+    Substitute: 29
+    Recycle: 32
+    Trick: 36
+    Psychic: 39
+    Role Play: 43
+    Baton Pass: 46
+    Safeguard: 50
+  moves:
+  - Misty Terrain
+  - Magical Leaf
+  - Quick Guard
+  - Wide Guard
+  - Power Swap
+  - Guard Swap
+  - Barrier
+  - Confusion
+  hp: 40
+  attack: 45
+  defense: 65
+  sp_atk: 100
+  sp_def: 120
+  speed: 90
+- !ruby/object:Scizor
+  type: Bug
+  level: 3
+  learnset:
+    Feint: 61
+    Bullet Punch: 0
+    Quick Attack: 0
+    Leer: 0
+    Focus Energy: 5
+    Pursuit: 9
+    False Swipe: 13
+    Agility: 17
+    Metal Claw: 21
+    Fury Cutter: 25
+    Slash: 29
+    Razor Wind: 33
+    Iron Defense: 37
+    X-Scissor: 41
+    Night Slash: 45
+    Double Hit: 49
+    Iron Head: 53
+    Swords Dance: 57
+  moves:
+  - Bullet Punch
+  - Quick Attack
+  - Leer
+  hp: 500
+  attack: 70
+  defense: 150
+  sp_atk: 140
+  sp_def: 65
+  speed: 100
+- !ruby/object:Jynx
+  type: Ice
+  level: 3
+  learnset:
+    Draining Kiss: 0
+    Perish Song: 55
+    Pound: 0
+    Lick: 5
+    Lovely Kiss: 8
+    Powder Snow: 11
+    DoubleSlap: 15
+    Ice Punch: 18
+    Heart Stamp: 21
+    Mean Look: 25
+    Fake Tears: 28
+    Wake-Up Slap: 33
+    Avalanche: 39
+    Body Slam: 44
+    Wring Out: 49
+    Blizzard: 60
+  moves:
+  - Draining Kiss
+  - Pound
+  hp: 65
+  attack: 50
+  defense: 35
+  sp_atk: 115
+  sp_def: 95
+  speed: 95
+- !ruby/object:Electabuzz
+  type: Electric
+  level: 3
+  learnset:
+    Quick Attack: 0
+    Leer: 0
+    Thunder Shock: 5
+    Low Kick: 8
+    Swift: 12
+    Shock Wave: 15
+    Thunder Wave: 19
+    Electro Ball: 22
+    Light Screen: 26
+    ThunderPunch: 29
+    Discharge: 36
+    Screech: 42
+    Thunderbolt: 49
+    Thunder: 55
+  moves:
+  - Quick Attack
+  - Leer
+  hp: 65
+  attack: 83
+  defense: 57
+  sp_atk: 95
+  sp_def: 85
+  speed: 105
+- !ruby/object:Magmar
+  type: Fire
+  level: 3
+  learnset:
+    Smog: 0
+    Leer: 0
+    Ember: 5
+    SmokeScreen: 8
+    Feint Attack: 12
+    Fire Spin: 15
+    Clear Smog: 19
+    Flame Burst: 22
+    Confuse Ray: 26
+    Fire Punch: 29
+    Lava Plume: 36
+    Sunny Day: 42
+    Flamethrower: 49
+    Fire Blast: 55
+  moves:
+  - Smog
+  - Leer
+  hp: 65
+  attack: 95
+  defense: 57
+  sp_atk: 100
+  sp_def: 85
+  speed: 93
+- !ruby/object:Gyarados
+  type: Water
+  level: 3
+  learnset:
+    Thrash: 0
+    Bite: 20
+    Dragon Rage: 23
+    Leer: 26
+    Twister: 29
+    Ice Fang: 32
+    Aqua Tail: 35
+    Rain Dance: 38
+    Hydro Pump: 41
+    Dragon Dance: 44
+    Hyper Beam: 47
+  moves:
+  - Thrash
+  hp: 540
+  attack: 95
+  defense: 155
+  sp_atk: 109
+  sp_def: 70
+  speed: 130
+- !ruby/object:Vaporeon
+  type: Water
+  level: 3
+  learnset:
+    Helping Hand: 0
+    Tackle: 0
+    Tail Whip: 0
+    Sand Attack: 5
+    Water Gun: 9
+    Quick Attack: 13
+    Water Pulse: 17
+    Aurora Beam: 20
+    Aqua Ring: 25
+    Acid Armor: 29
+    Haze: 33
+    Muddy Water: 37
+    Last Resort: 41
+    Hydro Pump: 45
+  moves:
+  - Helping Hand
+  - Tackle
+  - Tail Whip
+  hp: 130
+  attack: 65
+  defense: 60
+  sp_atk: 110
+  sp_def: 95
+  speed: 65
+- !ruby/object:Porygon2
+  type: Normal
+  level: 3
+  learnset:
+    Conversion 2: 0
+    Tackle: 0
+    Conversion: 0
+    Defense Curl: 0
+    Psybeam: 7
+    Agility: 12
+    Recover: 18
+    Magnet Rise: 23
+    Signal Beam: 29
+    Recycle: 34
+    Discharge: 40
+    Lock-On: 45
+    Tri Attack: 51
+    Magic Coat: 56
+    Zap Cannon: 62
+    Hyper Beam: 67
+  moves:
+  - Conversion 2
+  - Tackle
+  - Conversion
+  - Defense Curl
+  hp: 85
+  attack: 80
+  defense: 90
+  sp_atk: 105
+  sp_def: 95
+  speed: 60
+- !ruby/object:Omastar
+  type: Rock
+  level: 3
+  learnset:
+    Constrict: 0
+    Withdraw: 0
+    Bite: 7
+    Water Gun: 10
+    Rollout: 16
+    Leer: 19
+    Mud Shot: 25
+    Brine: 28
+    Protect: 34
+    AncientPower: 37
+    Spike Cannon: 40
+    Tickle: 48
+    Rock Blast: 56
+    Shell Smash: 67
+    Hydro Pump: 75
+  moves:
+  - Constrict
+  - Withdraw
+  hp: 70
+  attack: 60
+  defense: 125
+  sp_atk: 115
+  sp_def: 70
+  speed: 55
+- !ruby/object:Kabutops
+  type: Rock
+  level: 3
+  learnset:
+    Feint: 0
+    Scratch: 0
+    Harden: 0
+    Absorb: 6
+    Leer: 11
+    Mud Shot: 16
+    Sand Attack: 21
+    Endure: 26
+    Aqua Jet: 31
+    Mega Drain: 36
+    Slash: 40
+    Metal Sound: 45
+    Ancient Power: 54
+    Wring Out: 63
+    Night Slash: 72
+  moves:
+  - Feint
+  - Scratch
+  - Harden
+  hp: 60
+  attack: 115
+  defense: 105
+  sp_atk: 65
+  sp_def: 70
+  speed: 80
+- !ruby/object:Snorlax
+  type: Normal
+  level: 3
+  learnset:
+    Tackle: 0
+    Defense Curl: 4
+    Amnesia: 9
+    Lick: 12
+    Chip Away: 17
+    Yawn: 20
+    Body Slam: 25
+    Rest: 28
+    Snore: 28
+    Sleep Talk: 33
+    Rollout: 36
+    Block: 41
+    Belly Drum: 44
+    Crunch: 49
+    Heavy Slam: 50
+    Giga Impact: 57
+  moves:
+  - Tackle
+  hp: 160
+  attack: 110
+  defense: 65
+  sp_atk: 65
+  sp_def: 110
+  speed: 30
+- !ruby/object:Dragonair
+  type: Dragon
+  level: 3
+  learnset:
+    Wrap: 0
+    Leer: 0
+    Thunder Wave: 5
+    Twister: 11
+    Dragon Rage: 15
+    Slam: 21
+    Agility: 25
+    Dragon Tail: 33
+    Aqua Tail: 39
+    Dragon Rush: 47
+    Safeguard: 53
+    Dragon Dance: 61
+    Outrage: 67
+    Hyper Beam: 75
+  moves:
+  - Wrap
+  - Leer
+  hp: 61
+  attack: 84
+  defense: 65
+  sp_atk: 70
+  sp_def: 70
+  speed: 70
+  evolution:
+    Dragonite: 55
+- !ruby/object:Bayleef
+  type: Grass
+  level: 3
+  learnset:
+    Tackle: 0
+    Growl: 0
+    Razor Leaf: 6
+    PoisonPowder: 9
+    Synthesis: 12
+    Reflect: 18
+    Magical Leaf: 22
+    Natural Gift: 26
+    Sweet Scent: 32
+    Light Screen: 36
+    Body Slam: 40
+    Safeguard: 46
+    Aromatherapy: 50
+    SolarBeam: 54
+  moves:
+  - Tackle
+  - Growl
+  hp: 60
+  attack: 62
+  defense: 80
+  sp_atk: 63
+  sp_def: 80
+  speed: 60
+  evolution:
+    Meganium: 32
+- !ruby/object:Quilava
+  type: Fire
+  level: 3
+  learnset:
+    Tackle: 0
+    Leer: 0
+    SmokeScreen: 6
+    Ember: 10
+    Quick Attack: 13
+    Flame Wheel: 20
+    Defense Curl: 24
+    Swift: 31
+    Flame Charge: 35
+    Lava Plume: 42
+    Flamethrower: 46
+    Inferno: 53
+    Rollout: 57
+    Double-Edge: 64
+    Eruption: 68
+  moves:
+  - Tackle
+  - Leer
+  hp: 58
+  attack: 64
+  defense: 58
+  sp_atk: 80
+  sp_def: 65
+  speed: 80
+  evolution:
+    Typhlosion: 36
+- !ruby/object:Croconaw
+  type: Water
+  level: 3
+  learnset:
+    Scratch: 0
+    Leer: 0
+    Water Gun: 6
+    Rage: 8
+    Bite: 13
+    Scary Face: 15
+    Ice Fang: 21
+    Flail: 24
+    Crunch: 30
+    Chip Away: 33
+    Slash: 39
+    Screech: 42
+    Thrash: 48
+    Aqua Tail: 51
+    Superpower: 57
+    Hydro Pump: 60
+  moves:
+  - Scratch
+  - Leer
+  hp: 65
+  attack: 80
+  defense: 80
+  sp_atk: 59
+  sp_def: 63
+  speed: 58
+  evolution:
+    Feraligatr: 30
+- !ruby/object:Furret
+  type: Normal
+  level: 3
+  learnset:
+    Scratch: 0
+    Foresight: 0
+    Defense Curl: 4
+    Quick Attack: 7
+    Fury Swipes: 13
+    Helping Hand: 17
+    Follow Me: 21
+    Slam: 28
+    Rest: 32
+    Sucker Punch: 36
+    Amnesia: 42
+    Baton Pass: 46
+    Me First: 50
+    Hyper Voice: 56
+  moves:
+  - Scratch
+  - Foresight
+  hp: 85
+  attack: 76
+  defense: 64
+  sp_atk: 45
+  sp_def: 55
+  speed: 90
+- !ruby/object:Noctowl
+  type: Normal
+  level: 3
+  learnset:
+    Dream Eater: 67
+    Sky Attack: 0
+    Tackle: 0
+    Growl: 0
+    Foresight: 0
+    Hypnosis: 5
+    Peck: 9
+    Uproar: 13
+    Reflect: 17
+    Confusion: 22
+    Echoed Voice: 27
+    Take Down: 32
+    Air Slash: 37
+    Zen Headbutt: 42
+    Synchronoise: 47
+    Extrasensory: 52
+    Psycho Shift: 57
+    Roost: 62
+  moves:
+  - Sky Attack
+  - Tackle
+  - Growl
+  - Foresight
+  hp: 100
+  attack: 50
+  defense: 50
+  sp_atk: 76
+  sp_def: 96
+  speed: 70
+- !ruby/object:Ledian
+  type: Bug
+  level: 3
+  learnset:
+    Tackle: 0
+    Supersonic: 6
+    Comet Punch: 9
+    Light Screen: 14
+    Reflect: 14
+    Safeguard: 14
+    Mach Punch: 17
+    Baton Pass: 24
+    Silver Wind: 29
+    Agility: 36
+    Swift: 41
+    Double-Edge: 48
+    Bug Buzz: 53
+  moves:
+  - Tackle
+  hp: 55
+  attack: 35
+  defense: 50
+  sp_atk: 55
+  sp_def: 110
+  speed: 85
+- !ruby/object:Ariados
+  type: Bug
+  level: 3
+  learnset:
+    Venom Drench: 0
+    Fell Stinger: 0
+    Bug Bite: 0
+    Poison Sting: 0
+    String Shot: 0
+    Scary Face: 5
+    Constrict: 8
+    Leech Life: 12
+    Night Shade: 15
+    Shadow Sneak: 19
+    Fury Swipes: 23
+    Sucker Punch: 28
+    Spider Web: 32
+    Agility: 37
+    Pin Missile: 41
+    Psychic: 46
+    Poison Jab: 50
+    Cross Poison: 55
+    Sticky Web: 58
+  moves:
+  - Venom Drench
+  - Fell Stinger
+  - Bug Bite
+  - Poison Sting
+  - String Shot
+  hp: 70
+  attack: 90
+  defense: 70
+  sp_atk: 60
+  sp_def: 60
+  speed: 40
+- !ruby/object:Lanturn
+  type: Water
+  level: 3
+  learnset:
+    Bubble: 0
+    Supersonic: 0
+    Thunder Wave: 6
+    Flail: 9
+    Water Gun: 12
+    Confuse Ray: 17
+    Spark: 20
+    Take Down: 23
+    Stockpile: 27
+    Swallow: 27
+    Spit Up: 27
+    Electro Ball: 30
+    BubbleBeam: 35
+    Signal Beam: 40
+    Discharge: 47
+    Aqua Ring: 52
+    Hydro Pump: 57
+    Charge: 64
+  moves:
+  - Bubble
+  - Supersonic
+  hp: 125
+  attack: 58
+  defense: 58
+  sp_atk: 76
+  sp_def: 76
+  speed: 67
+- !ruby/object:Togetic
+  type: Fairy
+  level: 3
+  learnset:
+    Magical Leaf: 0
+    Growl: 0
+    Charm: 0
+    Metronome: 5
+    Sweet Kiss: 9
+    Yawn: 13
+    Fairy Wind: 14
+    Encore: 17
+    Follow Me: 21
+    Bestow: 25
+    Wish: 29
+    Ancient Power: 33
+    Safeguard: 37
+    Baton Pass: 41
+    Double-Edge: 45
+    Last Resort: 49
+    After You: 53
+  moves:
+  - Magical Leaf
+  - Growl
+  - Charm
+  hp: 55
+  attack: 40
+  defense: 85
+  sp_atk: 80
+  sp_def: 105
+  speed: 40
+- !ruby/object:Xatu
+  type: Psychic
+  level: 3
+  learnset:
+    Peck: 0
+    Leer: 0
+    Night Shade: 6
+    Teleport: 9
+    Lucky Chant: 12
+    Miracle Eye: 17
+    Me First: 20
+    Confuse Ray: 23
+    Tailwind: 27
+    Wish: 30
+    Psycho Shift: 37
+    Future Sight: 42
+    Stored Power: 47
+    Ominous Wind: 54
+    Power Swap: 54
+    Guard Swap: 59
+    Psychic: 66
+  moves:
+  - Peck
+  - Leer
+  hp: 65
+  attack: 75
+  defense: 70
+  sp_atk: 95
+  sp_def: 70
+  speed: 95
+- !ruby/object:Flaaffy
+  type: Electric
+  level: 3
+  learnset:
+    Tackle: 0
+    Growl: 0
+    Thunder Wave: 4
+    Thunder Shock: 8
+    Cotton Spore: 11
+    Charge: 16
+    Take Down: 20
+    Electro Ball: 25
+    Confuse Ray: 29
+    Power Gem: 34
+    Discharge: 38
+    Cotton Guard: 43
+    Signal Beam: 47
+    Light Screen: 52
+    Thunder: 56
+  moves:
+  - Tackle
+  - Growl
+  hp: 70
+  attack: 55
+  defense: 55
+  sp_atk: 80
+  sp_def: 60
+  speed: 45
+  evolution:
+    Ampharos: 30
+- !ruby/object:Marill
+  type: Water
+  level: 3
+  learnset:
+    Tackle: 0
+    Bubble: 0
+    Tail Whip: 2
+    Water Sport: 5
+    Water Gun: 7
+    Defense Curl: 10
+    Rollout: 10
+    Bubble Beam: 13
+    Helping Hand: 16
+    Aqua Tail: 20
+    Double-Edge: 23
+    Aqua Ring: 28
+    Rain Dance: 31
+    Superpower: 37
+    Hydro Pump: 40
+    Play Rough: 45
+  moves:
+  - Tackle
+  - Bubble
+  - Tail Whip
+  hp: 70
+  attack: 20
+  defense: 50
+  sp_atk: 20
+  sp_def: 50
+  speed: 40
+- !ruby/object:Sudowoodo
+  type: Rock
+  level: 3
+  learnset:
+    Wood Hammer: 0
+    Copycat: 0
+    Flail: 6
+    Low Kick: 9
+    Rock Throw: 14
+    Mimic: 17
+    Slam: 38
+    Faint Attack: 25
+    Rock Tomb: 30
+    Block: 22
+    Rock Slide: 33
+    Counter: 0
+    Sucker Punch: 41
+    Double-Edge: 46
+    Stone Edge: 0
+    Hammer Arm: 49
+  moves:
+  - Wood Hammer
+  - Copycat
+  - Counter
+  - Stone Edge
+  hp: 70
+  attack: 100
+  defense: 115
+  sp_atk: 30
+  sp_def: 65
+  speed: 30
+- !ruby/object:Skiploom
+  type: Grass
+  level: 3
+  learnset:
+    Splash: 0
+    Synthesis: 4
+    Tail Whip: 6
+    Tackle: 8
+    Fairy Wind: 10
+    PoisonPowder: 12
+    Stun Spore: 14
+    Sleep Powder: 16
+    Bullet Seed: 20
+    Leech Seed: 24
+    Mega Drain: 28
+    Acrobatics: 32
+    Rage Powder: 36
+    Cotton Spore: 40
+    U-turn: 44
+    Worry Seed: 48
+    Giga Drain: 52
+    Bounce: 56
+    Memento: 60
+  moves:
+  - Splash
+  hp: 55
+  attack: 45
+  defense: 50
+  sp_atk: 45
+  sp_def: 65
+  speed: 80
+  evolution:
+    Jumpluff: 27
+- !ruby/object:Ambipom
+  type: Normal
+  level: 3
+  learnset:
+    Scratch: 0
+    Tail Whip: 0
+    Sand-Attack: 4
+    Astonish: 8
+    Baton Pass: 11
+    Tickle: 15
+    Fury Swipes: 18
+    Swift: 22
+    Screech: 25
+    Agility: 29
+    Double Hit: 32
+    Fling: 36
+    Nasty Plot: 39
+    Last Resort: 43
+  moves:
+  - Scratch
+  - Tail Whip
+  hp: 75
+  attack: 100
+  defense: 66
+  sp_atk: 60
+  sp_def: 66
+  speed: 115
+- !ruby/object:Sunflora
+  type: Grass
+  level: 3
+  learnset:
+    Absorb: 0
+    Pound: 0
+    Growth: 0
+    Ingrain: 9
+    GrassWhistle: 13
+    Mega Drain: 5
+    Leech Seed: 17
+    Razor Leaf: 29
+    Worry Seed: 25
+    Giga Drain: 0
+    Bullet Seed: 21
+    Petal Dance: 33
+    Natural Gift: 0
+    SolarBeam: 41
+    Double-Edge: 0
+    Sunny Day: 37
+    Leaf Storm: 45
+  moves:
+  - Absorb
+  - Pound
+  - Growth
+  - Giga Drain
+  - Natural Gift
+  - Double-Edge
+  hp: 75
+  attack: 75
+  defense: 55
+  sp_atk: 105
+  sp_def: 85
+  speed: 30
+- !ruby/object:Yanmega
+  type: Bug
+  level: 3
+  learnset:
+    Bug Buzz: 57
+    Air Slash: 54
+    Night Slash: 0
+    Bug Bite: 0
+    Tackle: 0
+    Foresight: 0
+    Quick Attack: 6
+    Double Team: 11
+    SonicBoom: 14
+    Detect: 17
+    Supersonic: 22
+    Uproar: 27
+    Pursuit: 30
+    AncientPower: 33
+    Feint: 38
+    Slash: 43
+    Screech: 46
+    U-turn: 49
+  moves:
+  - Night Slash
+  - Bug Bite
+  - Tackle
+  - Foresight
+  hp: 86
+  attack: 76
+  defense: 86
+  sp_atk: 116
+  sp_def: 56
+  speed: 95
+- !ruby/object:Quagsire
+  type: Water
+  level: 3
+  learnset:
+    Water Gun: 0
+    Tail Whip: 0
+    Mud Sport: 5
+    Mud Shot: 9
+    Slam: 15
+    Mud Bomb: 19
+    Amnesia: 24
+    Yawn: 31
+    Earthquake: 36
+    Rain Dance: 41
+    Mist: 48
+    Haze: 48
+    Muddy Water: 53
+  moves:
+  - Water Gun
+  - Tail Whip
+  hp: 95
+  attack: 85
+  defense: 85
+  sp_atk: 65
+  sp_def: 65
+  speed: 35
+- !ruby/object:Honchkrow
+  type: Dark
+  level: 3
+  learnset:
+    Night Slash: 55
+    Sucker Punch: 0
+    Astonish: 0
+    Pursuit: 0
+    Haze: 0
+    Wing Attack: 0
+    Swagger: 25
+    Nasty Plot: 35
+    Foul Play: 45
+    Quash: 65
+    Dark Pulse: 75
+  moves:
+  - Sucker Punch
+  - Astonish
+  - Pursuit
+  - Haze
+  - Wing Attack
+  hp: 100
+  attack: 125
+  defense: 52
+  sp_atk: 105
+  sp_def: 52
+  speed: 71
+- !ruby/object:Mismagius
+  type: Ghost
+  level: 3
+  learnset:
+    Lucky Chant: 0
+    Magical Leaf: 0
+    Growl: 0
+    Psywave: 0
+    Spite: 0
+    Astonish: 0
+  moves:
+  - Lucky Chant
+  - Magical Leaf
+  - Growl
+  - Psywave
+  - Spite
+  - Astonish
+  hp: 60
+  attack: 60
+  defense: 60
+  sp_atk: 105
+  sp_def: 105
+  speed: 105
+- !ruby/object:Wobbuffet
+  type: Psychic
+  level: 3
+  learnset:
+    Counter: 0
+    Mirror Coat: 0
+    Safeguard: 0
+    Destiny Bond: 0
+  moves:
+  - Counter
+  - Mirror Coat
+  - Safeguard
+  - Destiny Bond
+  hp: 190
+  attack: 33
+  defense: 58
+  sp_atk: 33
+  sp_def: 58
+  speed: 33
+- !ruby/object:Forretress
+  type: Bug
+  level: 3
+  learnset:
+    Heavy Slam: 70
+    Zap Cannon: 64
+    Magnet Rise: 60
+    Toxic Spikes: 0
+    Tackle: 0
+    Protect: 0
+    Selfdestruct: 0
+    Bug Bite: 0
+    Take Down: 12
+    Rapid Spin: 17
+    Bide: 20
+    Natural Gift: 23
+    Spikes: 28
+    Mirror Shot: 31
+    Autotomize: 32
+    Payback: 36
+    Explosion: 42
+    Iron Defense: 46
+    Gyro Ball: 50
+    Double-Edge: 56
+  moves:
+  - Toxic Spikes
+  - Tackle
+  - Protect
+  - Selfdestruct
+  - Bug Bite
+  hp: 75
+  attack: 90
+  defense: 140
+  sp_atk: 60
+  sp_def: 60
+  speed: 40
+- !ruby/object:Gliscor
+  type: Ground
+  level: 3
+  learnset:
+    Guillotine: 55
+    Thunder Fang: 0
+    Ice Fang: 0
+    Fire Fang: 0
+    Poison Jab: 0
+    Sand-Attack: 4
+    Harden: 7
+    Knock Off: 10
+    Quick Attack: 13
+    Fury Cutter: 16
+    Feint Attack: 19
+    Acrobatics: 22
+    Night Slash: 27
+    U-turn: 30
+    Screech: 35
+    X-Scissor: 40
+    Sky Uppercut: 45
+    Swords Dance: 50
+  moves:
+  - Thunder Fang
+  - Ice Fang
+  - Fire Fang
+  - Poison Jab
+  hp: 75
+  attack: 95
+  defense: 125
+  sp_atk: 45
+  sp_def: 75
+  speed: 95
+- !ruby/object:Granbull
+  type: Fairy
+  level: 3
+  learnset:
+    Outrage: 67
+    Ice Fang: 0
+    Fire Fang: 0
+    Thunder Fang: 0
+    Tackle: 0
+    Scary Face: 0
+    Tail Whip: 0
+    Charm: 0
+    Bite: 7
+    Lick: 13
+    Headbutt: 19
+    Roar: 27
+    Rage: 35
+    Play Rough: 43
+    Payback: 51
+    Crunch: 59
+  moves:
+  - Ice Fang
+  - Fire Fang
+  - Thunder Fang
+  - Tackle
+  - Scary Face
+  - Tail Whip
+  - Charm
+  hp: 90
+  attack: 120
+  defense: 75
+  sp_atk: 60
+  sp_def: 60
+  speed: 45
+- !ruby/object:Weavile
+  type: Dark
+  level: 3
+  learnset:
+    Embargo: 0
+    Revenge: 0
+    Assurance: 0
+    Scratch: 0
+    Leer: 0
+    Taunt: 0
+    Quick Attack: 8
+    Faint Attack: 14
+    Icy Wind: 28
+    Fury Swipes: 21
+    Nasty Plot: 24
+    Metal Claw: 49
+    Hone Claws: 35
+    Fling: 42
+    Screech: 10
+    Night Slash: 38
+    Snatch: 0
+    Punishment: 0
+    Dark Pulse: 51
+  moves:
+  - Embargo
+  - Revenge
+  - Assurance
+  - Scratch
+  - Leer
+  - Taunt
+  - Snatch
+  - Punishment
+  hp: 70
+  attack: 120
+  defense: 65
+  sp_atk: 45
+  sp_def: 85
+  speed: 125
+- !ruby/object:Ursaring
+  type: Normal
+  level: 3
+  learnset:
+    Hammer Arm: 67
+    Covet: 0
+    Scratch: 0
+    Leer: 0
+    Lick: 0
+    Fake Tears: 0
+    Fury Swipes: 8
+    Feint Attack: 15
+    Sweet Scent: 22
+    Play Nice: 25
+    Slash: 29
+    Scary Face: 38
+    Rest: 47
+    Snore: 49
+    Thrash: 58
+  moves:
+  - Covet
+  - Scratch
+  - Leer
+  - Lick
+  - Fake Tears
+  hp: 90
+  attack: 130
+  defense: 75
+  sp_atk: 75
+  sp_def: 75
+  speed: 55
+- !ruby/object:Magcargo
+  type: Fire
+  level: 3
+  learnset:
+    Yawn: 0
+    Smog: 0
+    Ember: 5
+    Rock Throw: 10
+    Harden: 14
+    Recover: 19
+    Flame Burst: 23
+    AncientPower: 28
+    Amnesia: 32
+    Lava Plume: 37
+    Shell Smash: 38
+    Rock Slide: 44
+    Body Slam: 52
+    Flamethrower: 59
+    Earth Power: 67
+  moves:
+  - Yawn
+  - Smog
+  hp: 50
+  attack: 50
+  defense: 120
+  sp_atk: 80
+  sp_def: 80
+  speed: 30
+- !ruby/object:Piloswine
+  type: Ice
+  level: 3
+  learnset:
+    AncientPower: 0
+    Peck: 0
+    Odor Sleuth: 0
+    Mud Sport: 4
+    Powder Snow: 8
+    Mud-Slap: 13
+    Endure: 16
+    Mud Bomb: 20
+    Icy Wind: 25
+    Ice Fang: 28
+    Take Down: 32
+    Fury Attack: 33
+    Mist: 48
+    Thrash: 0
+    Earthquake: 40
+    Blizzard: 56
+    Amnesia: 65
+  moves:
+  - AncientPower
+  - Peck
+  - Odor Sleuth
+  - Thrash
+  hp: 100
+  attack: 100
+  defense: 80
+  sp_atk: 60
+  sp_def: 60
+  speed: 50
+- !ruby/object:Octillery
+  type: Water
+  level: 3
+  learnset:
+    Gunk Shot: 0
+    Rock Blast: 0
+    Water Gun: 0
+    Constrict: 6
+    Psybeam: 10
+    Aurora Beam: 14
+    BubbleBeam: 18
+    Focus Energy: 22
+    Octazooka: 25
+    Wring Out: 28
+    Signal Beam: 34
+    Ice Beam: 40
+    Bullet Seed: 46
+    Hydro Pump: 52
+    Hyper Beam: 58
+    Soak: 64
+  moves:
+  - Gunk Shot
+  - Rock Blast
+  - Water Gun
+  hp: 75
+  attack: 105
+  defense: 75
+  sp_atk: 105
+  sp_def: 75
+  speed: 45
+- !ruby/object:Mantine
+  type: Water
+  level: 3
+  learnset:
+    Psybeam: 0
+    Bullet Seed: 0
+    Signal Beam: 0
+    Tackle: 0
+    Bubble: 0
+    Supersonic: 4
+    BubbleBeam: 10
+    Confuse Ray: 37
+    Wing Attack: 22
+    Headbutt: 13
+    Water Pulse: 28
+    Wide Guard: 0
+    Take Down: 31
+    Agility: 19
+    Air Slash: 0
+    Aqua Ring: 46
+    Bounce: 40
+    Hydro Pump: 49
+  moves:
+  - Psybeam
+  - Bullet Seed
+  - Signal Beam
+  - Tackle
+  - Bubble
+  - Wide Guard
+  - Air Slash
+  hp: 65
+  attack: 40
+  defense: 70
+  sp_atk: 80
+  sp_def: 140
+  speed: 70
+- !ruby/object:Houndoom
+  type: Dark
+  level: 3
+  learnset:
+    Inferno: 65
+    Nasty Plot: 60
+    Thunder Fang: 0
+    Leer: 0
+    Ember: 0
+    Howl: 4
+    Smog: 8
+    Roar: 13
+    Bite: 16
+    Odor Sleuth: 20
+    Beat Up: 26
+    Fire Fang: 30
+    Feint Attack: 35
+    Embargo: 41
+    Foul Play: 45
+    Flamethrower: 50
+    Crunch: 56
+  moves:
+  - Thunder Fang
+  - Leer
+  - Ember
+  hp: 500
+  attack: 75
+  defense: 90
+  sp_atk: 90
+  sp_def: 140
+  speed: 90
+- !ruby/object:Donphan
+  type: Ground
+  level: 3
+  learnset:
+    Fire Fang: 0
+    Thunder Fang: 0
+    Horn Attack: 0
+    Growl: 0
+    Defense Curl: 0
+    Bulldoze: 0
+    Rapid Spin: 6
+    Knock Off: 10
+    Rollout: 15
+    Magnitude: 19
+    Slam: 24
+    Fury Attack: 25
+    Assurance: 31
+    Scary Face: 39
+    Earthquake: 46
+    Giga Impact: 54
+  moves:
+  - Fire Fang
+  - Thunder Fang
+  - Horn Attack
+  - Growl
+  - Defense Curl
+  - Bulldoze
+  hp: 90
+  attack: 120
+  defense: 120
+  sp_atk: 60
+  sp_def: 60
+  speed: 50
+- !ruby/object:Pupitar
+  type: Rock
+  level: 3
+  learnset:
+    Bite: 0
+    Leer: 0
+    Sandstorm: 5
+    Screech: 10
+    Chip Away: 14
+    Rock Slide: 19
+    Scary Face: 23
+    Thrash: 28
+    Dark Pulse: 34
+    Payback: 41
+    Crunch: 47
+    Earthquake: 54
+    Stone Edge: 60
+    Hyper Beam: 67
+  moves:
+  - Bite
+  - Leer
+  hp: 70
+  attack: 84
+  defense: 70
+  sp_atk: 65
+  sp_def: 70
+  speed: 51
+  evolution:
+    Tyranitar: 55
+- !ruby/object:Grovyle
+  type: Grass
+  level: 3
+  learnset:
+    Pound: 0
+    Leer: 0
+    Absorb: 6
+    Quick Attack: 11
+    Fury Cutter: 16
+    Pursuit: 17
+    Screech: 23
+    Leaf Blade: 29
+    Agility: 35
+    Slam: 41
+    Detect: 47
+    False Swipe: 53
+    Leaf Storm: 59
+  moves:
+  - Pound
+  - Leer
+  hp: 50
+  attack: 65
+  defense: 45
+  sp_atk: 85
+  sp_def: 65
+  speed: 95
+  evolution:
+    Sceptile: 36
+- !ruby/object:Combusken
+  type: Fire
+  level: 3
+  learnset:
+    Scratch: 0
+    Growl: 0
+    Focus Energy: 7
+    Ember: 13
+    Double Kick: 16
+    Peck: 17
+    Sand Attack: 21
+    Bulk Up: 28
+    Quick Attack: 32
+    Slash: 39
+    Mirror Move: 43
+    Sky Uppercut: 50
+    Flare Blitz: 54
+  moves:
+  - Scratch
+  - Growl
+  hp: 60
+  attack: 85
+  defense: 60
+  sp_atk: 85
+  sp_def: 60
+  speed: 55
+  evolution:
+    Blaziken: 36
+- !ruby/object:Marshtomp
+  type: Water
+  level: 3
+  learnset:
+    Tackle: 0
+    Growl: 0
+    Mud-Slap: 6
+    Water Gun: 10
+    Bide: 15
+    Mud Shot: 16
+    Foresight: 20
+    Mud Bomb: 25
+    Take Down: 31
+    Muddy Water: 37
+    Protect: 42
+    Earthquake: 46
+    Endeavor: 53
+  moves:
+  - Tackle
+  - Growl
+  hp: 70
+  attack: 85
+  defense: 70
+  sp_atk: 60
+  sp_def: 70
+  speed: 50
+- !ruby/object:Mightyena
+  type: Dark
+  level: 3
+  learnset:
+    Crunch: 65
+    Tackle: 0
+    Howl: 5
+    Sand-Attack: 9
+    Bite: 13
+    Odor Sleuth: 17
+    Roar: 22
+    Swagger: 27
+    Assurance: 32
+    Scary Face: 37
+    Taunt: 42
+    Embargo: 47
+    Take Down: 52
+    Thief: 57
+    Sucker Punch: 62
+  moves:
+  - Tackle
+  hp: 70
+  attack: 90
+  defense: 70
+  sp_atk: 60
+  sp_def: 60
+  speed: 70
+- !ruby/object:Linoone
+  type: Normal
+  level: 3
+  learnset:
+    Switcheroo: 0
+    Tackle: 0
+    Growl: 0
+    Tail Whip: 5
+    Headbutt: 9
+    Sand-Attack: 13
+    Odor Sleuth: 17
+    Mud Sport: 23
+    Fury Swipes: 29
+    Covet: 35
+    Bestow: 41
+    Slash: 47
+    Rest: 53
+    Belly Drum: 59
+    Fling: 65
+  moves:
+  - Switcheroo
+  - Tackle
+  - Growl
+  hp: 78
+  attack: 70
+  defense: 61
+  sp_atk: 50
+  sp_def: 61
+  speed: 100
+- !ruby/object:Silcoon
+  type: Bug
+  level: 3
+  learnset:
+    Harden: 7
+  moves: []
+  hp: 50
+  attack: 35
+  defense: 55
+  sp_atk: 25
+  sp_def: 25
+  speed: 15
+  evolution:
+    Beautifly: 10
+- !ruby/object:Lombre
+  type: Water
+  level: 3
+  learnset:
+    Astonish: 0
+    Growl: 3
+    Absorb: 5
+    Nature Power: 7
+    Fake Out: 11
+    Fury Swipes: 15
+    Water Sport: 19
+    BubbleBeam: 25
+    Zen Headbutt: 31
+    Uproar: 37
+    Hydro Pump: 45
+  moves:
+  - Astonish
+  - Growl
+  hp: 60
+  attack: 50
+  defense: 50
+  sp_atk: 60
+  sp_def: 70
+  speed: 50
+- !ruby/object:Nuzleaf
+  type: Grass
+  level: 3
+  learnset:
+    Razor Leaf: 0
+    Pound: 0
+    Harden: 3
+    Growth: 7
+    Nature Power: 13
+    Fake Out: 19
+    Torment: 25
+    Feint Attack: 31
+    Razor Wind: 37
+    Swagger: 43
+    Extrasensory: 49
+  moves:
+  - Razor Leaf
+  - Pound
+  - Harden
+  hp: 70
+  attack: 70
+  defense: 40
+  sp_atk: 60
+  sp_def: 40
+  speed: 60
+- !ruby/object:Swellow
+  type: Normal
+  level: 3
+  learnset:
+    Pluck: 0
+    Peck: 0
+    Growl: 0
+    Focus Energy: 4
+    Quick Attack: 8
+    Wing Attack: 13
+    Double Team: 19
+    Endeavor: 28
+    Aerial Ace: 38
+    Agility: 49
+    Air Slash: 61
+  moves:
+  - Pluck
+  - Peck
+  - Growl
+  hp: 60
+  attack: 85
+  defense: 60
+  sp_atk: 50
+  sp_def: 50
+  speed: 125
+- !ruby/object:Pelipper
+  type: Water
+  level: 3
+  learnset:
+    Soak: 0
+    Growl: 0
+    Water Gun: 0
+    Water Sport: 0
+    Wing Attack: 11
+    Supersonic: 6
+    Mist: 16
+    Water Pulse: 19
+    Payback: 24
+    Protect: 25
+    Roost: 31
+    Brine: 0
+    Stockpile: 38
+    Swallow: 38
+    Spit Up: 38
+    Fling: 43
+    Tailwind: 50
+    Hydro Pump: 57
+    Hurricane: 63
+  moves:
+  - Soak
+  - Growl
+  - Water Gun
+  - Water Sport
+  - Brine
+  hp: 60
+  attack: 50
+  defense: 100
+  sp_atk: 85
+  sp_def: 70
+  speed: 65
+- !ruby/object:Kirlia
+  type: Psychic
+  level: 3
+  learnset:
+    Growl: 0
+    Confusion: 6
+    Double Team: 10
+    Teleport: 12
+    Lucky Chant: 17
+    Magical Leaf: 22
+    Heal Pulse: 25
+    Calm Mind: 31
+    Psychic: 36
+    Imprison: 39
+    Future Sight: 45
+    Charm: 50
+    Hypnosis: 53
+    Dream Eater: 59
+    Stored Power: 64
+  moves:
+  - Growl
+  hp: 38
+  attack: 35
+  defense: 35
+  sp_atk: 65
+  sp_def: 55
+  speed: 50
+  evolution:
+    Gardevoir: 30
+- !ruby/object:Masquerain
+  type: Bug
+  level: 3
+  learnset:
+    Ominous Wind: 0
+    Bubble: 0
+    Quick Attack: 7
+    Sweet Scent: 13
+    Water Sport: 19
+    Gust: 22
+    Scary Face: 26
+    Stun Spore: 33
+    Silver Wind: 40
+    Air Slash: 47
+    Whirlwind: 54
+    Bug Buzz: 61
+    Quiver Dance: 68
+  moves:
+  - Ominous Wind
+  - Bubble
+  hp: 70
+  attack: 60
+  defense: 62
+  sp_atk: 80
+  sp_def: 82
+  speed: 60
+- !ruby/object:Breloom
+  type: Grass
+  level: 3
+  learnset:
+    Absorb: 0
+    Tackle: 5
+    Stun Spore: 9
+    Leech Seed: 13
+    Mega Drain: 17
+    Headbutt: 21
+    Mach Punch: 23
+    Counter: 25
+    Force Palm: 29
+    Sky Uppercut: 33
+    Mind Reader: 37
+    Seed Bomb: 41
+    DynamicPunch: 45
+  moves:
+  - Absorb
+  hp: 60
+  attack: 130
+  defense: 80
+  sp_atk: 60
+  sp_def: 60
+  speed: 70
+- !ruby/object:Vigoroth
+  type: Normal
+  level: 3
+  learnset:
+    Scratch: 0
+    Focus Energy: 0
+    Encore: 7
+    Uproar: 13
+    Fury Swipes: 19
+    Endure: 25
+    Slash: 31
+    Counter: 37
+    Chip Away: 43
+    Focus Punch: 49
+    Reversal: 55
+  moves:
+  - Scratch
+  - Focus Energy
+  hp: 80
+  attack: 80
+  defense: 80
+  sp_atk: 55
+  sp_def: 55
+  speed: 90
+  evolution:
+    Slaking: 36
+- !ruby/object:Ninjask
+  type: Bug
+  level: 3
+  learnset:
+    Bug Bite: 0
+    Scratch: 0
+    Harden: 0
+    Leech Life: 5
+    Sand-Attack: 9
+    Fury Swipes: 14
+    Mind Reader: 19
+    Double Team: 20
+    Fury Cutter: 20
+    Screech: 20
+    Swords Dance: 25
+    Slash: 31
+    Agility: 38
+    Baton Pass: 45
+    X-Scissor: 52
+  moves:
+  - Bug Bite
+  - Scratch
+  - Harden
+  hp: 61
+  attack: 90
+  defense: 45
+  sp_atk: 50
+  sp_def: 50
+  speed: 160
+- !ruby/object:Loudred
+  type: Normal
+  level: 3
+  learnset:
+    Pound: 0
+    Uproar: 5
+    Astonish: 11
+    Howl: 15
+    Bite: 20
+    Supersonic: 23
+    Stomp: 29
+    Screech: 37
+    Roar: 43
+    Synchronoise: 51
+    Rest: 57
+    Sleep Talk: 57
+    Hyper Voice: 65
+  moves:
+  - Pound
+  hp: 84
+  attack: 71
+  defense: 43
+  sp_atk: 71
+  sp_def: 43
+  speed: 48
+  evolution:
+    Exploud: 40
+- !ruby/object:Hariyama
+  type: Fighting
+  level: 3
+  learnset:
+    Brine: 0
+    Tackle: 0
+    Focus Energy: 0
+    Sand-Attack: 4
+    Arm Thrust: 7
+    Vital Throw: 10
+    Fake Out: 13
+    Whirlwind: 16
+    Knock Off: 19
+    SmellingSalt: 22
+    Belly Drum: 27
+    Force Palm: 32
+    Seismic Toss: 37
+    Wake-Up Slap: 42
+    Endure: 47
+    Close Combat: 52
+    Reversal: 57
+    Heavy Slam: 62
+  moves:
+  - Brine
+  - Tackle
+  - Focus Energy
+  hp: 144
+  attack: 120
+  defense: 60
+  sp_atk: 40
+  sp_def: 60
+  speed: 50
+- !ruby/object:Probopass
+  type: Rock
+  level: 3
+  learnset:
+    Magnet Rise: 0
+    Gravity: 0
+    Tackle: 0
+    Iron Defense: 7
+    Block: 19
+    Magnet Bomb: 13
+    Thunder Wave: 25
+    Rock Blast: 0
+    Rest: 43
+    Spark: 0
+    Rock Slide: 31
+    Power Gem: 49
+    Sandstorm: 37
+    Discharge: 55
+    Earth Power: 79
+    Stone Edge: 61
+    Lock-On: 73
+    Zap Cannon: 67
+  moves:
+  - Magnet Rise
+  - Gravity
+  - Tackle
+  - Rock Blast
+  - Spark
+  hp: 60
+  attack: 55
+  defense: 145
+  sp_atk: 75
+  sp_def: 150
+  speed: 40
+- !ruby/object:Delcatty
+  type: Normal
+  level: 3
+  learnset:
+    Fake Out: 0
+    Attract: 0
+    Sing: 0
+    DoubleSlap: 0
+  moves:
+  - Fake Out
+  - Attract
+  - Sing
+  - DoubleSlap
+  hp: 70
+  attack: 65
+  defense: 65
+  sp_atk: 55
+  sp_def: 55
+  speed: 70
+- !ruby/object:Lairon
+  type: Steel
+  level: 3
+  learnset:
+    Tackle: 0
+    Harden: 0
+    Mud-Slap: 4
+    Headbutt: 8
+    Metal Claw: 11
+    Iron Defense: 15
+    Roar: 18
+    Take Down: 22
+    Iron Head: 25
+    Protect: 29
+    Metal Sound: 34
+    Iron Tail: 40
+    Autotomize: 45
+    Heavy Slam: 51
+    Double-Edge: 56
+    Metal Burst: 62
+  moves:
+  - Tackle
+  - Harden
+  hp: 60
+  attack: 90
+  defense: 140
+  sp_atk: 50
+  sp_def: 50
+  speed: 40
+  evolution:
+    Aggron: 42
+- !ruby/object:Medicham
+  type: Fighting
+  level: 3
+  learnset:
+    Zen Headbutt: 0
+    Fire Punch: 0
+    Thunder Punch: 0
+    Ice Punch: 0
+    Bide: 0
+    Meditate: 4
+    Confusion: 8
+    Detect: 11
+    Hidden Power: 15
+    Mind Reader: 18
+    Feint: 22
+    Calm Mind: 25
+    Force Palm: 29
+    High Jump Kick: 32
+    Psych Up: 36
+    Acupressure: 42
+    Power Trick: 49
+    Reversal: 55
+    Recover: 62
+  moves:
+  - Zen Headbutt
+  - Fire Punch
+  - Thunder Punch
+  - Ice Punch
+  - Bide
+  hp: 410
+  attack: 60
+  defense: 100
+  sp_atk: 85
+  sp_def: 80
+  speed: 85
+- !ruby/object:Manectric
+  type: Electric
+  level: 3
+  learnset:
+    Electric Terrain: 70
+    Fire Fang: 0
+    Tackle: 0
+    Thunder Wave: 4
+    Leer: 9
+    Howl: 12
+    Quick Attack: 17
+    Spark: 20
+    Odor Sleuth: 25
+    Bite: 30
+    Thunder Fang: 37
+    Roar: 42
+    Discharge: 49
+    Charge: 54
+    Wild Charge: 61
+    Thunder: 66
+  moves:
+  - Fire Fang
+  - Tackle
+  hp: 475
+  attack: 70
+  defense: 75
+  sp_atk: 80
+  sp_def: 135
+  speed: 80
+- !ruby/object:Roselia
+  type: Grass
+  level: 3
+  learnset:
+    Absorb: 0
+    Growth: 4
+    Poison Sting: 7
+    Stun Spore: 10
+    Mega Drain: 13
+    Leech Seed: 16
+    Magical Leaf: 19
+    GrassWhistle: 22
+    Giga Drain: 25
+    Toxic Spikes: 28
+    Sweet Scent: 31
+    Ingrain: 34
+    Petal Dance: 37
+    Toxic: 40
+    Aromatherapy: 43
+    Synthesis: 46
+    Petal Blizzard: 50
+  moves:
+  - Absorb
+  hp: 50
+  attack: 60
+  defense: 45
+  sp_atk: 100
+  sp_def: 80
+  speed: 65
+- !ruby/object:Swalot
+  type: Poison
+  level: 3
+  learnset:
+    Pound: 0
+    Yawn: 6
+    Poison Gas: 9
+    Sludge: 14
+    Amnesia: 17
+    Encore: 23
+    Body Slam: 26
+    Toxic: 30
+    Acid Spray: 38
+    Stockpile: 45
+    Spit Up: 45
+    Swallow: 45
+    Sludge Bomb: 52
+    Gastro Acid: 59
+    Wring Out: 66
+    Gunk Shot: 73
+  moves:
+  - Pound
+  hp: 100
+  attack: 73
+  defense: 83
+  sp_atk: 73
+  sp_def: 83
+  speed: 55
+- !ruby/object:Sharpedo
+  type: Water
+  level: 3
+  learnset:
+    Feint: 0
+    Leer: 0
+    Bite: 0
+    Rage: 6
+    Focus Energy: 8
+    Scary Face: 11
+    Ice Fang: 16
+    Screech: 18
+    Swagger: 21
+    Assurance: 26
+    Crunch: 28
+    Slash: 30
+    Aqua Jet: 34
+    Taunt: 40
+    Agility: 45
+    Skull Bash: 50
+    Night Slash: 56
+  moves:
+  - Feint
+  - Leer
+  - Bite
+  hp: 70
+  attack: 120
+  defense: 40
+  sp_atk: 95
+  sp_def: 40
+  speed: 95
+- !ruby/object:Wailord
+  type: Water
+  level: 3
+  learnset:
+    Splash: 0
+    Growl: 4
+    Water Gun: 7
+    Rollout: 11
+    Whirlpool: 14
+    Astonish: 17
+    Water Pulse: 21
+    Mist: 24
+    Rest: 27
+    Brine: 31
+    Water Spout: 34
+    Amnesia: 37
+    Dive: 46
+    Bounce: 54
+    Hydro Pump: 62
+    Heavy Slam: 70
+  moves:
+  - Splash
+  hp: 170
+  attack: 90
+  defense: 45
+  sp_atk: 90
+  sp_def: 45
+  speed: 60
+- !ruby/object:Camerupt
+  type: Fire
+  level: 3
+  learnset:
+    Growl: 0
+    Tackle: 0
+    Ember: 5
+    Magnitude: 11
+    Focus Energy: 15
+    Flame Burst: 21
+    Amnesia: 31
+    Lava Plume: 33
+    Earth Power: 49
+    Curse: 0
+    Take Down: 25
+    Rock Slide: 39
+    Yawn: 0
+    Earthquake: 57
+    Eruption: 67
+    Fissure: 75
+  moves:
+  - Growl
+  - Tackle
+  - Curse
+  - Yawn
+  hp: 70
+  attack: 100
+  defense: 70
+  sp_atk: 105
+  sp_def: 75
+  speed: 40
+- !ruby/object:Grumpig
+  type: Psychic
+  level: 3
+  learnset:
+    Splash: 0
+    Psywave: 7
+    Odor Sleuth: 10
+    Psybeam: 14
+    Psych Up: 15
+    Confuse Ray: 18
+    Magic Coat: 21
+    Zen Headbutt: 26
+    Rest: 29
+    Snore: 29
+    Power Gem: 60
+    Psyshock: 37
+    Payback: 47
+    Psychic: 55
+    Bounce: 68
+  moves:
+  - Splash
+  hp: 80
+  attack: 45
+  defense: 65
+  sp_atk: 90
+  sp_def: 110
+  speed: 80
+- !ruby/object:Vibrava
+  type: Ground
+  level: 3
+  learnset:
+    SonicBoom: 0
+    Sand-Attack: 9
+    Faint Attack: 17
+    Sand Tomb: 25
+    Mud-Slap: 0
+    Bide: 0
+    Bulldoze: 0
+    Rock Slide: 0
+    Supersonic: 33
+    Screech: 41
+    DragonBreath: 35
+    Earth Power: 0
+    Sandstorm: 49
+    Hyper Beam: 57
+  moves:
+  - SonicBoom
+  - Mud-Slap
+  - Bide
+  - Bulldoze
+  - Rock Slide
+  - Earth Power
+  hp: 50
+  attack: 70
+  defense: 50
+  sp_atk: 50
+  sp_def: 50
+  speed: 70
+  evolution:
+    Flygon: 45
+- !ruby/object:Cacturne
+  type: Grass
+  level: 3
+  learnset:
+    Destiny Bond: 71
+    Revenge: 0
+    Poison Sting: 0
+    Leer: 0
+    Absorb: 5
+    Growth: 9
+    Leech Seed: 13
+    Sand-Attack: 17
+    Pin Missile: 21
+    Ingrain: 25
+    Feint Attack: 29
+    Spikes: 35
+    Sucker Punch: 41
+    Payback: 47
+    Needle Arm: 53
+    Cotton Spore: 59
+    Sandstorm: 65
+  moves:
+  - Revenge
+  - Poison Sting
+  - Leer
+  hp: 70
+  attack: 115
+  defense: 60
+  sp_atk: 115
+  sp_def: 60
+  speed: 55
+- !ruby/object:Altaria
+  type: Dragon
+  level: 3
+  learnset:
+    Sky Attack: 64
+    Pluck: 0
+    Peck: 0
+    Growl: 0
+    Astonish: 4
+    Sing: 8
+    Fury Attack: 10
+    Safeguard: 13
+    Mist: 15
+    Round: 18
+    Natural Gift: 21
+    Take Down: 25
+    Refresh: 29
+    Dragon Dance: 34
+    DragonBreath: 35
+    Cotton Guard: 42
+    Dragon Pulse: 48
+    Perish Song: 57
+    Moonblast: 60
+  moves:
+  - Pluck
+  - Peck
+  - Growl
+  hp: 75
+  attack: 70
+  defense: 90
+  sp_atk: 70
+  sp_def: 105
+  speed: 80
+- !ruby/object:Whiscash
+  type: Water
+  level: 3
+  learnset:
+    Zen Headbutt: 0
+    Tickle: 0
+    Mud-Slap: 0
+    Mud Sport: 6
+    Water Sport: 6
+    Water Gun: 10
+    Mud Bomb: 14
+    Amnesia: 18
+    Water Pulse: 22
+    Magnitude: 26
+    Rest: 33
+    Snore: 33
+    Aqua Tail: 39
+    Earthquake: 45
+    Future Sight: 51
+    Fissure: 57
+  moves:
+  - Zen Headbutt
+  - Tickle
+  - Mud-Slap
+  hp: 110
+  attack: 78
+  defense: 73
+  sp_atk: 76
+  sp_def: 71
+  speed: 60
+- !ruby/object:Crawdaunt
+  type: Water
+  level: 3
+  learnset:
+    Bubble: 0
+    Harden: 7
+    Vice Grip: 10
+    Leer: 13
+    BubbleBeam: 20
+    Protect: 23
+    Knock Off: 26
+    Swift: 30
+    Taunt: 34
+    Night Slash: 39
+    Crabhammer: 44
+    Swords Dance: 52
+    Crunch: 57
+    Guillotine: 65
+  moves:
+  - Bubble
+  hp: 63
+  attack: 120
+  defense: 85
+  sp_atk: 90
+  sp_def: 55
+  speed: 55
+- !ruby/object:Claydol
+  type: Ground
+  level: 3
+  learnset:
+    Teleport: 0
+    Harden: 4
+    Confusion: 0
+    Rapid Spin: 7
+    Mud-Slap: 11
+    Rock Tomb: 18
+    Psybeam: 15
+    Power Trick: 31
+    AncientPower: 26
+    Selfdestruct: 21
+    Extrasensory: 39
+    Cosmic Power: 47
+    Guard Split: 54
+    Power Split: 54
+    Hyper Beam: 36
+    Earth Power: 59
+    Sandstorm: 34
+    Heal Block: 64
+    Explosion: 72
+  moves:
+  - Teleport
+  - Confusion
+  hp: 60
+  attack: 70
+  defense: 105
+  sp_atk: 70
+  sp_def: 120
+  speed: 75
+- !ruby/object:Cradily
+  type: Rock
+  level: 3
+  learnset:
+    Astonish: 0
+    Constrict: 0
+    Acid: 8
+    Ingrain: 15
+    Confuse Ray: 22
+    Amnesia: 29
+    AncientPower: 36
+    Gastro Acid: 46
+    Energy Ball: 56
+    Stockpile: 66
+    Spit Up: 66
+    Swallow: 66
+    Wring Out: 76
+  moves:
+  - Astonish
+  - Constrict
+  hp: 86
+  attack: 81
+  defense: 97
+  sp_atk: 81
+  sp_def: 107
+  speed: 43
+- !ruby/object:Armaldo
+  type: Rock
+  level: 3
+  learnset:
+    Scratch: 0
+    Harden: 0
+    Mud Sport: 7
+    Water Gun: 13
+    Metal Claw: 19
+    Protect: 25
+    AncientPower: 31
+    Fury Cutter: 37
+    Slash: 46
+    Rock Blast: 55
+    Crush Claw: 67
+    X-Scissor: 73
+  moves:
+  - Scratch
+  - Harden
+  hp: 75
+  attack: 125
+  defense: 100
+  sp_atk: 70
+  sp_def: 80
+  speed: 45
+- !ruby/object:Milotic
+  type: Water
+  level: 3
+  learnset:
+    Water Gun: 0
+    Wrap: 0
+    Water Sport: 5
+    Refresh: 9
+    Water Pulse: 13
+    Twister: 17
+    Recover: 21
+    Captivate: 25
+    Aqua Tail: 29
+    Rain Dance: 33
+    Hydro Pump: 37
+    Attract: 41
+    Safeguard: 45
+    Aqua Ring: 49
+  moves:
+  - Water Gun
+  - Wrap
+  hp: 95
+  attack: 60
+  defense: 79
+  sp_atk: 100
+  sp_def: 125
+  speed: 81
+- !ruby/object:Banette
+  type: Ghost
+  level: 3
+  learnset:
+    Knock Off: 0
+    Screech: 4
+    Night Shade: 7
+    Curse: 19
+    Spite: 10
+    Will-O-Wisp: 13
+    Shadow Sneak: 16
+    Feint Attack: 22
+    Hex: 26
+    Shadow Ball: 30
+    Sucker Punch: 34
+    Embargo: 40
+    Snatch: 46
+    Grudge: 52
+    Trick: 58
+  moves:
+  - Knock Off
+  hp: 455
+  attack: 64
+  defense: 165
+  sp_atk: 75
+  sp_def: 93
+  speed: 83
+- !ruby/object:Dusclops
+  type: Ghost
+  level: 3
+  learnset:
+    Fire Punch: 0
+    Ice Punch: 0
+    ThunderPunch: 0
+    Gravity: 0
+    Bind: 0
+    Leer: 0
+    Night Shade: 0
+    Disable: 6
+    Foresight: 9
+    Astonish: 14
+    Confuse Ray: 17
+    Shadow Sneak: 22
+    Pursuit: 25
+    Curse: 30
+    Will-O-Wisp: 33
+    Shadow Punch: 37
+    Hex: 42
+    Mean Look: 49
+    Payback: 58
+    Future Sight: 61
+  moves:
+  - Fire Punch
+  - Ice Punch
+  - ThunderPunch
+  - Gravity
+  - Bind
+  - Leer
+  - Night Shade
+  hp: 40
+  attack: 70
+  defense: 130
+  sp_atk: 60
+  sp_def: 130
+  speed: 25
+- !ruby/object:Chimecho
+  type: Psychic
+  level: 3
+  learnset:
+    Wrap: 0
+    Growl: 6
+    Astonish: 9
+    Confusion: 14
+    Uproar: 17
+    Take Down: 22
+    Yawn: 25
+    Psywave: 30
+    Double-Edge: 33
+    Heal Bell: 38
+    Safeguard: 41
+    Extrasensory: 46
+    Heal Pulse: 49
+    Synchronoise: 54
+    Healing Wish: 57
+  moves:
+  - Wrap
+  hp: 65
+  attack: 50
+  defense: 70
+  sp_atk: 95
+  sp_def: 80
+  speed: 65
+- !ruby/object:Glalie
+  type: Ice
+  level: 3
+  learnset:
+    Sheer Cold: 59
+    Powder Snow: 0
+    Leer: 0
+    Double Team: 4
+    Bite: 10
+    Icy Wind: 13
+    Headbutt: 19
+    Protect: 22
+    Ice Fang: 28
+    Crunch: 31
+    Ice Beam: 37
+    Hail: 40
+    Blizzard: 51
+  moves:
+  - Powder Snow
+  - Leer
+  hp: 80
+  attack: 80
+  defense: 80
+  sp_atk: 80
+  sp_def: 80
+  speed: 80
+- !ruby/object:Sealeo
+  type: Ice
+  level: 3
+  learnset:
+    Powder Snow: 0
+    Growl: 0
+    Water Gun: 0
+    Encore: 7
+    Ice Ball: 13
+    Body Slam: 19
+    Aurora Beam: 25
+    Hail: 31
+    Swagger: 32
+    Rest: 39
+    Snore: 39
+    Blizzard: 47
+    Sheer Cold: 55
+  moves:
+  - Powder Snow
+  - Growl
+  - Water Gun
+  hp: 90
+  attack: 60
+  defense: 70
+  sp_atk: 75
+  sp_def: 70
+  speed: 45
+  evolution:
+    Walrein: 44
+- !ruby/object:Huntail
+  type: Water
+  level: 3
+  learnset:
+    Whirlpool: 0
+    Bite: 6
+    Screech: 10
+    Water Pulse: 15
+    Scary Face: 19
+    Ice Fang: 24
+    Brine: 28
+    Baton Pass: 33
+    Dive: 37
+    Crunch: 42
+    Aqua Tail: 46
+    Hydro Pump: 51
+  moves:
+  - Whirlpool
+  hp: 55
+  attack: 104
+  defense: 105
+  sp_atk: 94
+  sp_def: 75
+  speed: 52
+- !ruby/object:Shelgon
+  type: Dragon
+  level: 3
+  learnset:
+    Rage: 0
+    Bite: 5
+    Leer: 10
+    Headbutt: 16
+    Focus Energy: 20
+    Ember: 25
+    Protect: 30
+    DragonBreath: 32
+    Zen Headbutt: 37
+    Scary Face: 43
+    Crunch: 50
+    Dragon Claw: 55
+    Double-Edge: 61
+  moves:
+  - Rage
+  hp: 65
+  attack: 95
+  defense: 100
+  sp_atk: 60
+  sp_def: 50
+  speed: 50
+  evolution:
+    Salamence: 50
+- !ruby/object:Metang
+  type: Steel
+  level: 3
+  learnset:
+    Magnet Rise: 0
+    Take Down: 0
+    Metal Claw: 20
+    Confusion: 20
+    Pursuit: 23
+    Miracle Eye: 26
+    Zen Headbutt: 29
+    Bullet Punch: 32
+    Scary Face: 35
+    Agility: 38
+    Psychic: 41
+    Meteor Mash: 44
+    Iron Defense: 47
+    Hyper Beam: 50
+  moves:
+  - Magnet Rise
+  - Take Down
+  hp: 60
+  attack: 75
+  defense: 100
+  sp_atk: 55
+  sp_def: 80
+  speed: 50
+  evolution:
+    Metagross: 45
+- !ruby/object:Grotle
+  type: Grass
+  level: 3
+  learnset:
+    Tackle: 0
+    Withdraw: 5
+    Absorb: 9
+    Razor Leaf: 13
+    Curse: 17
+    Bite: 22
+    Mega Drain: 27
+    Leech Seed: 32
+    Synthesis: 37
+    Crunch: 42
+    Giga Drain: 47
+    Leaf Storm: 52
+  moves:
+  - Tackle
+  hp: 75
+  attack: 89
+  defense: 85
+  sp_atk: 55
+  sp_def: 65
+  speed: 36
+  evolution:
+    Torterra: 32
+- !ruby/object:Monferno
+  type: Fire
+  level: 3
+  learnset:
+    Scratch: 0
+    Leer: 0
+    Ember: 7
+    Taunt: 9
+    Mach Punch: 14
+    Fury Swipes: 16
+    Flame Wheel: 19
+    Feint: 26
+    Torment: 29
+    Close Combat: 36
+    Fire Spin: 39
+    Acrobatics: 46
+    Slack Off: 49
+    Flare Blitz: 56
+  moves:
+  - Scratch
+  - Leer
+  hp: 64
+  attack: 78
+  defense: 52
+  sp_atk: 78
+  sp_def: 52
+  speed: 81
+  evolution:
+    Infernape: 36
+- !ruby/object:Prinplup
+  type: Water
+  level: 3
+  learnset:
+    Tackle: 0
+    Growl: 4
+    Bubble: 8
+    Water Sport: 11
+    Peck: 15
+    Metal Claw: 16
+    BubbleBeam: 19
+    Bide: 24
+    Fury Attack: 28
+    Brine: 33
+    Whirlpool: 37
+    Mist: 42
+    Drill Peck: 46
+    Hydro Pump: 51
+  moves:
+  - Tackle
+  hp: 64
+  attack: 66
+  defense: 68
+  sp_atk: 81
+  sp_def: 76
+  speed: 50
+  evolution:
+    Empoleon: 36
+- !ruby/object:Staravia
+  type: Normal
+  level: 3
+  learnset:
+    Tackle: 0
+    Growl: 0
+    Quick Attack: 5
+    Wing Attack: 9
+    Double Team: 13
+    Endeavor: 18
+    Whirlwind: 23
+    Aerial Ace: 28
+    Take Down: 33
+    Agility: 38
+    Brave Bird: 43
+    Final Gambit: 48
+  moves:
+  - Tackle
+  - Growl
+  hp: 55
+  attack: 75
+  defense: 50
+  sp_atk: 40
+  sp_def: 40
+  speed: 80
+  evolution:
+    Staraptor: 34
+- !ruby/object:Bibarel
+  type: Normal
+  level: 3
+  learnset:
+    Rototiller: 0
+    Tackle: 0
+    Growl: 5
+    Defense Curl: 9
+    Rollout: 13
+    Water Gun: 15
+    Headbutt: 18
+    Hyper Fang: 23
+    Yawn: 28
+    Amnesia: 33
+    Take Down: 38
+    Super Fang: 43
+    Superpower: 48
+    Curse: 53
+  moves:
+  - Rototiller
+  - Tackle
+  hp: 79
+  attack: 85
+  defense: 60
+  sp_atk: 55
+  sp_def: 60
+  speed: 71
+- !ruby/object:Kricketune
+  type: Bug
+  level: 3
+  learnset:
+    Growl: 0
+    Bide: 0
+    Fury Cutter: 10
+    Leech Life: 14
+    Sing: 18
+    Focus Energy: 22
+    Slash: 26
+    X-Scissor: 30
+    Screech: 34
+    Taunt: 38
+    Night Slash: 42
+    Bug Buzz: 46
+    Perish Song: 50
+  moves:
+  - Growl
+  - Bide
+  hp: 77
+  attack: 85
+  defense: 51
+  sp_atk: 55
+  sp_def: 51
+  speed: 65
+- !ruby/object:Luxio
+  type: Electric
+  level: 3
+  learnset:
+    Tackle: 0
+    Leer: 5
+    Charge: 9
+    Spark: 13
+    Bite: 18
+    Roar: 23
+    Swagger: 28
+    Thunder Fang: 33
+    Crunch: 38
+    Scary Face: 43
+    Discharge: 48
+    Wild Charge: 53
+  moves:
+  - Tackle
+  hp: 60
+  attack: 85
+  defense: 49
+  sp_atk: 60
+  sp_def: 49
+  speed: 60
+  evolution:
+    Luxray: 30
+- !ruby/object:Rampardos
+  type: Rock
+  level: 3
+  learnset:
+    Headbutt: 0
+    Leer: 0
+    Focus Energy: 6
+    Pursuit: 10
+    Take Down: 15
+    Scary Face: 19
+    Assurance: 24
+    Chip Away: 28
+    Endeavor: 30
+    Ancient Power: 36
+    Zen Headbutt: 43
+    Screech: 51
+    Head Smash: 58
+  moves:
+  - Headbutt
+  - Leer
+  hp: 97
+  attack: 165
+  defense: 60
+  sp_atk: 65
+  sp_def: 50
+  speed: 58
+- !ruby/object:Bastiodon
+  type: Rock
+  level: 3
+  learnset:
+    Tackle: 0
+    Protect: 0
+    Taunt: 6
+    Metal Sound: 10
+    Take Down: 15
+    Iron Defense: 19
+    Swagger: 24
+    AncientPower: 28
+    Block: 30
+    Endure: 36
+    Metal Burst: 43
+    Iron Head: 51
+    Heavy Slam: 58
+  moves:
+  - Tackle
+  - Protect
+  hp: 60
+  attack: 52
+  defense: 168
+  sp_atk: 47
+  sp_def: 138
+  speed: 30
+- !ruby/object:Wormadam
+  type: Bug
+  level: 3
+  learnset:
+    Tackle: 0
+    Protect: 10
+    Bug Bite: 15
+    Hidden Power: 20
+    Confusion: 23
+    Razor Leaf: 26
+    Growth: 29
+    Psybeam: 32
+    Captivate: 35
+    Flail: 38
+    Attract: 41
+    Psychic: 44
+    Leaf Storm: 47
+    Rock Blast: 26
+    Harden: 29
+    Fissure: 47
+    Mirror Shot: 26
+    Metal Sound: 29
+    Iron Head: 47
+  moves:
+  - Tackle
+  hp: 36
+  attack: 424
+  defense: 60
+  sp_atk: 69
+  sp_def: 95
+  speed: 69
+- !ruby/object:Vespiquen
+  type: Bug
+  level: 3
+  learnset:
+    Sweet Scent: 0
+    Gust: 0
+    Poison Sting: 3
+    Confuse Ray: 7
+    Fury Cutter: 9
+    Pursuit: 15
+    Fury Swipes: 19
+    Defend Order: 13
+    Slash: 31
+    Power Gem: 21
+    Heal Order: 25
+    Toxic: 27
+    Air Slash: 0
+    Captivate: 33
+    Attack Order: 37
+    Swagger: 39
+    Destiny Bond: 43
+  moves:
+  - Sweet Scent
+  - Gust
+  - Poison Sting
+  - Air Slash
+  hp: 70
+  attack: 80
+  defense: 102
+  sp_atk: 80
+  sp_def: 102
+  speed: 40
+- !ruby/object:Floatzel
+  type: Water
+  level: 3
+  learnset:
+    Ice Fang: 0
+    Crunch: 26
+    SonicBoom: 0
+    Growl: 0
+    Water Sport: 0
+    Quick Attack: 3
+    Water Gun: 6
+    Pursuit: 10
+    Swift: 15
+    Aqua Jet: 21
+    Double Hit: 0
+    Whirlpool: 39
+    Razor Wind: 50
+    Aqua Tail: 62
+    Agility: 29
+    Hydro Pump: 0
+  moves:
+  - Ice Fang
+  - SonicBoom
+  - Growl
+  - Water Sport
+  - Quick Attack
+  - Double Hit
+  - Hydro Pump
+  hp: 85
+  attack: 105
+  defense: 55
+  sp_atk: 85
+  sp_def: 50
+  speed: 115
+- !ruby/object:Cherrim
+  type: Grass
+  level: 3
+  learnset:
+    Morning Sun: 0
+    Tackle: 0
+    Growth: 7
+    Leech Seed: 10
+    Helping Hand: 13
+    Magical Leaf: 19
+    Sunny Day: 22
+    Petal Dance: 25
+    Worry Seed: 30
+    Take Down: 35
+    SolarBeam: 43
+    Lucky Chant: 48
+  moves:
+  - Morning Sun
+  - Tackle
+  hp: 70
+  attack: 60
+  defense: 70
+  sp_atk: 87
+  sp_def: 78
+  speed: 85
+- !ruby/object:Gastrodon
+  type: Water
+  level: 3
+  learnset:
+    Mud-Slap: 0
+    Mud Sport: 2
+    Harden: 4
+    Water Pulse: 7
+    Mud Bomb: 11
+    Hidden Power: 16
+    Rain Dance: 22
+    Body Slam: 29
+    Muddy Water: 41
+    Recover: 54
+  moves:
+  - Mud-Slap
+  - Mud Sport
+  hp: 111
+  attack: 83
+  defense: 68
+  sp_atk: 92
+  sp_def: 82
+  speed: 39
+- !ruby/object:Drifblim
+  type: Ghost
+  level: 3
+  learnset:
+    Constrict: 0
+    Minimize: 0
+    Astonish: 6
+    Gust: 11
+    Focus Energy: 14
+    Payback: 17
+    Ominous Wind: 37
+    Stockpile: 27
+    Hex: 22
+    Swallow: 32
+    Spit Up: 32
+    Shadow Ball: 51
+    Amnesia: 55
+    Baton Pass: 44
+    Explosion: 56
+  moves:
+  - Constrict
+  - Minimize
+  hp: 150
+  attack: 80
+  defense: 44
+  sp_atk: 90
+  sp_def: 54
+  speed: 80
+- !ruby/object:Lopunny
+  type: Normal
+  level: 3
+  learnset:
+    Mirror Coat: 0
+    Magic Coat: 0
+    Splash: 0
+    Pound: 0
+    Defense Curl: 0
+    Foresight: 0
+    Endure: 6
+    Return: 13
+    Quick Attack: 16
+    Jump Kick: 23
+    Baton Pass: 26
+    Agility: 33
+    Dizzy Punch: 36
+    After You: 43
+    Charm: 46
+    Entrainment: 53
+    Bounce: 56
+    Healing Wish: 63
+  moves:
+  - Mirror Coat
+  - Magic Coat
+  - Splash
+  - Pound
+  - Defense Curl
+  - Foresight
+  hp: 65
+  attack: 76
+  defense: 84
+  sp_atk: 54
+  sp_def: 96
+  speed: 105
+- !ruby/object:Purugly
+  type: Normal
+  level: 3
+  learnset:
+    Fake Out: 0
+    Scratch: 5
+    Growl: 8
+    Hypnosis: 13
+    Faint Attack: 17
+    Fury Swipes: 20
+    Charm: 25
+    Assist: 29
+    Captivate: 32
+    Slash: 37
+    Swagger: 38
+    Body Slam: 45
+    Attract: 52
+    Hone Claws: 60
+  moves:
+  - Fake Out
+  hp: 71
+  attack: 82
+  defense: 64
+  sp_atk: 64
+  sp_def: 59
+  speed: 112
+- !ruby/object:Skuntank
+  type: Poison
+  level: 3
+  learnset:
+    Scratch: 0
+    Focus Energy: 0
+    Poison Gas: 4
+    Screech: 7
+    Fury Swipes: 10
+    SmokeScreen: 14
+    Feint: 18
+    Slash: 22
+    Toxic: 27
+    Acid Spray: 32
+    Flamethrower: 34
+    Night Slash: 41
+    Memento: 51
+    Belch: 56
+    Explosion: 61
+  moves:
+  - Scratch
+  - Focus Energy
+  hp: 103
+  attack: 93
+  defense: 67
+  sp_atk: 71
+  sp_def: 61
+  speed: 84
+- !ruby/object:Bronzong
+  type: Steel
+  level: 3
+  learnset:
+    Sunny Day: 0
+    Rain Dance: 0
+    Tackle: 0
+    Confusion: 0
+    Hypnosis: 7
+    Imprison: 12
+    Confuse Ray: 14
+    Psywave: 0
+    Iron Defense: 26
+    Faint Attack: 50
+    Safeguard: 30
+    Future Sight: 43
+    Metal Sound: 0
+    Block: 33
+    Gyro Ball: 38
+    Extrasensory: 19
+    Payback: 61
+    Heal Block: 67
+    Heavy Slam: 72
+  moves:
+  - Sunny Day
+  - Rain Dance
+  - Tackle
+  - Confusion
+  - Psywave
+  - Metal Sound
+  hp: 67
+  attack: 89
+  defense: 116
+  sp_atk: 79
+  sp_def: 116
+  speed: 33
+- !ruby/object:Gabite
+  type: Dragon
+  level: 3
+  learnset:
+    Tackle: 0
+    Sand Attack: 3
+    Dragon Rage: 7
+    Sandstorm: 13
+    Take Down: 15
+    Sand Tomb: 19
+    Dual Chop: 24
+    Slash: 28
+    Dragon Claw: 33
+    Dig: 40
+    Dragon Rush: 49
+  moves:
+  - Tackle
+  - Sand Attack
+  hp: 68
+  attack: 90
+  defense: 65
+  sp_atk: 50
+  sp_def: 55
+  speed: 82
+  evolution:
+    Garchomp: 48
+- !ruby/object:Lucario
+  type: Fighting
+  level: 3
+  learnset:
+    Extreme Speed: 65
+    Dragon Pulse: 60
+    Close Combat: 55
+    Aura Sphere: 42
+    Foresight: 0
+    Quick Attack: 0
+    Detect: 0
+    Metal Claw: 0
+    Counter: 6
+    Feint: 11
+    Power-Up Punch: 15
+    Swords Dance: 19
+    Metal Sound: 24
+    Bone Rush: 29
+    Quick Guard: 33
+    Me First: 37
+    Calm Mind: 47
+    Heal Pulse: 51
+  moves:
+  - Foresight
+  - Quick Attack
+  - Detect
+  - Metal Claw
+  hp: 525
+  attack: 70
+  defense: 145
+  sp_atk: 88
+  sp_def: 140
+  speed: 70
+- !ruby/object:Hippowdon
+  type: Ground
+  level: 3
+  learnset:
+    Ice Fang: 0
+    Fire Fang: 0
+    Thunder Fang: 0
+    Tackle: 0
+    Sand-Attack: 0
+    Bite: 7
+    Yawn: 13
+    Take Down: 19
+    Dig: 19
+    Sand Tomb: 25
+    Crunch: 31
+    Earthquake: 40
+    Double-Edge: 50
+    Fissure: 60
+  moves:
+  - Ice Fang
+  - Fire Fang
+  - Thunder Fang
+  - Tackle
+  - Sand-Attack
+  hp: 108
+  attack: 112
+  defense: 118
+  sp_atk: 68
+  sp_def: 72
+  speed: 47
+- !ruby/object:Drapion
+  type: Poison
+  level: 3
+  learnset:
+    Thunder Fang: 0
+    Ice Fang: 0
+    Fire Fang: 0
+    Bite: 0
+    Poison Sting: 0
+    Leer: 0
+    Knock Off: 6
+    Pin Missile: 12
+    Acupressure: 17
+    Pursuit: 0
+    Bug Bite: 34
+    Poison Fang: 39
+    Venoshock: 56
+    Hone Claws: 48
+    Toxic Spikes: 28
+    Night Slash: 0
+    Scary Face: 23
+    Crunch: 65
+    Cross Poison: 73
+  moves:
+  - Thunder Fang
+  - Ice Fang
+  - Fire Fang
+  - Bite
+  - Poison Sting
+  - Leer
+  - Pursuit
+  - Night Slash
+  hp: 70
+  attack: 90
+  defense: 110
+  sp_atk: 60
+  sp_def: 75
+  speed: 95
+- !ruby/object:Toxicroak
+  type: Poison
+  level: 3
+  learnset:
+    Astonish: 0
+    Mud-Slap: 3
+    Poison Sting: 8
+    Taunt: 10
+    Pursuit: 15
+    Faint Attack: 17
+    Revenge: 22
+    Swagger: 24
+    Mud Bomb: 29
+    Sucker Punch: 31
+    Venoshock: 36
+    Nasty Plot: 41
+    Poison Jab: 49
+    Sludge Bomb: 54
+    Flatter: 62
+  moves:
+  - Astonish
+  - Mud-Slap
+  hp: 83
+  attack: 106
+  defense: 65
+  sp_atk: 86
+  sp_def: 65
+  speed: 85
+- !ruby/object:Lumineon
+  type: Water
+  level: 3
+  learnset:
+    Pound: 0
+    Water Gun: 6
+    Attract: 10
+    Rain Dance: 13
+    Gust: 17
+    Water Pulse: 22
+    Captivate: 26
+    Safeguard: 29
+    Aqua Ring: 35
+    Whirlpool: 42
+    U-turn: 48
+    Bounce: 53
+    Silver Wind: 59
+    Soak: 66
+  moves:
+  - Pound
+  hp: 69
+  attack: 69
+  defense: 76
+  sp_atk: 69
+  sp_def: 86
+  speed: 91
+- !ruby/object:Abomasnow
+  type: Grass
+  level: 3
+  learnset:
+    Ice Punch: 0
+    Powder Snow: 0
+    Leer: 0
+    Razor Leaf: 5
+    Icy Wind: 9
+    Grass Whistle: 13
+    Swagger: 17
+    Mist: 21
+    Ice Shard: 26
+    Ingrain: 31
+    Wood Hammer: 36
+    Blizzard: 47
+    Sheer Cold: 58
+  moves:
+  - Ice Punch
+  - Powder Snow
+  - Leer
+  hp: 494
+  attack: 90
+  defense: 132
+  sp_atk: 105
+  sp_def: 132
+  speed: 105
+- !ruby/object:Servine
+  type: Grass
+  level: 3
+  learnset:
+    Tackle: 0
+    Leer: 4
+    Vine Whip: 7
+    Wrap: 10
+    Growth: 13
+    Leaf Tornado: 16
+    Leech Seed: 20
+    Mega Drain: 24
+    Slam: 28
+    Leaf Blade: 32
+    Coil: 36
+    Giga Drain: 40
+    Wring Out: 44
+    Gastro Acid: 48
+    Leaf Storm: 52
+  moves:
+  - Tackle
+  hp: 60
+  attack: 60
+  defense: 75
+  sp_atk: 60
+  sp_def: 75
+  speed: 83
+  evolution:
+    Serperior: 36
+- !ruby/object:Pignite
+  type: Fire
+  level: 3
+  learnset:
+    Tackle: 0
+    Tail Whip: 3
+    Ember: 7
+    Odor Sleuth: 9
+    Defense Curl: 13
+    Flame Charge: 15
+    Arm Thrust: 17
+    Smog: 20
+    Rollout: 23
+    Take Down: 28
+    Heat Crash: 31
+    Assurance: 36
+    Flamethrower: 39
+    Head Smash: 44
+    Roar: 47
+    Flare Blitz: 52
+  moves:
+  - Tackle
+  - Tail Whip
+  hp: 90
+  attack: 93
+  defense: 55
+  sp_atk: 70
+  sp_def: 55
+  speed: 55
+  evolution:
+    Emboar: 36
+- !ruby/object:Dewott
+  type: Water
+  level: 3
+  learnset:
+    Tackle: 0
+    Tail Whip: 5
+    Water Gun: 7
+    Water Sport: 11
+    Focus Energy: 13
+    Razor Shell: 17
+    Fury Cutter: 20
+    Water Pulse: 25
+    Revenge: 28
+    Aqua Jet: 33
+    Encore: 36
+    Aqua Tail: 41
+    Retaliate: 44
+    Swords Dance: 49
+    Hydro Pump: 52
+  moves:
+  - Tackle
+  hp: 75
+  attack: 75
+  defense: 60
+  sp_atk: 83
+  sp_def: 60
+  speed: 60
+  evolution:
+    Samurott: 36
+- !ruby/object:Watchog
+  type: Normal
+  level: 3
+  learnset:
+    Tackle: 0
+    Leer: 3
+    Bite: 6
+    Low Kick: 0
+    Bide: 8
+    Detect: 11
+    Sand-Attack: 13
+    Crunch: 16
+    Hypnosis: 18
+    Confuse Ray: 20
+    Super Fang: 22
+    After You: 25
+    Psych Up: 29
+    Hyper Fang: 32
+    Mean Look: 36
+    Baton Pass: 39
+    Slam: 43
+  moves:
+  - Tackle
+  - Leer
+  - Low Kick
+  hp: 60
+  attack: 85
+  defense: 69
+  sp_atk: 60
+  sp_def: 69
+  speed: 77
+- !ruby/object:Herdier
+  type: Normal
+  level: 3
+  learnset:
+    Leer: 0
+    Tackle: 0
+    Odor Sleuth: 5
+    Bite: 8
+    Helping Hand: 12
+    Take Down: 15
+    Work Up: 20
+    Crunch: 24
+    Roar: 29
+    Retaliate: 33
+    Reversal: 38
+    Last Resort: 42
+    Giga Impact: 47
+    Play Rough: 52
+  moves:
+  - Leer
+  - Tackle
+  hp: 65
+  attack: 80
+  defense: 65
+  sp_atk: 35
+  sp_def: 65
+  speed: 60
+  evolution:
+    Stoutland: 32
+- !ruby/object:Liepard
+  type: Dark
+  level: 3
+  learnset:
+    Scratch: 0
+    Growl: 3
+    Assist: 6
+    Sand-Attack: 10
+    Fury Swipes: 12
+    Pursuit: 15
+    Torment: 19
+    Fake Out: 22
+    Hone Claws: 26
+    Assurance: 31
+    Slash: 34
+    Taunt: 38
+    Night Slash: 43
+    Snatch: 47
+    Nasty Plot: 50
+    Sucker Punch: 55
+    Play Rough: 58
+  moves:
+  - Scratch
+  - Growl
+  hp: 64
+  attack: 88
+  defense: 50
+  sp_atk: 88
+  sp_def: 50
+  speed: 106
+- !ruby/object:Simisage
+  type: Grass
+  level: 3
+  learnset:
+    Leer: 0
+    Lick: 0
+    Fury Swipes: 0
+    Seed Bomb: 0
+  moves:
+  - Leer
+  - Lick
+  - Fury Swipes
+  - Seed Bomb
+  hp: 75
+  attack: 98
+  defense: 63
+  sp_atk: 98
+  sp_def: 63
+  speed: 101
+- !ruby/object:Simisear
+  type: Fire
+  level: 3
+  learnset:
+    Leer: 0
+    Lick: 0
+    Fury Swipes: 0
+    Flame Burst: 0
+  moves:
+  - Leer
+  - Lick
+  - Fury Swipes
+  - Flame Burst
+  hp: 75
+  attack: 98
+  defense: 63
+  sp_atk: 98
+  sp_def: 63
+  speed: 101
+- !ruby/object:Simipour
+  type: Water
+  level: 3
+  learnset:
+    Leer: 0
+    Lick: 0
+    Fury Swipes: 0
+    Scald: 0
+  moves:
+  - Leer
+  - Lick
+  - Fury Swipes
+  - Scald
+  hp: 75
+  attack: 98
+  defense: 63
+  sp_atk: 98
+  sp_def: 63
+  speed: 101
+- !ruby/object:Musharna
+  type: Psychic
+  level: 3
+  learnset:
+    Defense Curl: 0
+    Lucky Chant: 0
+    Psybeam: 0
+    Hypnosis: 0
+  moves:
+  - Defense Curl
+  - Lucky Chant
+  - Psybeam
+  - Hypnosis
+  hp: 116
+  attack: 55
+  defense: 85
+  sp_atk: 107
+  sp_def: 95
+  speed: 29
+- !ruby/object:Tranquill
+  type: Normal
+  level: 3
+  learnset:
+    Gust: 0
+    Growl: 4
+    Leer: 8
+    Quick Attack: 11
+    Air Cutter: 15
+    Roost: 18
+    Detect: 23
+    Taunt: 27
+    Air Slash: 32
+    Razor Wind: 36
+    FeatherDance: 41
+    Swagger: 45
+    Facade: 50
+    Tailwind: 54
+    Sky Attack: 59
+  moves:
+  - Gust
+  hp: 62
+  attack: 77
+  defense: 62
+  sp_atk: 50
+  sp_def: 42
+  speed: 65
+  evolution:
+    Unfezant: 32
+- !ruby/object:Zebstrika
+  type: Electric
+  level: 3
+  learnset:
+    Quick Attack: 0
+    Tail Whip: 4
+    Charge: 8
+    Thunder Wave: 15
+    Shock Wave: 11
+    Flame Charge: 18
+    Pursuit: 22
+    Spark: 25
+    Stomp: 31
+    Discharge: 36
+    Agility: 42
+    Wild Charge: 47
+    Thrash: 53
+  moves:
+  - Quick Attack
+  hp: 75
+  attack: 100
+  defense: 63
+  sp_atk: 80
+  sp_def: 63
+  speed: 116
+- !ruby/object:Boldore
+  type: Rock
+  level: 3
+  learnset:
+    Tackle: 0
+    Harden: 4
+    Sand-Attack: 7
+    Headbutt: 10
+    Rock Blast: 14
+    Mud-Slap: 17
+    Iron Defense: 20
+    Smack Down: 23
+    Power Gem: 25
+    Rock Slide: 30
+    Stealth Rock: 36
+    Sandstorm: 42
+    Stone Edge: 48
+    Explosion: 55
+  moves:
+  - Tackle
+  hp: 70
+  attack: 105
+  defense: 105
+  sp_atk: 50
+  sp_def: 40
+  speed: 20
+- !ruby/object:Swoobat
+  type: Psychic
+  level: 3
+  learnset:
+    Confusion: 0
+    Odor Sleuth: 4
+    Gust: 8
+    Assurance: 12
+    Heart Stamp: 15
+    Imprison: 19
+    Air Cutter: 21
+    Attract: 25
+    Amnesia: 29
+    Calm Mind: 29
+    Air Slash: 32
+    Future Sight: 36
+    Psychic: 41
+    Endeavor: 47
+  moves:
+  - Confusion
+  hp: 67
+  attack: 57
+  defense: 55
+  sp_atk: 77
+  sp_def: 55
+  speed: 114
+- !ruby/object:Excadrill
+  type: Ground
+  level: 3
+  learnset:
+    Scratch: 0
+    Mud Sport: 0
+    Rapid Spin: 5
+    Mud-Slap: 8
+    Fury Swipes: 12
+    Metal Claw: 15
+    Dig: 19
+    Hone Claws: 22
+    Slash: 26
+    Rock Slide: 29
+    Horn Drill: 31
+    Earthquake: 36
+    Swords Dance: 42
+    Sandstorm: 49
+    Drill Run: 55
+    Fissure: 62
+  moves:
+  - Scratch
+  - Mud Sport
+  hp: 110
+  attack: 135
+  defense: 60
+  sp_atk: 50
+  sp_def: 65
+  speed: 88
+- !ruby/object:Gurdurr
+  type: Fighting
+  level: 3
+  learnset:
+    Pound: 0
+    Leer: 0
+    Focus Energy: 4
+    Bide: 8
+    Low Kick: 12
+    Rock Throw: 16
+    Wake-Up Slap: 20
+    Chip Away: 24
+    Bulk Up: 29
+    Rock Slide: 33
+    DynamicPunch: 37
+    Scary Face: 41
+    Hammer Arm: 45
+    Stone Edge: 49
+    Focus Punch: 53
+    Superpower: 57
+  moves:
+  - Pound
+  - Leer
+  hp: 85
+  attack: 105
+  defense: 85
+  sp_atk: 40
+  sp_def: 50
+  speed: 40
+- !ruby/object:Palpitoad
+  type: Water
+  level: 3
+  learnset:
+    Bubble: 0
+    Growl: 0
+    Supersonic: 5
+    Round: 9
+    BubbleBeam: 12
+    Mud Shot: 16
+    Aqua Ring: 20
+    Uproar: 23
+    Muddy Water: 28
+    Rain Dance: 33
+    Flail: 37
+    Echoed Voice: 42
+    Hydro Pump: 47
+    Hyper Voice: 51
+  moves:
+  - Bubble
+  - Growl
+  hp: 75
+  attack: 65
+  defense: 55
+  sp_atk: 65
+  sp_def: 55
+  speed: 69
+  evolution:
+    Seismitoad: 36
+- !ruby/object:Swadloon
+  type: Bug
+  level: 3
+  learnset:
+    GrassWhistle: 0
+    Tackle: 0
+    String Shot: 0
+    Bug Bite: 0
+    Razor Leaf: 0
+    Protect: 20
+  moves:
+  - GrassWhistle
+  - Tackle
+  - String Shot
+  - Bug Bite
+  - Razor Leaf
+  hp: 55
+  attack: 63
+  defense: 90
+  sp_atk: 50
+  sp_def: 80
+  speed: 42
+- !ruby/object:Whirlipede
+  type: Bug
+  level: 3
+  learnset:
+    Defense Curl: 0
+    Rollout: 0
+    Poison Sting: 5
+    Screech: 8
+    Pursuit: 12
+    Protect: 15
+    Poison Tail: 19
+    Iron Defense: 22
+    Bug Bite: 23
+    Venoshock: 28
+    Agility: 32
+    Steamroller: 37
+    Toxic: 41
+    Rock Climb: 46
+    Double-Edge: 50
+  moves:
+  - Defense Curl
+  - Rollout
+  hp: 40
+  attack: 55
+  defense: 99
+  sp_atk: 40
+  sp_def: 79
+  speed: 47
+  evolution:
+    Scolipede: 30
+- !ruby/object:Whimsicott
+  type: Grass
+  level: 3
+  learnset:
+    Growth: 0
+    Leech Seed: 0
+    Mega Drain: 0
+    Cotton Spore: 0
+    Gust: 10
+    Tailwind: 28
+    Hurricane: 46
+  moves:
+  - Growth
+  - Leech Seed
+  - Mega Drain
+  - Cotton Spore
+  hp: 60
+  attack: 67
+  defense: 85
+  sp_atk: 77
+  sp_def: 75
+  speed: 116
+- !ruby/object:Lilligant
+  type: Grass
+  level: 3
+  learnset:
+    Growth: 0
+    Leech Seed: 0
+    Mega Drain: 0
+    Synthesis: 0
+    Teeter Dance: 10
+    Quiver Dance: 28
+    Petal Dance: 46
+  moves:
+  - Growth
+  - Leech Seed
+  - Mega Drain
+  - Synthesis
+  hp: 70
+  attack: 60
+  defense: 75
+  sp_atk: 110
+  sp_def: 75
+  speed: 90
+- !ruby/object:Krokorok
+  type: Ground
+  level: 3
+  learnset:
+    Leer: 0
+    Rage: 0
+    Bite: 4
+    Sand-Attack: 7
+    Torment: 10
+    Sand Tomb: 13
+    Assurance: 16
+    Mud-Slap: 19
+    Embargo: 22
+    Swagger: 25
+    Crunch: 28
+    Dig: 32
+    Scary Face: 36
+    Foul Play: 40
+    Sandstorm: 44
+    Earthquake: 48
+    Thrash: 52
+  moves:
+  - Leer
+  - Rage
+  hp: 60
+  attack: 82
+  defense: 45
+  sp_atk: 45
+  sp_def: 45
+  speed: 74
+  evolution:
+    Krookodile: 40
+- !ruby/object:Darmanitan
+  type: Fire
+  level: 3
+  learnset:
+    Tackle: 0
+    Rollout: 3
+    Incinerate: 6
+    Rage: 9
+    Fire Fang: 11
+    Headbutt: 14
+    Swagger: 17
+    Facade: 19
+    Fire Punch: 22
+    Work Up: 25
+    Thrash: 27
+    Belly Drum: 30
+    Flare Blitz: 33
+    Hammer Arm: 35
+    Taunt: 39
+    Superpower: 47
+    Overheat: 54
+  moves:
+  - Tackle
+  - Rollout
+  hp: 480
+  attack: 105
+  defense: 30
+  sp_atk: 105
+  sp_def: 140
+  speed: 105
+- !ruby/object:Crustle
+  type: Bug
+  level: 3
+  learnset:
+    Shell Smash: 43
+    Rock Blast: 5
+    Withdraw: 7
+    Sand-Attack: 11
+    Faint Attack: 13
+    Smack Down: 17
+    Rock Polish: 19
+    Bug Bite: 23
+    Stealth Rock: 24
+    Rock Slide: 29
+    Slash: 31
+    X-Scissor: 38
+    Flail: 50
+    Rock Wrecker: 55
+  moves: []
+  hp: 70
+  attack: 95
+  defense: 125
+  sp_atk: 65
+  sp_def: 75
+  speed: 45
+- !ruby/object:Scrafty
+  type: Dark
+  level: 3
+  learnset:
+    Leer: 0
+    Low Kick: 0
+    Sand-Attack: 5
+    Feint Attack: 9
+    Headbutt: 12
+    Swagger: 16
+    Brick Break: 20
+    Payback: 23
+    Chip Away: 27
+    High Jump Kick: 31
+    Scary Face: 34
+    Crunch: 38
+    Facade: 45
+    Rock Climb: 51
+    Focus Punch: 58
+    Head Smash: 65
+  moves:
+  - Leer
+  - Low Kick
+  hp: 65
+  attack: 90
+  defense: 115
+  sp_atk: 45
+  sp_def: 115
+  speed: 58
+- !ruby/object:Cofagrigus
+  type: Ghost
+  level: 3
+  learnset:
+    Astonish: 0
+    Protect: 0
+    Disable: 5
+    Haze: 9
+    Night Shade: 13
+    Hex: 17
+    Will-O-Wisp: 21
+    Ominous Wind: 25
+    Curse: 29
+    Power Split: 33
+    Guard Split: 33
+    Scary Face: 34
+    Shadow Ball: 39
+    Grudge: 45
+    Mean Look: 51
+    Destiny Bond: 57
+  moves:
+  - Astonish
+  - Protect
+  hp: 58
+  attack: 50
+  defense: 145
+  sp_atk: 95
+  sp_def: 105
+  speed: 30
+- !ruby/object:Carracosta
+  type: Water
+  level: 3
+  learnset:
+    Bide: 0
+    Withdraw: 0
+    Water Gun: 0
+    Rollout: 5
+    Bite: 8
+    Protect: 11
+    Aqua Jet: 15
+    AncientPower: 18
+    Crunch: 21
+    Wide Guard: 25
+    Brine: 28
+    Smack Down: 31
+    Curse: 35
+    Shell Smash: 40
+    Aqua Tail: 45
+    Rock Slide: 51
+    Rain Dance: 56
+    Hydro Pump: 61
+  moves:
+  - Bide
+  - Withdraw
+  - Water Gun
+  hp: 74
+  attack: 108
+  defense: 133
+  sp_atk: 83
+  sp_def: 65
+  speed: 32
+- !ruby/object:Archeops
+  type: Rock
+  level: 3
+  learnset:
+    Quick Attack: 0
+    Leer: 0
+    Wing Attack: 0
+    Rock Throw: 5
+    Double Team: 8
+    Scary Face: 11
+    Pluck: 15
+    AncientPower: 18
+    Agility: 21
+    Quick Guard: 25
+    Acrobatics: 28
+    DragonBreath: 31
+    Crunch: 35
+    Endeavor: 40
+    U-turn: 45
+    Rock Slide: 51
+    Dragon Claw: 56
+    Thrash: 61
+  moves:
+  - Quick Attack
+  - Leer
+  - Wing Attack
+  hp: 75
+  attack: 140
+  defense: 65
+  sp_atk: 112
+  sp_def: 65
+  speed: 110
+- !ruby/object:Garbodor
+  type: Poison
+  level: 3
+  learnset:
+    Pound: 0
+    Poison Gas: 0
+    Recycle: 3
+    Toxic Spikes: 7
+    Acid Spray: 12
+    DoubleSlap: 14
+    Sludge: 18
+    Stockpile: 23
+    Swallow: 23
+    Body Slam: 25
+    Sludge Bomb: 29
+    Clear Smog: 34
+    Toxic: 39
+    Amnesia: 46
+    Gunk Shot: 54
+    Explosion: 59
+  moves:
+  - Pound
+  - Poison Gas
+  - Recycle
+  hp: 80
+  attack: 95
+  defense: 82
+  sp_atk: 60
+  sp_def: 82
+  speed: 75
+- !ruby/object:Zoroark
+  type: Dark
+  level: 3
+  learnset:
+    Night Daze: 64
+    Imprison: 59
+    U-turn: 0
+    Scratch: 0
+    Leer: 0
+    Pursuit: 5
+    Hone Claws: 9
+    Fury Swipes: 13
+    Feint Attack: 17
+    Scary Face: 21
+    Taunt: 25
+    Foul Play: 29
+    Night Slash: 30
+    Torment: 34
+    Agility: 39
+    Embargo: 44
+    Punishment: 49
+    Nasty Plot: 54
+  moves:
+  - U-turn
+  - Scratch
+  - Leer
+  hp: 60
+  attack: 105
+  defense: 60
+  sp_atk: 120
+  sp_def: 60
+  speed: 105
+- !ruby/object:Cinccino
+  type: Normal
+  level: 3
+  learnset:
+    Bullet Seed: 0
+    Rock Blast: 0
+    Helping Hand: 0
+    Tickle: 0
+    Sing: 0
+    Tail Slap: 0
+  moves:
+  - Bullet Seed
+  - Rock Blast
+  - Helping Hand
+  - Tickle
+  - Sing
+  - Tail Slap
+  hp: 75
+  attack: 95
+  defense: 60
+  sp_atk: 65
+  sp_def: 60
+  speed: 115
+- !ruby/object:Gothorita
+  type: Psychic
+  level: 3
+  learnset:
+    Pound: 0
+    Confusion: 3
+    Tickle: 7
+    Fake Tears: 10
+    DoubleSlap: 14
+    Psybeam: 16
+    Embargo: 19
+    Faint Attack: 24
+    Psyshock: 25
+    Flatter: 28
+    Future Sight: 31
+    Heal Block: 34
+    Psychic: 39
+    Telekinesis: 43
+    Charm: 50
+    Magic Room: 53
+  moves:
+  - Pound
+  - Confusion
+  hp: 60
+  attack: 45
+  defense: 70
+  sp_atk: 75
+  sp_def: 85
+  speed: 55
+  evolution:
+    Gothitelle: 41
+- !ruby/object:Duosion
+  type: Psychic
+  level: 3
+  learnset:
+    Psywave: 0
+    Reflect: 3
+    Rollout: 7
+    Snatch: 10
+    Hidden Power: 14
+    Light Screen: 16
+    Charm: 19
+    Recover: 24
+    Psyshock: 25
+    Endeavor: 28
+    Future Sight: 31
+    Pain Split: 34
+    Psychic: 39
+    Skill Swap: 43
+    Heal Block: 50
+    Wonder Room: 53
+  moves:
+  - Psywave
+  - Reflect
+  hp: 65
+  attack: 40
+  defense: 50
+  sp_atk: 125
+  sp_def: 60
+  speed: 30
+  evolution:
+    Reuniclus: 41
+- !ruby/object:Swanna
+  type: Water
+  level: 3
+  learnset:
+    Water Gun: 0
+    Water Sport: 3
+    Defog: 6
+    Wing Attack: 9
+    Water Pulse: 13
+    Aerial Ace: 15
+    BubbleBeam: 19
+    FeatherDance: 21
+    Aqua Ring: 24
+    Air Slash: 27
+    Roost: 30
+    Rain Dance: 34
+    Tailwind: 40
+    Brave Bird: 47
+    Hurricane: 55
+  moves:
+  - Water Gun
+  - Water Sport
+  hp: 75
+  attack: 87
+  defense: 63
+  sp_atk: 87
+  sp_def: 63
+  speed: 98
+- !ruby/object:Vanillish
+  type: Ice
+  level: 3
+  learnset:
+    Icicle Spear: 0
+    Harden: 4
+    Astonish: 7
+    Uproar: 10
+    Icy Wind: 13
+    Mist: 16
+    Avalanche: 19
+    Taunt: 22
+    Mirror Shot: 26
+    Acid Armor: 31
+    Ice Beam: 36
+    Hail: 42
+    Mirror Coat: 47
+    Blizzard: 53
+    Sheer Cold: 58
+  moves:
+  - Icicle Spear
+  hp: 51
+  attack: 65
+  defense: 65
+  sp_atk: 80
+  sp_def: 75
+  speed: 59
+  evolution:
+    Vanilluxe: 47
+- !ruby/object:Sawsbuck
+  type: Normal
+  level: 3
+  learnset:
+    Megahorn: 0
+    Tackle: 0
+    Camouflage: 0
+    Growl: 4
+    Sand-Attack: 7
+    Double Kick: 10
+    Leech Seed: 13
+    Faint Attack: 16
+    Take Down: 20
+    Jump Kick: 24
+    Aromatherapy: 28
+    Energy Ball: 32
+    Charm: 36
+    Horn Leech: 37
+    Nature Power: 44
+    Double-Edge: 52
+    SolarBeam: 60
+  moves:
+  - Megahorn
+  - Tackle
+  - Camouflage
+  hp: 80
+  attack: 100
+  defense: 70
+  sp_atk: 60
+  sp_def: 70
+  speed: 95
+- !ruby/object:Escavalier
+  type: Bug
+  level: 3
+  learnset:
+    Peck: 0
+    Leer: 4
+    Quick Guard: 8
+    Twineedle: 13
+    Fury Attack: 16
+    Headbutt: 20
+    False Swipe: 25
+    Bug Buzz: 28
+    Slash: 32
+    Iron Head: 37
+    Iron Defense: 40
+    X-Scissor: 44
+    Reversal: 49
+    Swords Dance: 52
+    Giga Impact: 56
+  moves:
+  - Peck
+  hp: 70
+  attack: 135
+  defense: 105
+  sp_atk: 60
+  sp_def: 105
+  speed: 20
+- !ruby/object:Amoonguss
+  type: Grass
+  level: 3
+  learnset:
+    Absorb: 0
+    Growth: 6
+    Astonish: 8
+    Bide: 12
+    Mega Drain: 15
+    Ingrain: 18
+    Faint Attack: 20
+    Sweet Scent: 24
+    Giga Drain: 28
+    Toxic: 32
+    Synthesis: 35
+    Clear Smog: 43
+    SolarBeam: 49
+    Rage Powder: 54
+    Spore: 62
+  moves:
+  - Absorb
+  hp: 114
+  attack: 85
+  defense: 70
+  sp_atk: 85
+  sp_def: 80
+  speed: 30
+- !ruby/object:Jellicent
+  type: Water
+  level: 3
+  learnset:
+    Bubble: 0
+    Water Sport: 0
+    Absorb: 5
+    Night Shade: 9
+    BubbleBeam: 13
+    Recover: 17
+    Water Pulse: 22
+    Ominous Wind: 27
+    Brine: 32
+    Rain Dance: 37
+    Hex: 45
+    Hydro Pump: 53
+    Wring Out: 61
+    Water Spout: 69
+  moves:
+  - Bubble
+  - Water Sport
+  hp: 100
+  attack: 60
+  defense: 70
+  sp_atk: 85
+  sp_def: 105
+  speed: 60
+- !ruby/object:Galvantula
+  type: Bug
+  level: 3
+  learnset:
+    String Shot: 0
+    Leech Life: 0
+    Spider Web: 0
+    Thunder Wave: 4
+    Screech: 7
+    Fury Cutter: 12
+    Electroweb: 15
+    Bug Bite: 18
+    Gastro Acid: 23
+    Slash: 26
+    Electro Ball: 29
+    Signal Beam: 34
+    Agility: 40
+    Sucker Punch: 46
+    Discharge: 54
+    Bug Buzz: 60
+  moves:
+  - String Shot
+  - Leech Life
+  - Spider Web
+  hp: 70
+  attack: 77
+  defense: 60
+  sp_atk: 97
+  sp_def: 60
+  speed: 108
+- !ruby/object:Ferrothorn
+  type: Grass
+  level: 3
+  learnset:
+    Rock Climb: 0
+    Tackle: 0
+    Harden: 0
+    Rollout: 6
+    Curse: 9
+    Metal Claw: 14
+    Pin Missile: 18
+    Gyro Ball: 21
+    Iron Defense: 26
+    Mirror Shot: 30
+    Ingrain: 35
+    Selfdestruct: 38
+    Power Whip: 40
+    Iron Head: 46
+    Payback: 53
+    Flash Cannon: 61
+    Explosion: 67
+  moves:
+  - Rock Climb
+  - Tackle
+  - Harden
+  hp: 74
+  attack: 94
+  defense: 131
+  sp_atk: 54
+  sp_def: 116
+  speed: 20
+- !ruby/object:Klang
+  type: Steel
+  level: 3
+  learnset:
+    Vice Grip: 0
+    Charge: 6
+    ThunderShock: 11
+    Gear Grind: 16
+    Bind: 21
+    Charge Beam: 26
+    Autotomize: 31
+    Mirror Shot: 36
+    Screech: 40
+    Discharge: 44
+    Metal Sound: 48
+    Shift Gear: 52
+    Lock-On: 56
+    Zap Cannon: 60
+    Hyper Beam: 64
+  moves:
+  - Vice Grip
+  hp: 60
+  attack: 80
+  defense: 95
+  sp_atk: 70
+  sp_def: 85
+  speed: 50
+  evolution:
+    Klinklang: 49
+- !ruby/object:Eelektrik
+  type: Electric
+  level: 3
+  learnset:
+    Headbutt: 0
+    Thunder Wave: 0
+    Spark: 0
+    Charge Beam: 0
+    Bind: 9
+    Acid: 19
+    Discharge: 29
+    Crunch: 39
+    Thunderbolt: 44
+    Acid Spray: 49
+    Coil: 54
+    Wild Charge: 59
+    Gastro Acid: 64
+    Zap Cannon: 69
+    Thrash: 74
+  moves:
+  - Headbutt
+  - Thunder Wave
+  - Spark
+  - Charge Beam
+  hp: 65
+  attack: 85
+  defense: 70
+  sp_atk: 75
+  sp_def: 70
+  speed: 40
+- !ruby/object:Beheeyem
+  type: Psychic
+  level: 3
+  learnset:
+    Confusion: 0
+    Growl: 4
+    Heal Block: 8
+    Miracle Eye: 11
+    Psybeam: 15
+    Headbutt: 18
+    Hidden Power: 22
+    Imprison: 25
+    Simple Beam: 29
+    Zen Headbutt: 32
+    Psych Up: 36
+    Psychic: 39
+    Calm Mind: 45
+    Recover: 50
+    Guard Split: 56
+    Power Split: 58
+    Synchronoise: 63
+    Wonder Room: 68
+  moves:
+  - Confusion
+  hp: 75
+  attack: 75
+  defense: 75
+  sp_atk: 125
+  sp_def: 95
+  speed: 40
+- !ruby/object:Lampent
+  type: Ghost
+  level: 3
+  learnset:
+    Ember: 0
+    Astonish: 0
+    Minimize: 3
+    Smog: 5
+    Fire Spin: 7
+    Confuse Ray: 10
+    Night Shade: 13
+    Will-O-Wisp: 16
+    Flame Burst: 20
+    Imprison: 24
+    Hex: 28
+    Memento: 33
+    Inferno: 38
+    Curse: 45
+    Shadow Ball: 53
+    Pain Split: 61
+    Overheat: 69
+  moves:
+  - Ember
+  - Astonish
+  - Minimize
+  hp: 60
+  attack: 40
+  defense: 60
+  sp_atk: 95
+  sp_def: 60
+  speed: 55
+- !ruby/object:Fraxure
+  type: Dragon
+  level: 3
+  learnset:
+    Scratch: 0
+    Leer: 4
+    Assurance: 7
+    Dragon Rage: 10
+    Dual Chop: 13
+    Scary Face: 16
+    Slash: 20
+    False Swipe: 24
+    Dragon Claw: 28
+    Dragon Dance: 32
+    Taunt: 36
+    Dragon Pulse: 42
+    Swords Dance: 48
+    Guillotine: 54
+    Outrage: 60
+    Giga Impact: 66
+  moves:
+  - Scratch
+  hp: 66
+  attack: 117
+  defense: 70
+  sp_atk: 40
+  sp_def: 50
+  speed: 67
+  evolution:
+    Haxorus: 48
+- !ruby/object:Beartic
+  type: Ice
+  level: 3
+  learnset:
+    Sheer Cold: 66
+    Thrash: 59
+    Superpower: 0
+    Aqua Jet: 0
+    Growl: 0
+    Powder Snow: 0
+    Bide: 0
+    Icy Wind: 13
+    Play Nice: 9
+    Fury Swipes: 17
+    Brine: 21
+    Endure: 25
+    Swagger: 29
+    Slash: 33
+    Flail: 36
+    Icicle Crash: 37
+    Rest: 41
+    Blizzard: 45
+    Hail: 53
+  moves:
+  - Superpower
+  - Aqua Jet
+  - Growl
+  - Powder Snow
+  - Bide
+  hp: 95
+  attack: 110
+  defense: 80
+  sp_atk: 70
+  sp_def: 80
+  speed: 50
+- !ruby/object:Accelgor
+  type: Bug
+  level: 3
+  learnset:
+    Leech Life: 0
+    Acid Spray: 4
+    Double Team: 8
+    Quick Attack: 13
+    Struggle Bug: 16
+    Mega Drain: 20
+    Swift: 25
+    Me First: 28
+    Agility: 32
+    Giga Drain: 37
+    U-turn: 40
+    Bug Buzz: 44
+    Recover: 49
+    Power Swap: 52
+    Final Gambit: 56
+  moves:
+  - Leech Life
+  hp: 80
+  attack: 70
+  defense: 40
+  sp_atk: 100
+  sp_def: 60
+  speed: 145
+- !ruby/object:Mienshao
+  type: Fighting
+  level: 3
+  learnset:
+    Pound: 0
+    Meditate: 5
+    Detect: 9
+    Fake Out: 13
+    DoubleSlap: 17
+    Swift: 21
+    Calm Mind: 25
+    Force Palm: 29
+    Drain Punch: 33
+    Jump Kick: 37
+    U-turn: 41
+    Wide Guard: 45
+    Bounce: 49
+    Hi Jump Kick: 56
+    Reversal: 63
+    Aura Sphere: 70
+  moves:
+  - Pound
+  hp: 65
+  attack: 125
+  defense: 60
+  sp_atk: 95
+  sp_def: 60
+  speed: 105
+- !ruby/object:Golurk
+  type: Ground
+  level: 3
+  learnset:
+    Pound: 0
+    Astonish: 0
+    Defense Curl: 0
+    Mud-Slap: 5
+    Phantom Force: 75
+    Rollout: 9
+    Shadow Punch: 13
+    Iron Defense: 17
+    Mega Punch: 21
+    Magnitude: 25
+    DynamicPunch: 30
+    Night Shade: 35
+    Curse: 40
+    Heavy Slam: 43
+    Earthquake: 50
+    Hammer Arm: 60
+    Focus Punch: 70
+  moves:
+  - Pound
+  - Astonish
+  - Defense Curl
+  hp: 89
+  attack: 124
+  defense: 80
+  sp_atk: 55
+  sp_def: 80
+  speed: 55
+- !ruby/object:Bisharp
+  type: Dark
+  level: 3
+  learnset:
+    Metal Burst: 0
+    Scratch: 0
+    Leer: 6
+    Fury Cutter: 9
+    Torment: 14
+    Faint Attack: 17
+    Scary Face: 22
+    Metal Claw: 25
+    Slash: 30
+    Assurance: 33
+    Metal Sound: 38
+    Embargo: 41
+    Iron Defense: 46
+    Night Slash: 49
+    Iron Head: 57
+    Swords Dance: 63
+    Guillotine: 71
+  moves:
+  - Metal Burst
+  - Scratch
+  hp: 65
+  attack: 125
+  defense: 100
+  sp_atk: 60
+  sp_def: 70
+  speed: 70
+- !ruby/object:Braviary
+  type: Normal
+  level: 3
+  learnset:
+    Peck: 0
+    Leer: 0
+    Fury Attack: 5
+    Wing Attack: 10
+    Hone Claws: 14
+    Scary Face: 19
+    Aerial Ace: 23
+    Slash: 28
+    Defog: 32
+    Tailwind: 37
+    Air Slash: 41
+    Crush Claw: 46
+    Sky Drop: 50
+    Superpower: 51
+    Whirlwind: 57
+    Brave Bird: 63
+    Thrash: 70
+  moves:
+  - Peck
+  - Leer
+  hp: 100
+  attack: 123
+  defense: 75
+  sp_atk: 57
+  sp_def: 75
+  speed: 80
+- !ruby/object:Mandibuzz
+  type: Dark
+  level: 3
+  learnset:
+    Gust: 0
+    Leer: 0
+    Fury Attack: 5
+    Pluck: 10
+    Nasty Plot: 14
+    Flatter: 19
+    Faint Attack: 23
+    Punishment: 28
+    Defog: 32
+    Tailwind: 37
+    Air Slash: 41
+    Dark Pulse: 46
+    Embargo: 50
+    Bone Rush: 51
+    Whirlwind: 57
+    Brave Bird: 63
+    Mirror Move: 70
+  moves:
+  - Gust
+  - Leer
+  hp: 110
+  attack: 65
+  defense: 105
+  sp_atk: 55
+  sp_def: 95
+  speed: 80
+- !ruby/object:Zweilous
+  type: Dark
+  level: 3
+  learnset:
+    Double Hit: 0
+    Dragon Rage: 0
+    Focus Energy: 4
+    Bite: 9
+    Headbutt: 12
+    Dragon Breath: 17
+    Roar: 20
+    Crunch: 25
+    Slam: 28
+    Dragon Pulse: 32
+    Work Up: 38
+    Dragon Rush: 42
+    Body Slam: 48
+    Scary Face: 55
+    Hyper Voice: 64
+    Outrage: 71
+  moves:
+  - Double Hit
+  - Dragon Rage
+  hp: 72
+  attack: 85
+  defense: 70
+  sp_atk: 65
+  sp_def: 70
+  speed: 58
+  evolution:
+    Hydreigon: 64
+- !ruby/object:Volcarona
+  type: Bug
+  level: 3
+  learnset:
+    Fiery Dance: 100
+    Hurricane: 90
+    Rage Powder: 80
+    Heat Wave: 60
+    Quiver Dance: 59
+    Flare Blitz: 0
+    Thrash: 0
+    Amnesia: 0
+    Bug Buzz: 70
+    Flame Wheel: 0
+    Ember: 0
+    String Shot: 0
+    Leech Life: 10
+    Gust: 20
+    Fire Spin: 30
+    Whirlwind: 40
+    Silver Wind: 50
+  moves:
+  - Flare Blitz
+  - Thrash
+  - Amnesia
+  - Flame Wheel
+  - Ember
+  - String Shot
+  hp: 85
+  attack: 60
+  defense: 65
+  sp_atk: 135
+  sp_def: 105
+  speed: 100
+- !ruby/object:Quilladin
+  type: Grass
+  level: 3
+  learnset:
+    Tackle: 0
+    Growl: 0
+    Vine Whip: 5
+    Rollout: 8
+    Bite: 11
+    Leech Seed: 15
+    Pin Missile: 20
+    Needle Arm: 26
+    Take Down: 30
+    Seed Bomb: 35
+    Mud Shot: 39
+    Bulk Up: 44
+    Body Slam: 48
+    Pain Split: 52
+    Wood Hammer: 55
+  moves:
+  - Tackle
+  - Growl
+  hp: 61
+  attack: 78
+  defense: 95
+  sp_atk: 56
+  sp_def: 58
+  speed: 57
+  evolution:
+    Chesnaught: 36
+- !ruby/object:Braixen
+  type: Fire
+  level: 3
+  learnset:
+    Scratch: 0
+    Tail Whip: 0
+    Ember: 5
+    Howl: 11
+    Flame Charge: 14
+    Psybeam: 18
+    Fire Spin: 22
+    Lucky Chant: 27
+    Light Screen: 30
+    Psyshock: 34
+    Flamethrower: 41
+    Will-O-Wisp: 45
+    Psychic: 48
+    Sunny Day: 51
+    Magic Room: 53
+    Fire Blast: 55
+  moves:
+  - Scratch
+  - Tail Whip
+  hp: 59
+  attack: 59
+  defense: 58
+  sp_atk: 90
+  sp_def: 70
+  speed: 73
+  evolution:
+    Delphox: 36
+- !ruby/object:Frogadier
+  type: Water
+  level: 3
+  learnset:
+    Pound: 0
+    Growl: 0
+    Bubble: 5
+    Quick Attack: 8
+    Lick: 10
+    Water Pulse: 14
+    Smokescreen: 20
+    Round: 23
+    Fling: 28
+    Smack Down: 33
+    Substitute: 38
+    Bounce: 44
+    Double Team: 48
+    Hydro Pump: 55
+  moves:
+  - Pound
+  - Growl
+  hp: 54
+  attack: 63
+  defense: 52
+  sp_atk: 83
+  sp_def: 56
+  speed: 97
+  evolution:
+    Greninja: 36
+- !ruby/object:Diggersby
+  type: Normal
+  level: 3
+  learnset:
+    Hammer Arm: 60
+    Rototiller: 0
+    Bulldoze: 0
+    Swords Dance: 0
+    Tackle: 0
+    Agility: 0
+    Leer: 0
+    Quick Attack: 7
+    Double Slap: 10
+    Mud-Slap: 13
+    Take Down: 15
+    Mud Shot: 18
+    Double Kick: 20
+    Odor Sleuth: 26
+    Flail: 31
+    Dig: 37
+    Bounce: 42
+    Super Fang: 48
+    Facade: 53
+    Earthquake: 57
+  moves:
+  - Rototiller
+  - Bulldoze
+  - Swords Dance
+  - Tackle
+  - Agility
+  - Leer
+  hp: 85
+  attack: 56
+  defense: 77
+  sp_atk: 50
+  sp_def: 77
+  speed: 78
+- !ruby/object:Fletchinder
+  type: Fire
+  level: 3
+  learnset:
+    Tackle: 0
+    Growl: 0
+    Quick Attack: 6
+    Peck: 10
+    Agility: 13
+    Flail: 16
+    Ember: 17
+    Roost: 25
+    Razor Wind: 27
+    Natural Gift: 31
+    Flame Charge: 38
+    Acrobatics: 42
+    Me First: 46
+    Tailwind: 51
+    Steel Wing: 55
+  moves:
+  - Tackle
+  - Growl
+  hp: 62
+  attack: 73
+  defense: 55
+  sp_atk: 56
+  sp_def: 52
+  speed: 84
+  evolution:
+    Talonflame: 35
+- !ruby/object:Spewpa
+  type: Bug
+  level: 3
+  learnset:
+    Harden: 0
+    Protect: 9
+  moves:
+  - Harden
+  hp: 45
+  attack: 22
+  defense: 60
+  sp_atk: 27
+  sp_def: 30
+  speed: 29
+  evolution:
+    Vivillon: 12
+- !ruby/object:Pyroar
+  type: Fire
+  level: 3
+  learnset:
+    Hyper Beam: 0
+    Tackle: 0
+    Leer: 0
+    Ember: 5
+    Work Up: 8
+    Headbutt: 11
+    Noble Roar: 15
+    Take Down: 20
+    Fire Fang: 23
+    Endeavor: 28
+    Echoed Voice: 33
+    Flamethrower: 38
+    Crunch: 42
+    Hyper Voice: 48
+    Incinerate: 51
+    Overheat: 57
+  moves:
+  - Hyper Beam
+  - Tackle
+  - Leer
+  hp: 86
+  attack: 68
+  defense: 72
+  sp_atk: 109
+  sp_def: 66
+  speed: 106
+- !ruby/object:Floette
+  type: Fairy
+  level: 3
+  learnset:
+    Tackle: 0
+    Vine Whip: 0
+    Fairy Wind: 6
+    Lucky Chant: 10
+    Razor Leaf: 15
+    Wish: 20
+    Magical Leaf: 25
+    Grassy Terrain: 27
+    Petal Blizzard: 33
+    Aromatherapy: 38
+    Misty Terrain: 43
+    Moonblast: 46
+    Petal Dance: 51
+    Solar Beam: 58
+  moves:
+  - Tackle
+  - Vine Whip
+  hp: 54
+  attack: 45
+  defense: 47
+  sp_atk: 75
+  sp_def: 98
+  speed: 52
+- !ruby/object:Gogoat
+  type: Grass
+  level: 3
+  learnset:
+    Aerial Ace: 65
+    Tackle: 0
+    Growth: 0
+    Vine Whip: 7
+    Tail Whip: 9
+    Leech Seed: 12
+    Razor Leaf: 13
+    Worry Seed: 16
+    Synthesis: 20
+    Take Down: 22
+    Bulldoze: 26
+    Seed Bomb: 30
+    Bulk Up: 34
+    Double-Edge: 40
+    Horn Leech: 47
+    Leaf Blade: 55
+    Milk Drink: 58
+    Earthquake: 60
+  moves:
+  - Tackle
+  - Growth
+  hp: 123
+  attack: 100
+  defense: 62
+  sp_atk: 97
+  sp_def: 81
+  speed: 68
+- !ruby/object:Pangoro
+  type: Fighting
+  level: 3
+  learnset:
+    Tackle: 0
+    Leer: 0
+    Arm Thrust: 7
+    Work Up: 10
+    Karate Chop: 12
+    Comet Punch: 15
+    Slash: 20
+    Circle Throw: 25
+    Vital Throw: 27
+    Body Slam: 35
+    Crunch: 42
+    Entrainment: 45
+    Parting Shot: 48
+    Sky Uppercut: 52
+    Hammer Arm: 57
+    Taunt: 65
+    Low Sweep: 70
+  moves:
+  - Tackle
+  - Leer
+  hp: 95
+  attack: 124
+  defense: 78
+  sp_atk: 69
+  sp_def: 71
+  speed: 58
+- !ruby/object:Meowstic
+  type: Psychic
+  level: 3
+  learnset:
+    Quick Guard: 55
+    Mean Look: 0
+    Helping Hand: 0
+    Scratch: 0
+    Leer: 0
+    Covet: 5
+    Confusion: 9
+    Light Screen: 13
+    Psybeam: 17
+    Fake Out: 19
+    Psyshock: 25
+    Charm: 28
+    Miracle Eye: 31
+    Reflect: 35
+    Psychic: 40
+    Role Play: 43
+    Imprison: 45
+    Sucker Punch: 48
+    Misty Terrain: 50
+    Stored Power: 55
+    Me First: 0
+    Magical Leaf: 0
+    Charge Beam: 28
+    Shadow Ball: 31
+    Extrasensory: 35
+    Signal Beam: 45
+    Future Sight: 50
+  moves:
+  - Mean Look
+  - Helping Hand
+  - Scratch
+  - Leer
+  - Me First
+  - Magical Leaf
+  hp: 74
+  attack: 48
+  defense: 76
+  sp_atk: 83
+  sp_def: 81
+  speed: 104
+- !ruby/object:Doublade
+  type: Steel
+  level: 3
+  learnset:
+    Tackle: 0
+    Swords Dance: 0
+    Fury Cutter: 5
+    Metal Sound: 8
+    Pursuit: 13
+    Autotomize: 18
+    Shadow Sneak: 20
+    Aerial Ace: 22
+    Retaliate: 26
+    Slash: 29
+    Iron Defense: 32
+    Night Slash: 36
+    Power Trick: 41
+    Iron Head: 45
+    Sacred Sword: 51
+  moves:
+  - Tackle
+  - Swords Dance
+  hp: 59
+  attack: 110
+  defense: 150
+  sp_atk: 45
+  sp_def: 49
+  speed: 35
+- !ruby/object:Aromatisse
+  type: Fairy
+  level: 3
+  learnset:
+    Aromatic Mist: 0
+    Heal Pulse: 0
+    Sweet Scent: 0
+    Fairy Wind: 0
+    Sweet Kiss: 6
+    Odor Sleuth: 8
+    Echoed Voice: 13
+    Calm Mind: 17
+    Draining Kiss: 21
+    Aromatherapy: 25
+    Attract: 29
+    Moonblast: 31
+    Charm: 35
+    Flail: 38
+    Misty Terrain: 42
+    Skill Swap: 44
+    Psychic: 48
+    Disarming Voice: 50
+    Reflect: 57
+    Psych Up: 64
+  moves:
+  - Aromatic Mist
+  - Heal Pulse
+  - Sweet Scent
+  - Fairy Wind
+  hp: 101
+  attack: 72
+  defense: 72
+  sp_atk: 99
+  sp_def: 89
+  speed: 29
+- !ruby/object:Slurpuff
+  type: Fairy
+  level: 3
+  learnset:
+    Sweet Scent: 0
+    Tackle: 0
+    Fairy Wind: 5
+    Play Nice: 8
+    Fake Tears: 10
+    Round: 13
+    Cotton Spore: 17
+    Endeavor: 21
+    Aromatherapy: 26
+    Draining Kiss: 31
+    Energy Ball: 36
+    Cotton Guard: 41
+    Wish: 45
+    Play Rough: 49
+    Light Screen: 58
+    Safeguard: 67
+  moves:
+  - Sweet Scent
+  - Tackle
+  hp: 82
+  attack: 80
+  defense: 86
+  sp_atk: 85
+  sp_def: 75
+  speed: 72
+- !ruby/object:Malamar
+  type: Dark
+  level: 3
+  learnset:
+    Superpower: 48
+    Reversal: 0
+    Tackle: 0
+    Peck: 0
+    Constrict: 0
+    Reflect: 4
+    Foul Play: 7
+    Swagger: 12
+    Psywave: 13
+    Topsy-Turvy: 15
+    Hypnosis: 18
+    Psybeam: 21
+    Switcheroo: 23
+    Payback: 27
+    Light Screen: 31
+    Pluck: 35
+    Psycho Cut: 39
+    Slash: 43
+    Night Slash: 46
+  moves:
+  - Reversal
+  - Tackle
+  - Peck
+  - Constrict
+  hp: 86
+  attack: 92
+  defense: 88
+  sp_atk: 68
+  sp_def: 75
+  speed: 73
+- !ruby/object:Barbaracle
+  type: Rock
+  level: 3
+  learnset:
+    Stone Edge: 60
+    Skull Bash: 65
+    Shell Smash: 0
+    Scratch: 0
+    Sand Attack: 0
+    Water Gun: 4
+    Withdraw: 7
+    Fury Swipes: 10
+    Slash: 13
+    Mud-Slap: 18
+    Clamp: 20
+    Rock Polish: 24
+    Ancient Power: 28
+    Hone Claws: 32
+    Fury Cutter: 37
+    Night Slash: 44
+    Razor Shell: 48
+    Cross Chop: 55
+  moves:
+  - Shell Smash
+  - Scratch
+  - Sand Attack
+  hp: 72
+  attack: 105
+  defense: 115
+  sp_atk: 54
+  sp_def: 86
+  speed: 68
+- !ruby/object:Dragalge
+  type: Poison
+  level: 3
+  learnset:
+    Dragon Tail: 59
+    Twister: 67
+    Tackle: 0
+    Smokescreen: 0
+    Water Gun: 0
+    Feint Attack: 5
+    Tail Whip: 9
+    Bubble: 12
+    Acid: 15
+    Camouflage: 19
+    Poison Tail: 23
+    Water Pulse: 25
+    Double Team: 28
+    Toxic: 32
+    Aqua Tail: 35
+    Sludge Bomb: 38
+    Hydro Pump: 42
+    Dragon Pulse: 53
+  moves:
+  - Tackle
+  - Smokescreen
+  - Water Gun
+  hp: 65
+  attack: 75
+  defense: 90
+  sp_atk: 97
+  sp_def: 123
+  speed: 44
+- !ruby/object:Clawitzer
+  type: Water
+  level: 3
+  learnset:
+    Heal Pulse: 0
+    Dark Pulse: 57
+    Dragon Pulse: 63
+    Aura Sphere: 67
+    Splash: 0
+    Water Gun: 0
+    Water Sport: 7
+    Vice Grip: 9
+    Bubble: 12
+    Flail: 16
+    Bubble Beam: 20
+    Swords Dance: 25
+    Crabhammer: 30
+    Water Pulse: 34
+    Smack Down: 42
+    Aqua Jet: 47
+    Muddy Water: 53
+  moves:
+  - Heal Pulse
+  - Splash
+  - Water Gun
+  hp: 71
+  attack: 73
+  defense: 88
+  sp_atk: 120
+  sp_def: 89
+  speed: 59
+- !ruby/object:Heliolisk
+  type: Electric
+  level: 3
+  learnset:
+    Eerie Impulse: 0
+    Electrify: 0
+    Razor Wind: 0
+    Quick Attack: 0
+    Thunder: 0
+    Charge: 0
+    Parabolic Charge: 0
+  moves:
+  - Eerie Impulse
+  - Electrify
+  - Razor Wind
+  - Quick Attack
+  - Thunder
+  - Charge
+  - Parabolic Charge
+  hp: 62
+  attack: 55
+  defense: 52
+  sp_atk: 109
+  sp_def: 94
+  speed: 109
+- !ruby/object:Tyrantrum
+  type: Rock
+  level: 3
+  learnset:
+    Head Smash: 58
+    Tail Whip: 0
+    Tackle: 0
+    Roar: 6
+    Stomp: 10
+    Bide: 12
+    Stealth Rock: 15
+    Bite: 17
+    Charm: 20
+    Ancient Power: 26
+    Dragon Tail: 30
+    Crunch: 34
+    Dragon Claw: 37
+    Thrash: 42
+    Earthquake: 47
+    Horn Drill: 53
+    Rock Slide: 68
+    Giga Impact: 75
+  moves:
+  - Tail Whip
+  - Tackle
+  hp: 82
+  attack: 121
+  defense: 119
+  sp_atk: 69
+  sp_def: 59
+  speed: 71
+- !ruby/object:Aurorus
+  type: Rock
+  level: 3
+  learnset:
+    Freeze-Dry: 77
+    Growl: 0
+    Powder Snow: 0
+    Thunder Wave: 5
+    Rock Throw: 10
+    Icy Wind: 13
+    Take Down: 15
+    Mist: 18
+    Aurora Beam: 20
+    Ancient Power: 26
+    Round: 30
+    Avalanche: 34
+    Hail: 38
+    Nature Power: 43
+    Encore: 46
+    Light Screen: 50
+    Ice Beam: 56
+    Hyper Beam: 63
+    Blizzard: 74
+  moves:
+  - Growl
+  - Powder Snow
+  hp: 123
+  attack: 77
+  defense: 72
+  sp_atk: 99
+  sp_def: 92
+  speed: 58
+- !ruby/object:Sliggoo
+  type: Dragon
+  level: 3
+  learnset:
+    Tackle: 0
+    Bubble: 0
+    Absorb: 5
+    Protect: 9
+    Bide: 13
+    Dragon Breath: 18
+    Rain Dance: 25
+    Flail: 28
+    Body Slam: 32
+    Muddy Water: 38
+    Dragon Pulse: 47
+  moves:
+  - Tackle
+  - Bubble
+  hp: 68
+  attack: 75
+  defense: 53
+  sp_atk: 83
+  sp_def: 113
+  speed: 60
+- !ruby/object:Trevenant
+  type: Ghost
+  level: 3
+  learnset:
+    Horn Leech: 62
+    Tackle: 0
+    Confuse Ray: 0
+    Astonish: 5
+    Growth: 8
+    Ingrain: 13
+    Feint Attack: 19
+    Leech Seed: 23
+    Curse: 28
+    Will-O-Wisp: 31
+    Forest's Curse: 35
+    Destiny Bond: 39
+    Phantom Force: 45
+    Wood Hammer: 49
+    Shadow Claw: 55
+  moves:
+  - Tackle
+  - Confuse Ray
+  hp: 85
+  attack: 110
+  defense: 76
+  sp_atk: 65
+  sp_def: 82
+  speed: 56
+- !ruby/object:Gourgeist
+  type: Ghost
+  level: 3
+  learnset:
+    Explosion: 75
+    Phantom Force: 57
+    Trick: 0
+    Astonish: 0
+    Confuse Ray: 0
+    Scary Face: 4
+    Trick-or-Treat: 63
+    Worry Seed: 11
+    Razor Leaf: 16
+    Leech Seed: 20
+    Bullet Seed: 26
+    Shadow Sneak: 30
+    Shadow Ball: 70
+    Pain Split: 42
+    Seed Bomb: 48
+  moves:
+  - Trick
+  - Astonish
+  - Confuse Ray
+  hp: 75
+  attack: 69
+  defense: 494
+  sp_atk: 85
+  sp_def: 100
+  speed: 122
+- !ruby/object:Avalugg
+  type: Ice
+  level: 3
+  learnset:
+    Iron Defense: 0
+    Skull Bash: 60
+    Crunch: 65
+    Tackle: 0
+    Bite: 0
+    Harden: 0
+    Powder Snow: 5
+    Icy Wind: 10
+    Take Down: 15
+    Sharpen: 20
+    Curse: 22
+    Ice Fang: 26
+    Ice Ball: 30
+    Rapid Spin: 35
+    Avalanche: 42
+    Blizzard: 46
+    Recover: 51
+    Double-Edge: 56
+  moves:
+  - Iron Defense
+  - Tackle
+  - Bite
+  - Harden
+  hp: 95
+  attack: 117
+  defense: 184
+  sp_atk: 44
+  sp_def: 46
+  speed: 28
+- !ruby/object:Noivern
+  type: Flying
+  level: 3
+  learnset:
+    Moonlight: 0
+    Boomburst: 75
+    Dragon Pulse: 70
+    Hurricane: 62
+    Screech: 0
+    Supersonic: 0
+    Tackle: 0
+    Leech Life: 5
+    Gust: 11
+    Bite: 13
+    Wing Attack: 16
+    Agility: 18
+    Air Cutter: 23
+    Roost: 27
+    Razor Wind: 31
+    Tailwind: 35
+    Whirlwind: 40
+    Super Fang: 43
+    Air Slash: 53
+  moves:
+  - Moonlight
+  - Screech
+  - Supersonic
+  - Tackle
+  hp: 85
+  attack: 70
+  defense: 80
+  sp_atk: 97
+  sp_def: 80
+  speed: 123

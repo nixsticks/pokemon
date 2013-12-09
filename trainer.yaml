@@ -29,151 +29,156 @@ my_pokemon:
     sp_def: 65
     speed: 45
   1: !ruby/object:Pokemon
-    name: Beheeyem
-    type: Psychic
-    level: 3
-    learnset:
-      Confusion: 0
-      Growl: 4
-      Heal Block: 8
-      Miracle Eye: 11
-      Psybeam: 15
-      Headbutt: 18
-      Hidden Power: 22
-      Imprison: 25
-      Simple Beam: 29
-      Zen Headbutt: 32
-      Psych Up: 36
-      Psychic: 39
-      Calm Mind: 45
-      Recover: 50
-      Guard Split: 56
-      Power Split: 58
-      Synchronoise: 63
-      Wonder Room: 68
-    moves:
-    - Confusion
-    hp: 75
-    attack: 75
-    defense: 75
-    sp_atk: 125
-    sp_def: 95
-    speed: 40
-  2: !ruby/object:Pokemon
-    name: Lickilicky
-    type: Normal
-    level: 3
-    learnset:
-      Lick: 0
-      Supersonic: 5
-      Defense Curl: 9
-      Knock Off: 13
-      Wrap: 17
-      Stomp: 21
-      Disable: 25
-      Slam: 29
-      Rollout: 33
-      Chip Away: 37
-      Me First: 41
-      Refresh: 45
-      Screech: 49
-      Power Whip: 53
-      Wring Out: 57
-      Gyro Ball: 61
-    moves:
-    - Lick
-    hp: 110
-    attack: 85
-    defense: 95
-    sp_atk: 80
-    sp_def: 95
-    speed: 50
-  3: !ruby/object:Pokemon
-    name: Electrike
-    type: Electric
+    name: Roggenrola
+    type: Rock
     level: 3
     learnset:
       Tackle: 0
-      Thunder Wave: 4
-      Leer: 9
-      Howl: 12
-      Quick Attack: 17
-      Spark: 20
-      Odor Sleuth: 25
-      Bite: 28
-      Thunder Fang: 33
-      Roar: 36
-      Discharge: 41
-      Charge: 44
-      Wild Charge: 49
-      Thunder: 52
+      Harden: 4
+      Sand-Attack: 7
+      Headbutt: 10
+      Rock Blast: 14
+      Mud-Slap: 17
+      Iron Defense: 20
+      Smack Down: 23
+      Rock Slide: 27
+      Stealth Rock: 30
+      Sandstorm: 33
+      Stone Edge: 36
+      Explosion: 40
     moves:
     - Tackle
-    hp: 40
-    attack: 45
-    defense: 40
-    sp_atk: 65
-    sp_def: 40
-    speed: 65
-  4: !ruby/object:Pokemon
-    name: Beartic
-    type: Ice
+    hp: 55
+    attack: 75
+    defense: 85
+    sp_atk: 25
+    sp_def: 25
+    speed: 15
+  2: !ruby/object:Pokemon
+    name: Cubone
+    type: Ground
     level: 3
     learnset:
-      Superpower: 0
-      Aqua Jet: 0
-      Powder Snow: 0
-      Growl: 5
-      Bide: 9
-      Icy Wind: 13
-      Fury Swipes: 17
-      Brine: 21
-      Endure: 25
-      Swagger: 29
-      Slash: 33
-      Flail: 36
-      Icicle Crash: 37
-      Rest: 41
-      Blizzard: 45
-      Hail: 53
-      Thrash: 59
-      Sheer Cold: 66
+      Growl: 0
+      Tail Whip: 3
+      Bone Club: 7
+      Headbutt: 11
+      Leer: 13
+      Focus Energy: 17
+      Bonemerang: 21
+      Rage: 23
+      False Swipe: 27
+      Thrash: 31
+      Fling: 33
+      Bone Rush: 37
+      Endeavor: 41
+      Double-Edge: 43
+      Retaliate: 47
     moves:
-    - Superpower
-    - Aqua Jet
-    - Powder Snow
-    hp: 95
-    attack: 110
-    defense: 80
-    sp_atk: 70
-    sp_def: 80
-    speed: 50
-  5: !ruby/object:Pokemon
-    name: Klink
-    type: Steel
+    - Growl
+    - Tail Whip
+    hp: 50
+    attack: 50
+    defense: 95
+    sp_atk: 40
+    sp_def: 50
+    speed: 35
+  3: !ruby/object:Pokemon
+    name: Castform
+    type: Normal
     level: 3
     learnset:
-      Vice Grip: 0
-      Charge: 6
-      ThunderShock: 11
-      Gear Grind: 16
-      Bind: 21
-      Charge Beam: 26
-      Autotomize: 31
-      Mirror Shot: 36
-      Screech: 39
-      Discharge: 42
-      Metal Sound: 45
-      Shift Gear: 48
-      Lock-On: 51
-      Zap Cannon: 54
-      Hyper Beam: 57
+      Tackle: 0
+      Water Gun: 10
+      Ember: 10
+      Powder Snow: 10
+      Headbutt: 20
+      Rain Dance: 30
+      Sunny Day: 30
+      Hail: 30
+      Weather Ball: 40
+      Hydro Pump: 50
+      Fire Blast: 50
+      Blizzard: 50
     moves:
-    - Vice Grip
-    hp: 40
-    attack: 55
+    - Tackle
+    hp: 70
+    attack: 70
     defense: 70
-    sp_atk: 45
-    sp_def: 60
+    sp_atk: 70
+    sp_def: 70
+    speed: 70
+  4: !ruby/object:Pokemon
+    name: Parasect
+    type: Bug
+    level: 3
+    learnset:
+      Cross Poison: 0
+      Scratch: 0
+      Stun Spore: 6
+      PoisonPowder: 6
+      Leech Life: 11
+      Fury Cutter: 17
+      Spore: 22
+      Slash: 29
+      Growth: 37
+      Giga Drain: 44
+      Aromatherapy: 51
+      Rage Powder: 59
+      X-Scissor: 66
+    moves:
+    - Cross Poison
+    - Scratch
+    hp: 60
+    attack: 95
+    defense: 80
+    sp_atk: 60
+    sp_def: 80
     speed: 30
+  5: !ruby/object:Pokemon
+    name: Kyurem
+    type: Dragon
+    level: 3
+    learnset:
+      Icy Wind: 0
+      Dragon Rage: 0
+      Imprison: 0
+      AncientPower: 0
+      Ice Beam: 0
+      DragonBreath: 0
+      Slash: 0
+      Scary Face: 43
+      Glaciate: 50
+      Dragon Pulse: 0
+      Endeavor: 0
+      Blizzard: 0
+      Outrage: 0
+      Hyper Voice: 0
+      Fusion Bolt: 0
+      Freeze Shock: 0
+      Fusion Flare: 0
+      Ice Burn: 0
+    moves:
+    - Icy Wind
+    - Dragon Rage
+    - Imprison
+    - AncientPower
+    - Ice Beam
+    - DragonBreath
+    - Slash
+    - Dragon Pulse
+    - Endeavor
+    - Blizzard
+    - Outrage
+    - Hyper Voice
+    - Fusion Bolt
+    - Freeze Shock
+    - Fusion Flare
+    - Ice Burn
+    hp: 95
+    attack: 700
+    defense: 125
+    sp_atk: 120
+    sp_def: 90
+    speed: 170
 name: Nikki

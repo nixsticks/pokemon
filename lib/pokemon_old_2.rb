@@ -1,13 +1,13 @@
 class Pokemon
-  attr_reader :type, :learnset, :moves
-  attr_writer :level, :moves, :evolution
+  attr_reader :name, :type, :learnset, :moves
+  attr_writer :level, :moves
 
-  def initialize(type, learnset, base_stats)
+  def initialize(name, type, learnset, base_stats)
+    @name = name
     @type = type
     @level = 3
     @learnset = learnset
     @moves = []
-    @evolution
     learnset.each {|move, req_level| @moves << move if @level >= req_level}
     base_stats.each { |stat, value| instance_variable_set("@#{stat}", value) }
   end

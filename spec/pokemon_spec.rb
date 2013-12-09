@@ -7,6 +7,10 @@ describe Pokemon do
     it 'should initialize the Pokemon with its name' do
       expect(pokemon.name).to eq("Jigglypuff")
     end
+
+    it 'should allow each separate class of Pokemon to have a learnset' do
+      
+    end
   end
 
   describe '#say_name' do

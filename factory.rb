@@ -1,22 +1,13 @@
-require './lib/scraper'
+require './lib/first_stage_scraper'
 require './lib/pokemon'
 require 'yaml'
 
 module PokemonFactory
-  def get_pokemon
-    scraper = Scraper.new("http://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_by_National_Pok%C3%A9dex_number")
-    pokemon = scraper.get_urls
+  def first_stage
+    scraper = Scraper.new("http://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_by_evolution_family")
+    pokemon = scraper.first_stage_url
 
-    pokedex = []
-
-    # pokemon.each do |url|
-    #   scrape = Scraper.new(url)
-    #   name = scrape.get_name
-    #   type = scrape.get_type
-    #   learnset = scrape.get_learnset
-    #   base_stats = scrape.get_base_stats
-    #   pokedex << Pokemon.new(name, type, learnset, base_stats)
-    # end
+    pokemons = []
 
     pokemon.each do |url|
       scrape = Scraper.new(url)
@@ -24,27 +15,89 @@ module PokemonFactory
       type = scrape.get_type
       learnset = scrape.get_learnset
       base_stats = scrape.get_base_stats
-      pokedex << Pokemon.new(name, type, learnset, base_stats)
+      evolution = scrape.get_first_evolution
+      new_pokemon = Pokemon.new(name, type, learnset, base_stats)
+      new_pokemon.evolution = evolution if evolution
+      pokemons << new_pokemon
     end
 
-    File.open("pokedex.yaml", "w") do |file|
-      file.puts YAML::dump(pokedex)
+    File.open("first_stages.yaml", "w") do |file|
+      file.puts YAML::dump(pokemons)
     end
   end
 
-  # def get_pokemon
-  #   scraper = Scraper.new("http://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_by_National_Pok%C3%A9dex_number")
-  #   pokemon = scraper.get_urls
+  def second_stage
+    scraper = Scraper.new("http://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_by_evolution_family")
+    pokemon = scraper.second_stage_url
 
-  #   File.open("pokedex2.yaml", "w") do |file|
-  #     pokemon.each do |url|
-  #       scrape = Scraper.new(url)
-  #       name = scrape.get_name
-  #       type = scrape.get_type
-  #       learnset = scrape.get_learnset
-  #       base_stats = scrape.get_base_stats
-  #       file.puts Pokemon.new(name, type, learnset, base_stats).to_yaml
-  #     end
-  #   end
-  # end
+    pokemons = []
+
+    pokemon.each do |url|
+      scrape = Scraper.new(url)
+      name = scrape.get_name
+      type = scrape.get_type
+      learnset = scrape.get_learnset
+      base_stats = scrape.get_base_stats
+      evolution = scrape.get_second_evolution
+      new_pokemon = Pokemon.new(name, type, learnset, base_stats)
+      new_pokemon.evolution = evolution if evolution
+      pokemons << new_pokemon
+    end
+
+    File.open("second_stages.yaml", "w") do |file|
+      file.puts YAML::dump(pokemons)
+    end
+  end
+
+  def third_stage
+    scraper = Scraper.new("http://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_by_evolution_family")
+    pokemon = scraper.third_stage_url
+
+    pokemons = []
+
+    pokemon.each do |url|
+      scrape = Scraper.new(url)
+      name = scrape.get_name
+      type = scrape.get_type
+      learnset = scrape.get_learnset
+      base_stats = scrape.get_base_stats
+      new_pokemon = Pokemon.new(name, type, learnset, base_stats)
+      pokemons << new_pokemon
+    end
+
+    File.open("third_stages.yaml", "w") do |file|
+      file.puts YAML::dump(pokemons)
+    end
+  end
+
+  def dynamic_class
+    scraper = Scraper.new("http://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_by_evolution_family")
+    pokemon = scraper.second_stage_url
+
+    pokemons = []
+
+    pokemon.each do |url|
+      scrape = Scraper.new(url)
+      name = scrape.get_name.gsub(/\W/,"").split.join
+      type = scrape.get_type
+      learnset = scrape.get_learnset
+      base_stats = scrape.get_base_stats
+      evolution = scrape.get_second_evolution
+
+      Object.const_set(name, Class.new(Pokemon))
+      class_name = eval("#{name}")
+
+      new_pokemon = class_name.new(type, learnset, base_stats)
+      new_pokemon.evolution = evolution if evolution
+      pokemons << new_pokemon
+    end
+
+    File.open("test.yaml", "w") do |file|
+      file.puts YAML::dump(pokemons)
+    end
+  end
 end
+
+include PokemonFactory
+
+dynamic_class

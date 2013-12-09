@@ -7,9 +7,7 @@ class Game
   attr_writer :trainer
 
   def initialize
-    File.open("./pokedex.yaml", "r") do |file|
-      @pokedex = YAML::load(file)
-    end
+    File.open("./pokedex.yaml", "r") {|file| @pokedex = YAML::load(file)}
   end
 
   def run
@@ -31,7 +29,7 @@ class Game
   def new_or_load
     case get_input
     when /^y(es)?$/ 
-      @trainer = YAML::load("../lib/trainer.yaml")
+      File.open("./trainer.yaml", "r") {|file| @trainer = YAML::load(file)}
       return true
     when /^no?$/
       @trainer = Trainer.new
@@ -113,7 +111,7 @@ class Game
     case get_input
     when 'redo'
       puts "\nOkay."
-      trainer.my_pokemon = [trainer.my_pokemon[0]]
+      trainer.my_pokemon = {0 => trainer.my_pokemon[0]}
       bonus_pokemon
     when 'c'
       puts "Good!"
@@ -123,7 +121,8 @@ class Game
     end
 
     puts "\nHere are all your Pokemon!"
-    trainer.my_pokemon.each_pair {|number, pokemon| puts "#{pokemon.name} (#{pokemon.type})"; puts}
+    trainer.my_pokemon.each_pair {|number, pokemon| puts "#{pokemon.name} (#{pokemon.type})"}
+    puts
   end
 
   def save_user_message
